@@ -5,7 +5,7 @@
     {
       "@type": "Person",
       "@id": "https://yourdomain.com/#person",
-      "name": "[Your Full Name]",
+      "name": "Asim SEO Wala",
       "url": "https://yourdomain.com",
       "image": "https://yourdomain.com/wp-content/uploads/your-photo.jpg",
       "jobTitle": "SEO Strategist & Outreach Consultant",
@@ -28,7 +28,7 @@
     {
       "@type": "ProfessionalService",
       "@id": "https://yourdomain.com/#business",
-      "name": "[Your Brand Name] - SEO & Outreach Consulting",
+      "name": "Asim SEO Wala - SEO & Outreach Consulting",
       "url": "https://yourdomain.com",
       "founder": {
         "@id": "https://yourdomain.com/#person"
