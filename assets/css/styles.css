@@ -1,5 +1,6 @@
 /* ==========================================================================
-   Asim SEO Wala PRO - $15,000+ Ultra-Premium Dark-Mode SaaS & Personal Brand
+   Asim SEO Wala PRO - $20,000+ Ultra-Premium Dark-Mode SaaS & Personal Brand
+   Art Director Overhaul: Editorial Blending, Inset Vignettes & Spline Architecture
    Inspired by Linear, Vercel, and Stripe Design Systems
    ========================================================================== */
 
@@ -7,13 +8,13 @@
 
 :root {
   /* Obsidian & Void Foundations */
-  --c-obsidian-950: #060911;     /* Primary canvas background */
-  --c-obsidian-900: #0B1120;     /* Secondary canvas / section alt */
+  --c-obsidian-950: #060911;     /* Primary dark base */
+  --c-obsidian-900: #0B1120;     /* Secondary section canvas */
   --c-slate-900:    #0f172a;
   --c-slate-800:    #1e293b;
   --c-slate-700:    #334155;
   --c-slate-600:    #475569;
-  --c-slate-400:    #94a3b8;     /* Muted body copy */
+  --c-slate-400:    #94a3b8;     /* Muted body text */
   --c-slate-300:    #cbd5e1;     /* High-legibility text */
   --c-slate-100:    #f1f5f9;
   --c-white:        #f8fafc;     /* Crisp headline white */
@@ -22,31 +23,30 @@
   --c-emerald-500:  #10b981;     /* Primary brand accent */
   --c-emerald-400:  #34d399;
   --c-emerald-600:  #059669;
+  --c-cyan-400:     #38bdf8;     /* Vibrant cyan highlight */
   --c-blue-500:     #3b82f6;     /* Secondary tech accent */
   --c-blue-600:     #2563eb;
   --c-indigo-500:   #6366f1;     /* Academy spotlight accent */
-  --c-purple-500:   #a855f7;
 
   /* Glassmorphism & Borders */
   --glass-card-bg:  rgba(15, 23, 42, 0.65);
   --glass-card-hover: rgba(15, 23, 42, 0.85);
   --glass-card-border: rgba(255, 255, 255, 0.08);
   --glass-card-border-hover: rgba(16, 185, 129, 0.4);
-  --glass-nav-bg:   rgba(6, 9, 17, 0.82);
+  --glass-nav-bg:   rgba(6, 9, 17, 0.85);
   --glass-icon-bg:  rgba(255, 255, 255, 0.04);
   --glass-icon-border: rgba(255, 255, 255, 0.1);
 
   /* Linear & Stripe Tier Gradients */
-  --grad-emerald:   linear-gradient(135deg, #10b981 0%, #059669 100%);
-  --grad-emerald-text: linear-gradient(135deg, #34d399 0%, #10b981 50%, #60a5fa 100%);
-  --grad-title:     linear-gradient(135deg, #ffffff 0%, #cbd5e1 50%, #94a3b8 100%);
-  --grad-border-top: linear-gradient(90deg, transparent, #10b981 50%, #3b82f6 80%, transparent);
+  --grad-emerald:      linear-gradient(135deg, #10b981 0%, #059669 100%);
+  --grad-emerald-text: linear-gradient(135deg, #34d399 0%, #10b981 40%, #38bdf8 100%);
+  --grad-border-top:   linear-gradient(90deg, transparent, #10b981 50%, #38bdf8 80%, transparent);
 
   /* Multi-Depth Dark Mode Shadows */
   --shadow-subtle:  0 1px 2px rgba(0, 0, 0, 0.4);
   --shadow-card:    0 10px 30px -10px rgba(0, 0, 0, 0.5), 0 0 1px 1px rgba(255, 255, 255, 0.05);
   --shadow-card-hover: 0 25px 50px -12px rgba(0, 0, 0, 0.7), 0 0 25px -5px rgba(16, 185, 129, 0.2);
-  --shadow-glow-emerald: 0 0 40px -10px rgba(16, 185, 129, 0.35);
+  --shadow-glow-emerald: 0 0 50px -10px rgba(16, 185, 129, 0.35);
   --shadow-glow-purple:  0 0 50px -10px rgba(99, 102, 241, 0.25);
   --shadow-btn:     0 10px 25px -5px rgba(16, 185, 129, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.25);
 
@@ -103,20 +103,67 @@ img {
 }
 
 /* ==========================================================================
+   Editorial Color Treatment & Inset Vignette Blending
+   ========================================================================== */
+.editorial-img-wrap {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-sm);
+  background: var(--c-obsidian-900);
+}
+
+.editorial-img-wrap::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  box-shadow: inset 0 0 40px rgba(6, 9, 17, 0.85);
+  background: linear-gradient(to top, #0B1120 5%, transparent 45%);
+  border-radius: inherit;
+  z-index: 2;
+}
+
+.editorial-img-wrap img,
+.hero-portrait-frame img,
+.bento-card img,
+.live-studio-frame img,
+.crop-dell-desk {
+  filter: contrast(1.06) saturate(0.95);
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1), filter 0.3s ease;
+  display: block;
+}
+
+/* ==========================================================================
    Typography Hierarchy & Fonts
    ========================================================================== */
 h1, h2, h3, h4, h5 {
   font-family: 'Plus Jakarta Sans', sans-serif;
   color: var(--c-white);
   font-weight: 800;
-  line-height: 1.2;
+  line-height: 1.15;
   letter-spacing: -0.03em;
 }
 
-h1 { font-size: clamp(2.5rem, 5.5vw, 3.8rem); margin-bottom: 24px; }
-h2 { font-size: clamp(2rem, 3.8vw, 2.75rem); margin-bottom: 18px; }
-h3 { font-size: clamp(1.35rem, 2.4vw, 1.65rem); margin-bottom: 12px; }
-h4 { font-size: 1.15rem; margin-bottom: 8px; }
+h1 {
+  font-size: clamp(2.5rem, 4.5vw, 3.8rem);
+  letter-spacing: -0.03em;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: clamp(2rem, 3.8vw, 2.75rem);
+  margin-bottom: 18px;
+}
+
+h3 {
+  font-size: clamp(1.35rem, 2.4vw, 1.65rem);
+  margin-bottom: 12px;
+}
+
+h4 {
+  font-size: 1.15rem;
+  margin-bottom: 8px;
+}
 
 .gradient-title {
   background: var(--grad-emerald-text);
@@ -200,7 +247,7 @@ h4 { font-size: 1.15rem; margin-bottom: 8px; }
 }
 
 /* ==========================================================================
-   Header & Sticky Glassmorphic Navigation
+   Header & Sticky Blurred Glass Navigation
    ========================================================================== */
 .site-header {
   position: sticky;
@@ -281,7 +328,7 @@ h4 { font-size: 1.15rem; margin-bottom: 8px; }
   top: 100%;
   left: 0;
   min-width: 230px;
-  background: rgba(11, 17, 32, 0.95);
+  background: rgba(11, 17, 32, 0.96);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -321,7 +368,7 @@ h4 { font-size: 1.15rem; margin-bottom: 8px; }
 }
 
 /* ==========================================================================
-   Tactile & Sleek Buttons
+   Buttons
    ========================================================================== */
 .btn {
   display: inline-flex;
@@ -378,11 +425,11 @@ h4 { font-size: 1.15rem; margin-bottom: 8px; }
 }
 
 /* ==========================================================================
-   Hero Section with Radial Mesh Gradients & Layered Composition
+   Hero Section with Layered Portrait & Overlapping Spline Card
    ========================================================================== */
 .hero-section {
   position: relative;
-  padding: 80px 0 60px;
+  padding: 110px 0 70px;
   background-color: var(--c-obsidian-950);
   background-image: 
     radial-gradient(ellipse 70% 50% at 50% -10%, rgba(16, 185, 129, 0.12) 0%, transparent 70%),
@@ -393,7 +440,7 @@ h4 { font-size: 1.15rem; margin-bottom: 8px; }
 .hero-grid {
   display: grid;
   grid-template-columns: 1.15fr 0.95fr;
-  gap: 56px;
+  gap: 48px;
   align-items: center;
 }
 
@@ -466,66 +513,97 @@ h4 { font-size: 1.15rem; margin-bottom: 8px; }
   font-weight: 500;
 }
 
-/* Layered Hero Portrait + Dashboard Composition */
-.hero-portrait-stage {
+/* Layered Hero Showcase: Unified Graphic */
+.hero-stage-container {
   position: relative;
   width: 100%;
-  max-width: 500px;
-  margin: 0 auto;
+  max-width: 520px;
+  min-height: 480px;
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-ambient-glow {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle, rgba(16, 185, 129, 0.22) 0%, rgba(59, 130, 246, 0.12) 40%, transparent 70%);
+  filter: blur(40px);
+  pointer-events: none;
+  z-index: 1;
 }
 
 .hero-portrait-frame {
   position: relative;
-  border-radius: var(--radius-lg);
+  width: 100%;
+  max-width: 340px;
+  aspect-ratio: 4 / 5;
+  border-radius: 20px;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.12);
   background: rgba(15, 23, 42, 0.7);
-  box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.8), var(--shadow-glow-emerald);
+  box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.9), var(--shadow-glow-emerald);
+  z-index: 2;
+  margin-left: auto;
+}
+
+.hero-portrait-frame::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  box-shadow: inset 0 0 40px rgba(6, 9, 17, 0.85);
+  background: linear-gradient(to top, #0B1120 5%, transparent 45%);
+  border-radius: inherit;
+  z-index: 3;
 }
 
 .hero-portrait-img {
   width: 100%;
-  height: 440px;
+  height: 100%;
   object-fit: cover;
-  object-position: center top;
-  filter: contrast(1.03) brightness(0.98);
+  object-position: top center;
+  filter: contrast(1.06) saturate(0.95);
   display: block;
 }
 
 .hero-portrait-badge {
   position: absolute;
-  top: 18px;
-  right: 18px;
+  top: 16px;
+  right: 16px;
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   font-weight: 600;
   color: var(--c-white);
-  background: rgba(6, 9, 17, 0.85);
+  background: rgba(6, 9, 17, 0.88);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(16, 185, 129, 0.35);
-  padding: 7px 14px;
+  padding: 6px 14px;
   border-radius: var(--radius-full);
   box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.6);
-  z-index: 2;
+  z-index: 4;
 }
 
 /* Overlapping Search Console Analytics Card */
 .seo-console-overlap-card {
   position: absolute;
-  bottom: -32px;
-  left: -28px;
-  width: 92%;
-  background: rgba(11, 17, 32, 0.92);
+  bottom: -20px;
+  left: -30px;
+  width: 340px;
+  background: rgba(15, 23, 42, 0.92);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: var(--radius-md);
+  border-radius: 16px;
   padding: 20px 22px;
-  box-shadow: 0 25px 50px -10px rgba(0, 0, 0, 0.8), 0 0 30px -5px rgba(16, 185, 129, 0.2);
-  z-index: 3;
+  box-shadow: 0 25px 50px -10px rgba(0, 0, 0, 0.85), 0 0 30px -5px rgba(16, 185, 129, 0.25);
+  z-index: 10;
 }
 
 .console-header {
@@ -595,7 +673,6 @@ h4 { font-size: 1.15rem; margin-bottom: 8px; }
   margin-top: 2px;
 }
 
-/* Glowing Spline Area Chart */
 .console-spline-box {
   width: 100%;
   height: 80px;
@@ -682,10 +759,10 @@ h4 { font-size: 1.15rem; margin-bottom: 8px; }
 }
 
 /* ==========================================================================
-   Section Layouts & Mesh Gradients
+   Section Layouts & Spacing (110px Vertical Padding)
    ========================================================================== */
 section {
-  padding: 96px 0;
+  padding: 110px 0;
   position: relative;
 }
 
@@ -701,7 +778,7 @@ section {
     radial-gradient(ellipse 50% 40% at 80% 60%, rgba(59, 130, 246, 0.08) 0%, transparent 60%);
 }
 
-/* Cards & Standard Grids */
+/* Standard Cards */
 .card {
   position: relative;
   background: var(--glass-card-bg);
@@ -718,10 +795,6 @@ section {
   border-color: var(--glass-card-border-hover);
   transform: translateY(-4px);
   box-shadow: var(--shadow-card-hover);
-}
-
-.card-icon {
-  margin-bottom: 20px;
 }
 
 .card-title {
@@ -755,7 +828,7 @@ section {
 }
 
 /* ==========================================================================
-   Asymmetrical Bento Grid ("WHO I AM" Section)
+   Refined Asymmetrical Bento Grid ("WHO I AM")
    ========================================================================== */
 .bento-grid {
   display: grid;
@@ -786,67 +859,76 @@ section {
 .bento-span-7 { grid-column: span 7; }
 .bento-span-5 { grid-column: span 5; }
 .bento-span-4 { grid-column: span 4; }
-.bento-span-6 { grid-column: span 6; }
-.bento-span-8 { grid-column: span 8; }
-.bento-span-12 { grid-column: span 12; }
 
-/* Bento 1: China Expo Photo Feature */
-.bento-img-feature {
-  position: relative;
-  border-radius: var(--radius-sm);
-  overflow: hidden;
-  margin-top: 18px;
+/* Bento Card 1: 2-Column Split Showcase on Desktop */
+.bento-split-card {
+  padding: 0 !important;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  align-items: stretch;
 }
 
-.crop-china-expo {
-  width: 100%;
-  height: 290px;
-  object-fit: cover;
-  object-position: center 30%;
-  border-radius: var(--radius-sm);
-}
-
-.bento-img-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to top, rgba(6, 9, 17, 0.9) 0%, rgba(6, 9, 17, 0.4) 50%, transparent 100%);
+.bento-split-left {
+  padding: 32px;
   display: flex;
-  align-items: flex-end;
-  padding: 20px;
+  flex-direction: column;
 }
 
-.bento-img-overlay-badge {
-  font-size: 0.8rem;
-  font-weight: 700;
-  color: var(--c-white);
-  background: rgba(6, 9, 17, 0.85);
-  border: 1px solid rgba(16, 185, 129, 0.35);
-  padding: 6px 12px;
-  border-radius: var(--radius-full);
+.bento-split-right {
+  position: relative;
+  height: 100%;
+  min-height: 320px;
 }
 
-/* Bento 2: Executive Desk Crop (Pakistan Flag + Desk Top Only) */
-.crop-pakistan-desk {
+.crop-china-expo-vertical {
   width: 100%;
-  max-height: 250px;
-  object-fit: cover;
-  object-position: center 20%;
-  border-radius: var(--radius-sm);
-  margin-top: 18px;
-}
-
-/* Bento 3: Outdoor sunglasses portrait */
-.crop-outdoor-vest {
-  width: 100%;
-  height: 230px;
+  height: 100%;
+  min-height: 320px;
   object-fit: cover;
   object-position: center 15%;
-  border-radius: var(--radius-sm);
-  margin-bottom: 20px;
+  display: block;
+}
+
+.bento-img-badge-overlay {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  right: 16px;
+  z-index: 3;
+}
+
+.bento-img-badge-overlay span {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--c-white);
+  background: rgba(6, 9, 17, 0.88);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(16, 185, 129, 0.35);
+  padding: 5px 12px;
+  border-radius: var(--radius-full);
+  display: inline-block;
+}
+
+/* Bento Card 2: Executive Desk Image at TOP */
+.crop-pakistan-desk-top {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: center 18%;
+  display: block;
+}
+
+/* Bento Card 3: Outdoor sunglasses portrait at TOP */
+.crop-outdoor-vest-top {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: center 12%;
+  display: block;
 }
 
 /* ==========================================================================
-   Client Services Upgrade (Gradient Top Highlight & Deliverable Tags)
+   Client Services Upgrade (Top Gradient Highlight & Deliverable Tags)
    ========================================================================== */
 .service-card-premium {
   position: relative;
@@ -964,7 +1046,7 @@ section {
 }
 
 /* ==========================================================================
-   Live Zoom & Video Masterclasses (Photo #4 Dual Laptop Studio Setup)
+   Live Zoom & Video Masterclasses (Photo #4 Clean Crop & Vignette)
    ========================================================================== */
 .zoom-cta-card {
   display: grid;
@@ -980,24 +1062,39 @@ section {
 
 .live-studio-frame {
   position: relative;
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-sm);
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.12);
   box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.7);
+  background: var(--c-obsidian-900);
+}
+
+.live-studio-frame::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: 
+    linear-gradient(to right, #0B1120 0%, transparent 35%),
+    linear-gradient(to top, #0B1120 5%, transparent 40%),
+    linear-gradient(to bottom, rgba(6, 9, 17, 0.4) 0%, transparent 30%);
+  box-shadow: inset 0 0 35px rgba(6, 9, 17, 0.9);
+  border-radius: inherit;
+  z-index: 2;
 }
 
 .crop-live-studio {
   width: 100%;
-  height: 320px;
+  height: 260px;
   object-fit: cover;
-  object-position: right center; /* Crops out far-left edge */
+  object-position: 70% 25%; /* Hides far-left bed, centers Asim + laptops + gimbal */
   display: block;
 }
 
 .live-studio-badge {
   position: absolute;
-  top: 16px;
-  left: 16px;
+  top: 14px;
+  left: 14px;
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -1010,6 +1107,7 @@ section {
   border: 1px solid rgba(239, 68, 68, 0.4);
   padding: 6px 14px;
   border-radius: var(--radius-full);
+  z-index: 4;
 }
 
 .pulse-red {
@@ -1047,7 +1145,7 @@ section {
   width: 100%;
   height: 380px;
   object-fit: cover;
-  object-position: top left; /* Crops out pastry plate on the right */
+  object-position: top left;
   border-radius: var(--radius-md);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -1151,7 +1249,7 @@ textarea.form-control {
 .site-footer {
   background: var(--c-obsidian-950);
   border-top: 1px solid rgba(255, 255, 255, 0.08);
-  padding: 80px 0 36px;
+  padding: 90px 0 36px;
 }
 
 .footer-grid {
@@ -1205,8 +1303,11 @@ textarea.form-control {
     gap: 48px;
   }
 
-  .hero-portrait-stage {
+  .hero-stage-container {
     max-width: 440px;
+    margin: 0 auto;
+    justify-content: center;
+    min-height: auto;
   }
 
   .seo-console-overlap-card {
@@ -1214,7 +1315,7 @@ textarea.form-control {
     bottom: 0;
     left: 0;
     width: 100%;
-    margin-top: 24px;
+    margin-top: -30px;
   }
 
   .grid-4 {
@@ -1225,7 +1326,7 @@ textarea.form-control {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .bento-span-7, .bento-span-5, .bento-span-8, .bento-span-4 {
+  .bento-span-7, .bento-span-5, .bento-span-4 {
     grid-column: span 12;
   }
 
@@ -1239,6 +1340,10 @@ textarea.form-control {
 }
 
 @media (max-width: 768px) {
+  section {
+    padding: 70px 0;
+  }
+
   .mobile-toggle {
     display: block;
   }
@@ -1281,8 +1386,16 @@ textarea.form-control {
     grid-template-columns: 1fr;
   }
 
-  .bento-span-7, .bento-span-5, .bento-span-4, .bento-span-6, .bento-span-8, .bento-span-12 {
+  .bento-span-7, .bento-span-5, .bento-span-4 {
     grid-column: span 1;
+  }
+
+  .bento-split-card {
+    grid-template-columns: 1fr !important;
+  }
+
+  .hero-stage-container {
+    max-width: 340px;
   }
 
   .hero-proof-strip {
