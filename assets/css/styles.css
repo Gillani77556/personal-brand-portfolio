@@ -1,37 +1,43 @@
 /* ==========================================================================
-   Asim SEO Wala - Ultra-Premium Personal Branding & Portfolio Stylesheet
-   Crafted with Modern Typography, Glassmorphism & High-Conversion UX
+   Asim SEO Wala - World-Class Top-Tier Aesthetic Design System
+   Inspired by Apple, Stripe & Linear - Blazing Fast, Pure CSS, 0ms Delay
    ========================================================================== */
 
 :root {
-  --primary: #090d16;          /* Deepest Obsidian Navy */
-  --primary-card: #0f172a;     /* Rich Midnight Slate */
-  --secondary: #2563eb;        /* Royal Electric Blue */
-  --secondary-gradient: linear-gradient(135deg, #2563eb 0%, #4f46e5 50%, #7c3aed 100%);
-  --accent-gold: #f59e0b;       /* Premium Gold for trust & stars */
-  --accent-emerald: #10b981;    /* Live growth emerald */
-  --text-main: #0f172a;
-  --text-body: #334155;
-  --text-muted: #64748b;
-  --text-light: #94a3b8;
-  --bg-body: #ffffff;
-  --bg-subtle: #f8fafc;
-  --bg-card: #ffffff;
-  --border-subtle: #e2e8f0;
-  --border-focus: #3b82f6;
-  --border-glow: rgba(37, 99, 235, 0.15);
+  /* Obsidian & Pure Monochromatic Foundations */
+  --c-slate-950: #030712;      /* Deepest obsidian black */
+  --c-slate-900: #0f172a;      /* Rich dark slate */
+  --c-slate-800: #1e293b;
+  --c-slate-700: #334155;
+  --c-slate-600: #475569;
+  --c-slate-500: #64748b;      /* Elegant muted text */
+  --c-slate-400: #94a3b8;
+  --c-slate-200: #e2e8f0;      /* Ultra-clean micro-border */
+  --c-slate-100: #f1f5f9;
+  --c-slate-50:  #f8fafc;      /* Pristine off-white */
   
-  /* Multi-layered luxury shadows */
-  --shadow-sm: 0 2px 4px rgba(15, 23, 42, 0.04);
-  --shadow-md: 0 10px 25px -5px rgba(15, 23, 42, 0.06), 0 8px 10px -6px rgba(15, 23, 42, 0.04);
-  --shadow-lg: 0 20px 35px -10px rgba(15, 23, 42, 0.08), 0 12px 16px -8px rgba(15, 23, 42, 0.04);
-  --shadow-glow: 0 12px 30px -5px rgba(37, 99, 235, 0.28);
+  /* Precision Accent Gradients */
+  --c-brand-blue: #2563eb;     /* Electric Royal */
+  --c-brand-indigo: #4f46e5;
+  --c-brand-gradient: linear-gradient(135deg, #2563eb 0%, #3b82f6 50%, #4f46e5 100%);
+  --c-brand-glow: radial-gradient(circle at 50% 0%, rgba(37, 99, 235, 0.12) 0%, transparent 70%);
+  --c-text-gradient: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #2563eb 100%);
   
-  --radius-sm: 8px;
+  --c-emerald: #10b981;        /* Growth green */
+  --c-gold: #f59e0b;           /* Star gold */
+  
+  /* Multi-depth shadows */
+  --shadow-subtle: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.02);
+  --shadow-card: 0 4px 20px -2px rgba(15, 23, 42, 0.05), 0 2px 6px -1px rgba(15, 23, 42, 0.03);
+  --shadow-hover: 0 20px 40px -15px rgba(15, 23, 42, 0.1), 0 0 0 1px rgba(37, 99, 235, 0.2);
+  --shadow-btn: 0 10px 25px -5px rgba(37, 99, 235, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  
+  --radius-xs: 6px;
+  --radius-sm: 10px;
   --radius-md: 14px;
-  --radius-lg: 20px;
+  --radius-lg: 22px;
   --radius-full: 9999px;
-  --container-max: 1220px;
+  --max-w: 1220px;
 }
 
 * {
@@ -45,10 +51,11 @@ html {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Inter", "Plus Jakarta Sans", sans-serif;
-  color: var(--text-body);
-  background-color: var(--bg-body);
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--c-slate-700);
+  background-color: #ffffff;
   line-height: 1.7;
+  font-size: 16.5px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -56,7 +63,7 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 img {
@@ -67,66 +74,66 @@ img {
 
 .container {
   width: 100%;
-  max-width: var(--container-max);
+  max-width: var(--max-w);
   margin: 0 auto;
   padding: 0 24px;
 }
 
 /* ==========================================================================
-   Typography & Gradients
+   Typography Hierarchy & Wordmark
    ========================================================================== */
 h1, h2, h3, h4, h5 {
-  color: var(--primary);
+  color: var(--c-slate-900);
   font-weight: 800;
-  line-height: 1.22;
-  letter-spacing: -0.025em;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
 }
 
-h1 { font-size: clamp(2.35rem, 5.2vw, 3.4rem); letter-spacing: -0.035em; margin-bottom: 20px; }
-h2 { font-size: clamp(1.85rem, 3.6vw, 2.45rem); margin-bottom: 16px; }
-h3 { font-size: clamp(1.3rem, 2.4vw, 1.55rem); margin-bottom: 12px; }
+h1 { font-size: clamp(2.4rem, 5.2vw, 3.5rem); margin-bottom: 20px; }
+h2 { font-size: clamp(1.9rem, 3.6vw, 2.5rem); margin-bottom: 16px; }
+h3 { font-size: clamp(1.3rem, 2.2vw, 1.55rem); margin-bottom: 12px; }
 h4 { font-size: 1.15rem; margin-bottom: 8px; }
 
-.gradient-text {
-  background: var(--secondary-gradient);
+.gradient-title {
+  background: var(--c-text-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  display: inline-block;
+  display: inline;
 }
 
-.section-eyebrow {
+.pill-badge {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  font-size: 0.78rem;
-  font-weight: 800;
+  gap: 8px;
+  font-size: 0.8rem;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--secondary);
-  background: rgba(37, 99, 235, 0.08);
-  border: 1px solid rgba(37, 99, 235, 0.16);
+  letter-spacing: 0.08em;
+  color: var(--c-brand-blue);
+  background: rgba(37, 99, 235, 0.07);
+  border: 1px solid rgba(37, 99, 235, 0.18);
   padding: 5px 14px;
   border-radius: var(--radius-full);
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 
 .section-subtext {
   font-size: 1.12rem;
-  color: var(--text-muted);
+  color: var(--c-slate-500);
   max-width: 680px;
   line-height: 1.7;
-  margin-bottom: 44px;
+  margin-bottom: 48px;
 }
 
 /* ==========================================================================
-   Buttons (High-End Tactile Effects)
+   Tactile Luxury Buttons
    ========================================================================== */
 .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  font-size: 0.96rem;
+  font-size: 0.95rem;
   font-weight: 700;
   padding: 13px 26px;
   border-radius: var(--radius-sm);
@@ -137,39 +144,28 @@ h4 { font-size: 1.15rem; margin-bottom: 8px; }
 }
 
 .btn-primary {
-  background: var(--secondary-gradient);
+  background: var(--c-brand-gradient);
   color: #ffffff !important;
-  box-shadow: var(--shadow-glow);
+  box-shadow: var(--shadow-btn);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 16px 36px -4px rgba(37, 99, 235, 0.42);
+  box-shadow: 0 16px 32px -4px rgba(37, 99, 235, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.3);
 }
 
 .btn-secondary {
   background-color: #ffffff;
-  border: 1.5px solid var(--border-subtle);
-  color: var(--primary) !important;
-  box-shadow: var(--shadow-sm);
+  border: 1.5px solid var(--c-slate-200);
+  color: var(--c-slate-900) !important;
+  box-shadow: var(--shadow-subtle);
 }
 
 .btn-secondary:hover {
-  border-color: var(--primary);
-  background-color: var(--bg-subtle);
+  border-color: var(--c-slate-900);
+  background-color: var(--c-slate-50);
   transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
-}
-
-.btn-accent {
-  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-  color: #ffffff !important;
-  box-shadow: 0 10px 25px -4px rgba(16, 185, 129, 0.35);
-}
-
-.btn-accent:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 14px 30px -4px rgba(16, 185, 129, 0.45);
+  box-shadow: var(--shadow-card);
 }
 
 .btn-outline-green {
@@ -180,26 +176,26 @@ h4 { font-size: 1.15rem; margin-bottom: 8px; }
 
 .btn-outline-green:hover {
   background-color: rgba(16, 185, 129, 0.16);
-  border-color: #10b981;
+  border-color: var(--c-emerald);
   transform: translateY(-2px);
 }
 
 /* ==========================================================================
-   Header & Navigation (Glassmorphic)
+   Header & Floating Glassmorphism
    ========================================================================== */
 .site-header {
   position: sticky;
   top: 0;
-  background: rgba(255, 255, 255, 0.88);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border-bottom: 1px solid rgba(226, 232, 240, 0.85);
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.8);
   z-index: 1000;
   transition: all 0.3s ease;
 }
 
 .site-header.scrolled {
-  background: rgba(255, 255, 255, 0.96);
+  background: rgba(255, 255, 255, 0.95);
   box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.06);
 }
 
@@ -207,25 +203,25 @@ h4 { font-size: 1.15rem; margin-bottom: 8px; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 80px;
+  height: 78px;
 }
 
 .site-logo {
-  font-size: 1.38rem;
+  font-size: 1.35rem;
   font-weight: 900;
-  color: var(--primary);
+  color: var(--c-slate-900);
   letter-spacing: -0.03em;
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
 }
 
 .site-logo .logo-brand {
-  color: var(--primary);
+  color: var(--c-slate-900);
 }
 
 .site-logo .logo-tag {
-  background: var(--secondary-gradient);
+  background: var(--c-brand-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 900;
@@ -236,10 +232,9 @@ h4 { font-size: 1.15rem; margin-bottom: 8px; }
   background: #ecfdf5;
   color: #047857;
   padding: 2px 7px;
-  border-radius: 9999px;
+  border-radius: var(--radius-full);
   font-weight: 800;
   border: 1px solid #a7f3d0;
-  margin-left: 4px;
 }
 
 .nav-menu {
@@ -256,16 +251,15 @@ h4 { font-size: 1.15rem; margin-bottom: 8px; }
 .nav-link {
   font-size: 0.94rem;
   font-weight: 600;
-  color: #475569;
-  padding: 8px 4px;
+  color: var(--c-slate-600);
+  padding: 8px 6px;
   display: flex;
   align-items: center;
   gap: 4px;
-  transition: color 0.2s;
 }
 
 .nav-link:hover, .nav-link.active {
-  color: var(--secondary);
+  color: var(--c-brand-blue);
 }
 
 /* Dropdown */
@@ -273,16 +267,16 @@ h4 { font-size: 1.15rem; margin-bottom: 8px; }
   position: absolute;
   top: 100%;
   left: -10px;
-  min-width: 230px;
+  min-width: 220px;
   background: #ffffff;
-  border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--c-slate-200);
+  border-radius: var(--radius-sm);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
   padding: 10px 0;
   opacity: 0;
   visibility: hidden;
   transform: translateY(10px);
-  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
   list-style: none;
   z-index: 100;
 }
@@ -298,13 +292,12 @@ h4 { font-size: 1.15rem; margin-bottom: 8px; }
   padding: 9px 20px;
   font-size: 0.92rem;
   font-weight: 600;
-  color: #334155;
-  transition: all 0.15s;
+  color: var(--c-slate-700);
 }
 
 .dropdown-item a:hover {
-  background: #f1f5f9;
-  color: var(--secondary);
+  background: var(--c-slate-50);
+  color: var(--c-brand-blue);
   padding-left: 24px;
 }
 
@@ -313,17 +306,17 @@ h4 { font-size: 1.15rem; margin-bottom: 8px; }
   background: none;
   border: none;
   font-size: 1.6rem;
-  color: var(--primary);
+  color: var(--c-slate-900);
   cursor: pointer;
 }
 
 /* ==========================================================================
-   Hero Section (Premium Visual Hierarchy)
+   Hero Section with Realistic SEO Growth Console Mockup (0 KB Assets!)
    ========================================================================== */
 .hero-section {
   padding: 85px 0 70px;
-  background: radial-gradient(circle at 80% 20%, rgba(37, 99, 235, 0.05) 0%, transparent 60%),
-              radial-gradient(circle at 10% 80%, rgba(79, 70, 229, 0.04) 0%, transparent 50%),
+  background: radial-gradient(circle at 85% 15%, rgba(37, 99, 235, 0.06) 0%, transparent 60%),
+              radial-gradient(circle at 15% 85%, rgba(79, 70, 229, 0.04) 0%, transparent 50%),
               linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
   position: relative;
   overflow: hidden;
@@ -340,27 +333,27 @@ h4 { font-size: 1.15rem; margin-bottom: 8px; }
   display: inline-flex;
   align-items: center;
   gap: 9px;
-  background: rgba(16, 185, 129, 0.1);
+  background: rgba(16, 185, 129, 0.08);
   color: #065f46;
   font-size: 0.85rem;
   font-weight: 700;
-  padding: 7px 16px;
+  padding: 6px 16px;
   border-radius: var(--radius-full);
-  border: 1px solid rgba(16, 185, 129, 0.28);
+  border: 1px solid rgba(16, 185, 129, 0.25);
   margin-bottom: 22px;
 }
 
 .pulse-indicator {
   width: 9px;
   height: 9px;
-  background: var(--accent-emerald);
+  background: var(--c-emerald);
   border-radius: 50%;
   box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.25);
 }
 
 .hero-description {
-  font-size: 1.16rem;
-  color: #475569;
+  font-size: 1.15rem;
+  color: var(--c-slate-600);
   line-height: 1.75;
   margin-bottom: 34px;
 }
@@ -369,20 +362,20 @@ h4 { font-size: 1.15rem; margin-bottom: 8px; }
   display: flex;
   gap: 14px;
   flex-wrap: wrap;
-  margin-bottom: 44px;
+  margin-bottom: 40px;
 }
 
 .hero-proof-strip {
   display: flex;
   gap: 36px;
   padding-top: 28px;
-  border-top: 1px solid var(--border-subtle);
+  border-top: 1px solid var(--c-slate-200);
 }
 
 .proof-metric strong {
   display: block;
   font-size: 1.65rem;
-  color: var(--primary);
+  color: var(--c-slate-900);
   font-weight: 900;
   letter-spacing: -0.02em;
 }
@@ -390,76 +383,142 @@ h4 { font-size: 1.15rem; margin-bottom: 8px; }
 .proof-metric span {
   font-size: 0.86rem;
   font-weight: 500;
-  color: var(--text-muted);
-}
-
-/* Hero Portrait Card */
-.hero-photo-wrapper {
-  background: #ffffff;
-  border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-lg);
-  padding: 14px;
-  box-shadow: var(--shadow-lg);
-  position: relative;
-}
-
-.photo-box {
-  width: 100%;
-  height: 420px;
-  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-  border-radius: var(--radius-md);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #ffffff;
-  position: relative;
-  overflow: hidden;
-}
-
-.photo-avatar-circle {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  background: var(--secondary-gradient);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-  margin-bottom: 16px;
-  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.4);
-}
-
-.floating-badge-card {
-  position: absolute;
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(8px);
-  border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-md);
-  padding: 12px 18px;
-  box-shadow: var(--shadow-md);
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  color: var(--primary);
-  font-size: 0.85rem;
-  font-weight: 700;
-}
-
-.floating-badge-bottom {
-  bottom: -15px;
-  left: 20px;
+  color: var(--c-slate-500);
 }
 
 /* ==========================================================================
-   Cards & Layout Components
+   Interactive Live SEO Growth Console Mockup (Pure CSS Vector UI)
+   ========================================================================== */
+.seo-console-card {
+  background: #ffffff;
+  border: 1px solid var(--c-slate-200);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: 0 25px 50px -12px rgba(15, 23, 42, 0.12), 0 0 0 1px rgba(226, 232, 240, 0.8);
+  position: relative;
+}
+
+.console-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--c-slate-100);
+  padding-bottom: 14px;
+  margin-bottom: 18px;
+}
+
+.console-header-brand {
+  font-size: 0.88rem;
+  font-weight: 800;
+  color: var(--c-slate-900);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.console-header-badge {
+  background: #ecfdf5;
+  color: #047857;
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+}
+
+.console-metrics-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.console-stat-box {
+  background: var(--c-slate-50);
+  border: 1px solid var(--c-slate-200);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+}
+
+.console-stat-box .stat-label {
+  font-size: 0.76rem;
+  color: var(--c-slate-500);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.console-stat-box .stat-val {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: var(--c-slate-900);
+  margin-top: 2px;
+}
+
+.console-stat-box .stat-growth {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--c-emerald);
+}
+
+/* CSS Vector Graph Simulation */
+.console-graph-box {
+  background: linear-gradient(180deg, rgba(37, 99, 235, 0.08) 0%, rgba(37, 99, 235, 0.01) 100%);
+  border: 1px solid rgba(37, 99, 235, 0.15);
+  border-radius: var(--radius-sm);
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 10px 10px;
+}
+
+.graph-curve-line {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #3b82f6 0%, #2563eb 60%, #10b981 100%);
+  transform: skewY(-5deg);
+}
+
+.console-graph-bar-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: flex-end;
+  height: 60px;
+}
+
+.graph-bar {
+  width: 10%;
+  background: rgba(37, 99, 235, 0.2);
+  border-radius: 3px 3px 0 0;
+  transition: height 0.3s;
+}
+
+.graph-bar.highlight {
+  background: var(--c-brand-blue);
+}
+
+.console-verified-footer {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.82rem;
+  color: var(--c-slate-500);
+}
+
+/* ==========================================================================
+   Sections & Bento Grid Cards
    ========================================================================== */
 section {
   padding: 85px 0;
 }
 
 .bg-alt {
-  background-color: var(--bg-subtle);
+  background-color: var(--c-slate-50);
 }
 
 .grid-3 {
@@ -481,13 +540,13 @@ section {
   align-items: center;
 }
 
-/* Feature & Service Cards */
+/* Luxury Cards */
 .card {
-  background: var(--bg-card);
-  border: 1px solid var(--border-subtle);
+  background: #ffffff;
+  border: 1px solid var(--c-slate-200);
   border-radius: var(--radius-md);
   padding: 34px;
-  box-shadow: var(--shadow-sm);
+  box-shadow: var(--shadow-card);
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   display: flex;
   flex-direction: column;
@@ -495,17 +554,17 @@ section {
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--shadow-lg);
-  border-color: rgba(37, 99, 235, 0.35);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+  border-color: rgba(37, 99, 235, 0.3);
 }
 
 .card-icon {
   width: 56px;
   height: 56px;
-  border-radius: var(--radius-md);
-  background: #eff6ff;
-  color: var(--secondary);
+  border-radius: var(--radius-sm);
+  background: rgba(37, 99, 235, 0.08);
+  color: var(--c-brand-blue);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -519,13 +578,13 @@ section {
 }
 
 .card-title {
-  font-size: 1.36rem;
+  font-size: 1.35rem;
   margin-bottom: 12px;
 }
 
 .card-text {
   font-size: 0.98rem;
-  color: #475569;
+  color: var(--c-slate-600);
   line-height: 1.68;
   margin-bottom: 22px;
   flex-grow: 1;
@@ -533,7 +592,7 @@ section {
 
 .card-action {
   font-weight: 700;
-  color: var(--secondary);
+  color: var(--c-brand-blue);
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -547,14 +606,14 @@ section {
 
 /* Case Study Cards */
 .case-card {
-  border-top: 4px solid var(--secondary);
+  border-top: 4px solid var(--c-brand-blue);
 }
 
 .case-tag {
   font-size: 0.78rem;
   font-weight: 800;
   text-transform: uppercase;
-  color: var(--secondary);
+  color: var(--c-brand-blue);
   letter-spacing: 0.08em;
   margin-bottom: 10px;
 }
@@ -562,7 +621,7 @@ section {
 .case-metric {
   font-size: 1.75rem;
   font-weight: 900;
-  color: var(--primary);
+  color: var(--c-slate-900);
   letter-spacing: -0.02em;
   margin-bottom: 12px;
 }
@@ -570,20 +629,20 @@ section {
 /* Testimonial Cards */
 .testimonial-card {
   background: #ffffff;
-  border: 1px solid var(--border-subtle);
+  border: 1px solid var(--c-slate-200);
   border-radius: var(--radius-md);
   padding: 30px;
-  box-shadow: var(--shadow-sm);
+  box-shadow: var(--shadow-card);
   transition: transform 0.25s, box-shadow 0.25s;
 }
 
 .testimonial-card:hover {
   transform: translateY(-4px);
-  box-shadow: var(--shadow-md);
+  box-shadow: var(--shadow-hover);
 }
 
 .star-rating {
-  color: var(--accent-gold);
+  color: var(--c-gold);
   font-size: 1.15rem;
   margin-bottom: 16px;
   letter-spacing: 2px;
@@ -591,7 +650,7 @@ section {
 
 .testimonial-body {
   font-size: 0.98rem;
-  color: #334155;
+  color: var(--c-slate-700);
   font-style: italic;
   margin-bottom: 22px;
   line-height: 1.7;
@@ -600,16 +659,16 @@ section {
 .client-meta strong {
   display: block;
   font-size: 0.96rem;
-  color: var(--primary);
+  color: var(--c-slate-900);
 }
 
 .client-meta span {
   font-size: 0.84rem;
-  color: var(--text-muted);
+  color: var(--c-slate-500);
 }
 
 /* ==========================================================================
-   Zoom Live Session Banner (Dark Luxury Styling)
+   Dark Luxury Radial Zoom & Mentorship Card
    ========================================================================== */
 .zoom-cta-card {
   background: radial-gradient(circle at 10% 20%, #1e293b 0%, #090d16 100%);
@@ -648,7 +707,7 @@ section {
   background: #ffffff;
   padding: 32px;
   border-radius: var(--radius-md);
-  color: var(--text-main);
+  color: var(--c-slate-900);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
 }
 
@@ -661,28 +720,28 @@ section {
   font-size: 0.88rem;
   font-weight: 700;
   margin-bottom: 7px;
-  color: var(--primary);
+  color: var(--c-slate-900);
 }
 
 .form-control {
   width: 100%;
   padding: 13px 15px;
-  border: 1.5px solid var(--border-subtle);
+  border: 1.5px solid var(--c-slate-200);
   border-radius: var(--radius-sm);
   font-size: 0.96rem;
   outline: none;
   transition: all 0.2s;
   background: #ffffff;
-  color: var(--text-main);
+  color: var(--c-slate-900);
 }
 
 .form-control:focus {
-  border-color: var(--secondary);
+  border-color: var(--c-brand-blue);
   box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
 }
 
 /* ==========================================================================
-   Google AdSense Reserved Units (CLS Safe)
+   Google AdSense Policy Containers (Zero CLS)
    ========================================================================== */
 .adsense-slot {
   margin: 36px auto;
@@ -717,12 +776,12 @@ section {
 }
 
 /* ==========================================================================
-   Table of Contents (Clickable)
+   Table of Contents
    ========================================================================== */
 .toc-box {
-  background: var(--bg-subtle);
-  border: 1px solid var(--border-subtle);
-  border-left: 4px solid var(--secondary);
+  background: var(--c-slate-50);
+  border: 1px solid var(--c-slate-200);
+  border-left: 4px solid var(--c-brand-blue);
   border-radius: var(--radius-sm);
   padding: 24px;
   margin: 32px 0;
@@ -731,7 +790,7 @@ section {
 .toc-title {
   font-size: 1.15rem;
   font-weight: 800;
-  color: var(--primary);
+  color: var(--c-slate-900);
   margin-bottom: 14px;
 }
 
@@ -745,7 +804,7 @@ section {
 }
 
 .toc-list a {
-  color: var(--secondary);
+  color: var(--c-brand-blue);
   font-weight: 600;
   font-size: 0.96rem;
 }
@@ -755,7 +814,7 @@ section {
 }
 
 /* ==========================================================================
-   CTA Banner
+   High-Ticket Consultation CTA Banner
    ========================================================================== */
 .cta-banner-section {
   background: radial-gradient(circle at 80% 20%, #1e3a8a 0%, #0f172a 100%);
@@ -847,14 +906,14 @@ section {
 @media (max-width: 768px) {
   .nav-menu {
     position: fixed;
-    top: 80px;
+    top: 78px;
     left: 0;
     width: 100%;
     background: #ffffff;
     flex-direction: column;
     padding: 26px;
-    border-bottom: 1px solid var(--border-subtle);
-    box-shadow: var(--shadow-lg);
+    border-bottom: 1px solid var(--c-slate-200);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
     display: none;
   }
 
