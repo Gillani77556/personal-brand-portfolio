@@ -22,8 +22,12 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css?v=3">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap">
+  </noscript>
+  <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 <body>
 
@@ -112,7 +116,7 @@
         <span class="pill-badge">FEATURED MASTERCLASS</span>
         <h2 style="margin-bottom: 20px;">Complete SEO Roadmap & Search Engine Architecture</h2>
         <div style="background: #000; border-radius: var(--radius-md); overflow: hidden; position: relative; padding-top: 56.25%; border: 1px solid rgba(255,255,255,0.1); box-shadow: var(--shadow-card);">
-          <iframe style="position: absolute; top:0; left:0; width:100%; height:100%; border:0;" src="https://www.youtube-nocookie.com/embed/El3IZFGERbM" title="Featured Video Masterclass: How Google Search Works" allowfullscreen></iframe>
+          <iframe style="position: absolute; top:0; left:0; width:100%; height:100%; border:0;" src="https://www.youtube-nocookie.com/embed/El3IZFGERbM" title="Featured Video Masterclass: How Google Search Works" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <p style="color: var(--c-slate-300); margin-top: 20px; font-size: 1.05rem; line-height: 1.8;">
           In this 2-hour masterclass, I share my screen to walk you through Google Search Console setup, finding low-competition keywords, performing on-page optimizations, and crafting your first client pitch.
@@ -203,6 +207,6 @@
     </div>
   </footer>
 
-  <script src="assets/js/main.js?v=3"></script>
+  <script src="assets/js/main.min.js" defer></script>
 </body>
 </html>

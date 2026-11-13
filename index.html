@@ -90,8 +90,13 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css?v=3">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap">
+  </noscript>
+  <link rel="preload" as="image" href="assets/images/asim-hero-headshot.webp" type="image/webp" fetchpriority="high">
+  <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 <body>
 
@@ -210,7 +215,10 @@
               <span class="hero-portrait-badge">
                 <span class="pulse-indicator"></span> Asim — Founder & Lead SEO Strategist
               </span>
-              <img src="assets/images/asim-hero-headshot.jpg" alt="Asim - Founder & Lead SEO Strategist" class="hero-portrait-img">
+              <picture>
+                <source srcset="assets/images/asim-hero-headshot.webp" type="image/webp">
+                <img src="assets/images/asim-hero-headshot.jpg" alt="Asim - Founder & Lead SEO Strategist" class="hero-portrait-img" width="600" height="750" fetchpriority="high">
+              </picture>
             </div>
 
             <!-- Overlapping Search Console Analytics Card -->
@@ -349,7 +357,10 @@
               </div>
             </div>
             <div class="bento-split-right editorial-img-wrap">
-              <img src="assets/images/asim-china-expo.jpg" alt="Asim at International RACC Expo" class="crop-china-expo-vertical">
+              <picture>
+                <source srcset="assets/images/asim-china-expo.webp" type="image/webp">
+                <img src="assets/images/asim-china-expo.jpg" alt="Asim at International RACC Expo" class="crop-china-expo-vertical" width="799" height="1066" loading="lazy" decoding="async">
+              </picture>
               <div class="bento-img-badge-overlay">
                 <span>Global Networking & Outreach</span>
               </div>
@@ -359,7 +370,10 @@
           <!-- Bento Card 2 (Medium Span: Executive Desk with Pakistan Flag - Image at TOP) -->
           <div class="bento-card bento-span-5">
             <div class="editorial-img-wrap" style="margin-bottom: 20px;">
-              <img src="assets/images/asim-executive-desk.jpg" alt="Asim at Executive Desk with Pakistan Flag" class="crop-pakistan-desk-top">
+              <picture>
+                <source srcset="assets/images/asim-executive-desk.webp" type="image/webp">
+                <img src="assets/images/asim-executive-desk.jpg" alt="Asim at Executive Desk with Pakistan Flag" class="crop-pakistan-desk-top" width="800" height="600" loading="lazy" decoding="async">
+              </picture>
             </div>
             <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;">
               <div class="icon-box">
@@ -376,7 +390,10 @@
           <!-- Bento Card 3 (Medium Span: Outdoor Sunglasses Portrait - Image at TOP) -->
           <div class="bento-card bento-span-4">
             <div class="editorial-img-wrap" style="margin-bottom: 20px;">
-              <img src="assets/images/asim-outdoor-vest.jpg" alt="Asim - Founder Story" class="crop-outdoor-vest-top">
+              <picture>
+                <source srcset="assets/images/asim-outdoor-vest.webp" type="image/webp">
+                <img src="assets/images/asim-outdoor-vest.jpg" alt="Asim - Founder Story" class="crop-outdoor-vest-top" width="600" height="900" loading="lazy" decoding="async">
+              </picture>
             </div>
             <h3 class="card-title">Founder Lifestyle & Story</h3>
             <p class="card-text" style="margin-bottom: 20px;">
@@ -743,7 +760,10 @@
               <span class="live-studio-badge">
                 <span class="pulse-red"></span> Live Screen-Share Audit Studio
               </span>
-              <img src="assets/images/asim-live-studio.jpg" alt="Asim in Live Screen-Share Audit Studio" class="crop-live-studio">
+              <picture>
+                <source srcset="assets/images/asim-live-studio.webp" type="image/webp">
+                <img src="assets/images/asim-live-studio.jpg" alt="Asim in Live Screen-Share Audit Studio" class="crop-live-studio" width="800" height="600" loading="lazy" decoding="async">
+              </picture>
             </div>
           </div>
 
@@ -851,7 +871,7 @@
         <div class="grid-2">
           <div>
             <div style="background: #000; border-radius: var(--radius-md); overflow: hidden; position: relative; padding-top: 56.25%; border: 1px solid rgba(255,255,255,0.1); box-shadow: var(--shadow-card);">
-              <iframe style="position: absolute; top:0; left:0; width:100%; height:100%; border:0;" src="https://www.youtube-nocookie.com/embed/El3IZFGERbM" title="Featured Video Masterclass: How Search Works" allowfullscreen></iframe>
+              <iframe style="position: absolute; top:0; left:0; width:100%; height:100%; border:0;" src="https://www.youtube-nocookie.com/embed/El3IZFGERbM" title="Featured Video Masterclass: How Search Works" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <h3 style="margin-top: 20px;">Featured Masterclass: How Search Engines Work & Ranking Fundamentals</h3>
             <p style="color: var(--c-slate-400); font-size: 0.96rem;">Understand indexing architecture, crawl budgets, and entity-based ranking fundamentals directly from official search engineers.</p>
@@ -975,6 +995,6 @@
     </div>
   </footer>
 
-  <script src="assets/js/main.js?v=3"></script>
+  <script src="assets/js/main.min.js" defer></script>
 </body>
 </html>

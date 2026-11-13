@@ -22,8 +22,13 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css?v=3">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap">
+  </noscript>
+  <link rel="preload" as="image" href="assets/images/asim-hero-headshot.webp" type="image/webp" fetchpriority="high">
+  <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 <body>
 
@@ -114,7 +119,10 @@
               <span class="hero-portrait-badge">
                 <span class="pulse-indicator"></span> Asim — Founder & Lead SEO Strategist
               </span>
-              <img src="assets/images/asim-hero-headshot.jpg" alt="Asim - SEO Consultant" class="hero-portrait-img">
+              <picture>
+                <source srcset="assets/images/asim-hero-headshot.webp" type="image/webp">
+                <img src="assets/images/asim-hero-headshot.jpg" alt="Asim - SEO Consultant" class="hero-portrait-img" width="600" height="750" fetchpriority="high">
+              </picture>
             </div>
           </div>
         </div>
@@ -144,7 +152,10 @@
           <div>
             <!-- Smart CSS Cropped Photo #5 (Pastry plate cropped out on right edge) -->
             <div class="editorial-img-wrap" style="position: relative; border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-card);">
-              <img src="assets/images/asim-dell-desk.jpg" alt="Asim in Executive Office Workstation" class="crop-dell-desk">
+              <picture>
+                <source srcset="assets/images/asim-dell-desk.webp" type="image/webp">
+                <img src="assets/images/asim-dell-desk.jpg" alt="Asim in Executive Office Workstation" class="crop-dell-desk" width="800" height="600" loading="lazy" decoding="async">
+              </picture>
               <div style="position: absolute; bottom: 16px; left: 16px; background: rgba(6,9,17,0.85); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.1); padding: 6px 14px; border-radius: var(--radius-full); font-size: 0.8rem; color: var(--c-white); z-index: 3;">
                 Executive Strategy Workstation
               </div>
@@ -255,6 +266,6 @@
     </div>
   </footer>
 
-  <script src="assets/js/main.js?v=3"></script>
+  <script src="assets/js/main.min.js" defer></script>
 </body>
 </html>
