@@ -1,0 +1,142 @@
+{
+  "@context": "https://schema.org",
+  "comment": "Complete JSON-LD Schema Suite for Professional Personal Branding & Portfolio Website",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://yourdomain.com/#person",
+      "name": "[Your Full Name]",
+      "url": "https://yourdomain.com",
+      "image": "https://yourdomain.com/wp-content/uploads/your-photo.jpg",
+      "jobTitle": "SEO Strategist & Outreach Consultant",
+      "description": "Professional SEO consultant, guest posting specialist, and digital marketing educator offering high-impact growth services and free freelancing education.",
+      "sameAs": [
+        "https://www.linkedin.com/in/[your-profile]",
+        "https://www.youtube.com/@[your-channel]",
+        "https://twitter.com/[your-handle]",
+        "https://www.facebook.com/[your-page]"
+      ],
+      "knowsAbout": [
+        "Search Engine Optimization (SEO)",
+        "Guest Posting Outreach",
+        "Technical SEO",
+        "Content Marketing",
+        "Fiverr Gig Ranking",
+        "Freelance Mentorship"
+      ]
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://yourdomain.com/#business",
+      "name": "[Your Brand Name] - SEO & Outreach Consulting",
+      "url": "https://yourdomain.com",
+      "founder": {
+        "@id": "https://yourdomain.com/#person"
+      },
+      "image": "https://yourdomain.com/wp-content/uploads/brand-logo.png",
+      "priceRange": "$$",
+      "currenciesAccepted": "USD, EUR, GBP",
+      "paymentAccepted": "Bank Transfer, Wise, Payoneer, Stripe",
+      "areaServed": [
+        "United States",
+        "United Kingdom",
+        "Canada",
+        "Australia",
+        "Worldwide"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Marketing & Outreach Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Search Engine Optimization (SEO) Services",
+              "description": "Comprehensive technical audits, on-page optimization, and organic search growth strategies."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "High-Authority Guest Posting Services",
+              "description": "Manual outreach securing permanent contextual backlinks on genuine DR 40-80+ blogs with organic traffic."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SEO Content Writing Services",
+              "description": "Search-optimized, human-written pillar guides and commercial articles designed to rank and convert."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Course",
+      "@id": "https://yourdomain.com/free-courses/#course",
+      "name": "Practical SEO, Guest Posting & Fiverr Gig Ranking Mastery",
+      "description": "A comprehensive 100% free practical training course teaching SEO fundamentals, white-hat guest posting outreach, Fiverr gig optimization, and client acquisition.",
+      "provider": {
+        "@id": "https://yourdomain.com/#person"
+      },
+      "educationalCredentialAwarded": "Certificate of Completion",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0.00",
+        "priceCurrency": "USD",
+        "category": "Free Education"
+      },
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "Online",
+        "courseWorkload": "PT2H per week",
+        "instructor": {
+          "@id": "https://yourdomain.com/#person"
+        }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://yourdomain.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do you use Private Blog Networks (PBNs) for guest posting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Never. All guest posting placements are secured via manual outreach to genuine, active blogs with verified Ahrefs organic search traffic and established domain authority. No PBNs, no link farms, and no automated spam."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are your SEO courses and live Zoom sessions really 100% free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, absolutely. All courses, downloadable guides, and weekly Sunday Zoom Q&A sessions are completely free of charge. There are no hidden fees, paid tiers, or upsells."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to see results from an SEO campaign?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "While initial technical fixes and indexation improvements are visible within 2 to 4 weeks, significant organic search traffic and revenue growth typically manifest over 3 to 6 months of consistent strategy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you provide custom guest posting packages for agencies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, I offer white-label guest posting and outreach solutions for digital marketing agencies with bulk reporting and customizable metrics."
+          }
+        }
+      ]
+    }
+  ]
+}
