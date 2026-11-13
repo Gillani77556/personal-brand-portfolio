@@ -4,10 +4,10 @@
   "@graph": [
     {
       "@type": "Person",
-      "@id": "https://yourdomain.com/#person",
+      "@id": "https://personal-brand-portfolio-three.vercel.app/#person",
       "name": "Asim SEO Wala",
-      "url": "https://yourdomain.com",
-      "image": "https://yourdomain.com/wp-content/uploads/your-photo.jpg",
+      "url": "https://personal-brand-portfolio-three.vercel.app",
+      "image": "https://personal-brand-portfolio-three.vercel.app/wp-content/uploads/your-photo.jpg",
       "jobTitle": "SEO Strategist & Outreach Consultant",
       "description": "Professional SEO consultant, guest posting specialist, and digital marketing educator offering high-impact growth services and free freelancing education.",
       "sameAs": [
@@ -27,13 +27,13 @@
     },
     {
       "@type": "ProfessionalService",
-      "@id": "https://yourdomain.com/#business",
+      "@id": "https://personal-brand-portfolio-three.vercel.app/#business",
       "name": "Asim SEO Wala - SEO & Outreach Consulting",
-      "url": "https://yourdomain.com",
+      "url": "https://personal-brand-portfolio-three.vercel.app",
       "founder": {
-        "@id": "https://yourdomain.com/#person"
+        "@id": "https://personal-brand-portfolio-three.vercel.app/#person"
       },
-      "image": "https://yourdomain.com/wp-content/uploads/brand-logo.png",
+      "image": "https://personal-brand-portfolio-three.vercel.app/wp-content/uploads/brand-logo.png",
       "priceRange": "$$",
       "currenciesAccepted": "USD, EUR, GBP",
       "paymentAccepted": "Bank Transfer, Wise, Payoneer, Stripe",
@@ -77,11 +77,11 @@
     },
     {
       "@type": "Course",
-      "@id": "https://yourdomain.com/free-courses/#course",
+      "@id": "https://personal-brand-portfolio-three.vercel.app/free-courses/#course",
       "name": "Practical SEO, Guest Posting & Fiverr Gig Ranking Mastery",
       "description": "A comprehensive 100% free practical training course teaching SEO fundamentals, white-hat guest posting outreach, Fiverr gig optimization, and client acquisition.",
       "provider": {
-        "@id": "https://yourdomain.com/#person"
+        "@id": "https://personal-brand-portfolio-three.vercel.app/#person"
       },
       "educationalCredentialAwarded": "Certificate of Completion",
       "isAccessibleForFree": true,
@@ -96,13 +96,13 @@
         "courseMode": "Online",
         "courseWorkload": "PT2H per week",
         "instructor": {
-          "@id": "https://yourdomain.com/#person"
+          "@id": "https://personal-brand-portfolio-three.vercel.app/#person"
         }
       }
     },
     {
       "@type": "FAQPage",
-      "@id": "https://yourdomain.com/#faq",
+      "@id": "https://personal-brand-portfolio-three.vercel.app/#faq",
       "mainEntity": [
         {
           "@type": "Question",

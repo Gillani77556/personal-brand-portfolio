@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="fav-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#060911"/>
+    </linearGradient>
+    <linearGradient id="fav-accent" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#fav-bg)"/>
+  <rect x="1" y="1" width="62" height="62" rx="15" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+  <!-- Stylized Letter A + SEO Growth Trend -->
+  <path d="M18 46L30 18H34L46 46H39.5L36.8 39.5H27.2L24.5 46H18ZM29.2 34.5H34.8L32 27.5L29.2 34.5Z" fill="#FAFAFA"/>
+  <path d="M38 22L48 16M48 16V24M48 16H40" stroke="url(#fav-accent)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
