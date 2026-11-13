@@ -11,19 +11,22 @@ document.addEventListener('DOMContentLoaded', () => {
   const closeSvg = '<svg class="icon" viewBox="0 0 24 24"><line x1="18" x2="6" y1="6" y2="18"/><line x1="6" x2="18" y1="6" y2="18"/></svg>';
 
   if (mobileToggle && navMenu) {
-    mobileToggle.addEventListener('click', () => {
+    mobileToggle.addEventListener('click', (e) => {
+      e.stopPropagation();
       navMenu.classList.toggle('open');
       const isOpen = navMenu.classList.contains('open');
       mobileToggle.innerHTML = isOpen ? closeSvg : menuSvg;
       mobileToggle.setAttribute('aria-expanded', isOpen);
+      document.body.style.overflow = isOpen ? 'hidden' : '';
     });
 
     // Close mobile menu when regular nav links (not dropdown toggles) are clicked
-    document.querySelectorAll('.nav-link:not(.dropdown-toggle), .dropdown-item a').forEach(link => {
+    document.querySelectorAll('.nav-link:not(.dropdown-toggle), .dropdown-item a, .nav-menu .btn-primary').forEach(link => {
       link.addEventListener('click', () => {
         if (navMenu.classList.contains('open')) {
           navMenu.classList.remove('open');
           mobileToggle.innerHTML = menuSvg;
+          document.body.style.overflow = '';
         }
       });
     });
