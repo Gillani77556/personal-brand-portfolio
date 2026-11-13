@@ -1,9 +1,10 @@
 /**
- * Main JavaScript for Asim SEO Wala PRO - Personal Branding & Portfolio Website
+ * Asim SEO Wala PRO - "Profound" Architectural Interactive Engine
+ * Reverse-Engineered from https://www.tryprofound.com/
  */
 
 document.addEventListener('DOMContentLoaded', () => {
-  // 1. Mobile Menu Toggle with Lucide SVG Icons
+  // 1. Mobile Menu Toggle
   const mobileToggle = document.querySelector('.mobile-toggle');
   const navMenu = document.querySelector('.nav-menu');
 
@@ -18,7 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
       mobileToggle.setAttribute('aria-expanded', isOpen);
     });
 
-    // Close mobile menu when a nav link is clicked
     document.querySelectorAll('.nav-link').forEach(link => {
       link.addEventListener('click', () => {
         if (navMenu.classList.contains('open')) {
@@ -29,20 +29,36 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 2. Sticky Header Elevation on Scroll
-  const siteHeader = document.querySelector('.site-header');
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 40) {
-      siteHeader?.classList.add('scrolled');
-    } else {
-      siteHeader?.classList.remove('scrolled');
-    }
-  });
+  // 2. Interactive Tabbed Execution Showcase ("Prompt-to-Execution" Tabs)
+  const executionTabBtns = document.querySelectorAll('.execution-tab-btn');
+  const tabPanes = document.querySelectorAll('.tab-pane');
 
-  // 3. Dynamic Year in Footer
-  const yearElement = document.getElementById('current-year');
-  if (yearElement) {
-    yearElement.textContent = new Date().getFullYear();
+  if (executionTabBtns.length && tabPanes.length) {
+    executionTabBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const targetTab = btn.getAttribute('data-tab');
+
+        executionTabBtns.forEach(b => b.classList.remove('active'));
+        tabPanes.forEach(p => p.classList.remove('active'));
+
+        btn.classList.add('active');
+        const activePane = document.getElementById(`tab-${targetTab}`);
+        if (activePane) {
+          activePane.classList.add('active');
+        }
+      });
+    });
+  }
+
+  // 3. Workspace Sidebar Interactive Filter
+  const workspaceSidebarItems = document.querySelectorAll('.sidebar-item');
+  if (workspaceSidebarItems.length) {
+    workspaceSidebarItems.forEach(item => {
+      item.addEventListener('click', () => {
+        workspaceSidebarItems.forEach(i => i.classList.remove('active'));
+        item.classList.add('active');
+      });
+    });
   }
 
   // 4. Portfolio Filterable Tabs (if on portfolio page)
@@ -68,12 +84,18 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 5. Contact & Zoom Form Submission Handling (with visual feedback)
+  // 5. Dynamic Year in Footer
+  const yearElement = document.getElementById('current-year');
+  if (yearElement) {
+    yearElement.textContent = new Date().getFullYear();
+  }
+
+  // 6. Contact & Zoom Form Feedback
   const contactForm = document.getElementById('client-inquiry-form');
   if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
       e.preventDefault();
-      alert('Thank you for your project inquiry! Asim will review your website details and reply via email within 12–24 business hours.');
+      alert('Inquiry received! Asim will review your search performance metrics and respond within 12–24 business hours.');
       contactForm.reset();
     });
   }
@@ -82,20 +104,21 @@ document.addEventListener('DOMContentLoaded', () => {
   if (zoomForm) {
     zoomForm.addEventListener('submit', (e) => {
       e.preventDefault();
-      alert('Success! You have been registered for our upcoming Free Sunday Zoom Class. Check your email and WhatsApp for the meeting link.');
+      alert('Confirmed! Your seat for the Free Sunday Live Zoom Class is reserved. Check your email and WhatsApp for the direct session link.');
       zoomForm.reset();
     });
   }
 
-  // 6. Smooth Scroll for Table of Contents
-  document.querySelectorAll('.toc-list a').forEach(anchor => {
+  // 7. Smooth Scroll for Workspace Anchor
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
-      e.preventDefault();
       const targetId = this.getAttribute('href').substring(1);
+      if (!targetId) return;
       const targetElement = document.getElementById(targetId);
       if (targetElement) {
+        e.preventDefault();
         window.scrollTo({
-          top: targetElement.offsetTop - 90,
+          top: targetElement.offsetTop - 85,
           behavior: 'smooth'
         });
       }
