@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
       mobileToggle.setAttribute('aria-expanded', isOpen);
     });
 
-    // Close mobile menu when a nav link is clicked
-    document.querySelectorAll('.nav-link').forEach(link => {
+    // Close mobile menu when regular nav links (not dropdown toggles) are clicked
+    document.querySelectorAll('.nav-link:not(.dropdown-toggle), .dropdown-item a').forEach(link => {
       link.addEventListener('click', () => {
         if (navMenu.classList.contains('open')) {
           navMenu.classList.remove('open');
@@ -28,6 +28,37 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   }
+
+  // 1B. Dropdown Click Toggle (Desktop & Mobile)
+  document.querySelectorAll('.has-dropdown').forEach(dropdown => {
+    const toggle = dropdown.querySelector('.dropdown-toggle');
+    if (toggle) {
+      toggle.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const isOpen = dropdown.classList.contains('dropdown-open');
+        
+        // Close other dropdowns if any
+        document.querySelectorAll('.has-dropdown').forEach(d => {
+          if (d !== dropdown) d.classList.remove('dropdown-open');
+        });
+
+        dropdown.classList.toggle('dropdown-open', !isOpen);
+        toggle.setAttribute('aria-expanded', !isOpen ? 'true' : 'false');
+      });
+    }
+  });
+
+  // Close dropdown when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.has-dropdown')) {
+      document.querySelectorAll('.has-dropdown').forEach(d => {
+        d.classList.remove('dropdown-open');
+        const toggle = d.querySelector('.dropdown-toggle');
+        if (toggle) toggle.setAttribute('aria-expanded', 'false');
+      });
+    }
+  });
 
   // 2. Sticky Header Elevation on Scroll
   const siteHeader = document.querySelector('.site-header');

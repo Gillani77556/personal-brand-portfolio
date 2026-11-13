@@ -24,12 +24,45 @@
       <ul class="nav-menu">
         <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
         <li class="nav-item"><a href="about.html" class="nav-link">About Asim</a></li>
-        <li class="nav-item">
-          <a href="services.html" class="nav-link">Services ▾</a>
+        <li class="nav-item has-dropdown">
+          <button type="button" class="nav-link dropdown-toggle" aria-expanded="false">
+            <span>Services</span>
+            <svg class="icon dropdown-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
           <ul class="dropdown-menu">
-            <li class="dropdown-item"><a href="services-seo.html">SEO Services</a></li>
-            <li class="dropdown-item"><a href="services-guest-posting.html">Guest Posting</a></li>
-            <li class="dropdown-item"><a href="services-content-writing.html">Content Writing</a></li>
+            <li class="dropdown-item">
+              <a href="services-seo.html">
+                <span style="display: flex; align-items: center; gap: 8px;">
+                  <svg class="icon" viewBox="0 0 24 24" style="color: var(--c-emerald-400); width: 16px; height: 16px;"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                  SEO Services
+                </span>
+                <svg class="icon" viewBox="0 0 24 24" style="width: 14px; height: 14px; opacity: 0.5;"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </li>
+            <li class="dropdown-item">
+              <a href="services-guest-posting.html">
+                <span style="display: flex; align-items: center; gap: 8px;">
+                  <svg class="icon" viewBox="0 0 24 24" style="color: var(--c-emerald-400); width: 16px; height: 16px;"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+                  Guest Posting
+                </span>
+                <svg class="icon" viewBox="0 0 24 24" style="width: 14px; height: 14px; opacity: 0.5;"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </li>
+            <li class="dropdown-item">
+              <a href="services-content-writing.html">
+                <span style="display: flex; align-items: center; gap: 8px;">
+                  <svg class="icon" viewBox="0 0 24 24" style="color: var(--c-emerald-400); width: 16px; height: 16px;"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+                  Content Writing
+                </span>
+                <svg class="icon" viewBox="0 0 24 24" style="width: 14px; height: 14px; opacity: 0.5;"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </li>
+            <li class="dropdown-item" style="border-top: 1px solid rgba(255, 255, 255, 0.08); margin-top: 4px; padding-top: 4px;">
+              <a href="services.html" style="color: var(--c-emerald-400); font-weight: 600;">
+                <span>All Services Overview</span>
+                <svg class="icon" viewBox="0 0 24 24" style="width: 14px; height: 14px;"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </li>
           </ul>
         </li>
         <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
