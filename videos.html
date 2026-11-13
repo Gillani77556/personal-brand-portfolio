@@ -3,8 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Videos & YouTube Tutorials | Asim SEO Wala - Free SEO Video Academy</title>
+  <title>Videos & YouTube Tutorials | Asim SEO Wala PRO - Free SEO Video Academy</title>
   <meta name="description" content="Watch free, practical video tutorials on SEO, guest posting outreach, and Fiverr gig ranking on Asim SEO Wala's official YouTube channel.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
@@ -12,11 +15,15 @@
   <!-- Header -->
   <header class="site-header">
     <div class="container nav-container">
-      <a href="index.html" class="site-logo"><span class="logo-brand">Asim</span> <span class="logo-tag">SEO Wala</span><span class="logo-badge">PRO</span></a>
-      <button class="mobile-toggle" aria-label="Toggle navigation">☰</button>
+      <a href="index.html" class="site-logo">
+        <span class="logo-brand">Asim</span> <span class="logo-tag">SEO Wala</span><span class="logo-badge">PRO</span>
+      </a>
+      <button class="mobile-toggle" aria-label="Toggle navigation">
+        <svg class="icon" viewBox="0 0 24 24"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+      </button>
       <ul class="nav-menu">
         <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-        <li class="nav-item"><a href="about.html" class="nav-link">About Me</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link">About Asim</a></li>
         <li class="nav-item">
           <a href="services.html" class="nav-link">Services ▾</a>
           <ul class="dropdown-menu">
@@ -30,22 +37,23 @@
         <li class="nav-item"><a href="blog.html" class="nav-link">Articles</a></li>
         <li class="nav-item"><a href="videos.html" class="nav-link active">Videos & YouTube</a></li>
         <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-        <li class="nav-item"><a href="contact.html" class="btn btn-primary" style="padding: 9px 18px;">Hire Me</a></li>
+        <li class="nav-item"><a href="contact.html" class="btn btn-primary" style="padding: 10px 22px;">Hire Asim</a></li>
       </ul>
     </div>
   </header>
 
   <main>
     <!-- Hero -->
-    <section class="hero-section" style="padding: 60px 0; text-align: center;">
+    <section class="hero-section" style="padding: 80px 0 40px; text-align: center;">
       <div class="container">
-        <span class="section-eyebrow" style="background: rgba(220, 38, 38, 0.1); color: #dc2626;">YOUTUBE VIDEO ACADEMY</span>
-        <h1 style="max-width: 800px; margin: 0 auto 16px;">Learn Through Practical Screen-Share Video Tutorials</h1>
+        <span class="pill-badge" style="background: rgba(239, 68, 68, 0.12); color: #f87171; border-color: rgba(239, 68, 68, 0.35);">YOUTUBE VIDEO ACADEMY</span>
+        <h1 style="max-width: 820px; margin: 0 auto 16px;">Learn Through Practical Screen-Share Video Tutorials</h1>
         <p class="section-subtext" style="margin: 0 auto 30px;">
           Prefer visual learning? Watch full recorded masterclasses, live client audits, and step-by-step freelancing walkthroughs.
         </p>
-        <a href="https://youtube.com" target="_blank" rel="noopener" class="btn btn-primary" style="background: #dc2626; border-color: #dc2626;">
-          Subscribe to My YouTube Channel (Free) &rarr;
+        <a href="https://youtube.com" target="_blank" rel="noopener" class="btn btn-primary" style="background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%); border-color: #ef4444; box-shadow: 0 10px 25px -4px rgba(239, 68, 68, 0.4);">
+          <span>Subscribe to YouTube Channel (Free)</span>
+          <svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
         </a>
       </div>
     </section>
@@ -53,12 +61,12 @@
     <!-- Featured Masterclass -->
     <section style="padding-top: 10px;">
       <div class="container" style="max-width: 900px;">
-        <span class="section-eyebrow">FEATURED MASTERCLASS</span>
+        <span class="pill-badge">FEATURED MASTERCLASS</span>
         <h2 style="margin-bottom: 20px;">Complete SEO Roadmap for Beginners (Zero to First Client)</h2>
-        <div style="background: #000; border-radius: var(--radius-md); overflow: hidden; position: relative; padding-top: 56.25%; box-shadow: var(--shadow-lg);">
+        <div style="background: #000; border-radius: var(--radius-md); overflow: hidden; position: relative; padding-top: 56.25%; border: 1px solid rgba(255,255,255,0.1); box-shadow: var(--shadow-card);">
           <iframe style="position: absolute; top:0; left:0; width:100%; height:100%; border:0;" src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" title="Featured Video Masterclass" allowfullscreen></iframe>
         </div>
-        <p style="color: var(--text-muted); margin-top: 16px; font-size: 1.05rem;">
+        <p style="color: var(--c-slate-300); margin-top: 20px; font-size: 1.05rem; line-height: 1.8;">
           In this 2-hour masterclass, I share my screen to walk you through Google Search Console setup, finding low-competition keywords, performing on-page optimizations, and crafting your first client pitch.
         </p>
       </div>
@@ -67,41 +75,56 @@
     <!-- Video Playlists Grid -->
     <section class="bg-alt">
       <div class="container">
-        <span class="section-eyebrow">VIDEO PLAYLISTS</span>
+        <span class="pill-badge">VIDEO PLAYLISTS</span>
         <h2>Curated Learning Playlists</h2>
 
         <div class="grid-3" style="margin-top: 30px;">
           <!-- Playlist 1 -->
           <div class="card">
-            <div style="height: 180px; background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 3rem; margin-bottom: 16px;">
-              ▶️
+            <div style="height: 160px; background: rgba(239, 68, 68, 0.08); border: 1px solid rgba(239, 68, 68, 0.2); border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+              <svg class="icon" viewBox="0 0 24 24" style="width: 48px; height: 48px; color: #ef4444;"><polygon points="5 3 19 12 5 21 5 3"/></svg>
             </div>
-            <span style="font-size: 0.8rem; font-weight: 800; color: #dc2626;">5 VIDEOS • PLAYLIST</span>
-            <h3 style="margin: 8px 0;">Fiverr Gig Ranking Complete Series</h3>
+            <span class="mono-metric" style="font-size: 0.78rem; font-weight: 800; color: #f87171;">5 VIDEOS • PLAYLIST</span>
+            <h3 class="card-title" style="margin: 10px 0 8px;">Fiverr Gig Ranking Complete Series</h3>
             <p class="card-text">Every step: from account creation and keyword research to thumbnail design and getting first orders.</p>
-            <a href="https://youtube.com" target="_blank" rel="noopener" class="card-action" style="color: #dc2626;">Watch Playlist on YouTube &rarr;</a>
+            <div class="card-action">
+              <a href="https://youtube.com" target="_blank" rel="noopener" class="btn btn-secondary" style="width: 100%; justify-content: space-between;">
+                <span>Watch Playlist</span>
+                <svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
           </div>
 
           <!-- Playlist 2 -->
           <div class="card">
-            <div style="height: 180px; background: linear-gradient(135deg, #065f46 0%, #047857 100%); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 3rem; margin-bottom: 16px;">
-              ▶️
+            <div style="height: 160px; background: rgba(16, 185, 129, 0.08); border: 1px solid rgba(16, 185, 129, 0.2); border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+              <svg class="icon" viewBox="0 0 24 24" style="width: 48px; height: 48px; color: var(--c-emerald-400);"><polygon points="5 3 19 12 5 21 5 3"/></svg>
             </div>
-            <span style="font-size: 0.8rem; font-weight: 800; color: #059669;">6 VIDEOS • PLAYLIST</span>
-            <h3 style="margin: 8px 0;">Manual Guest Post Outreach Training</h3>
+            <span class="mono-metric" style="font-size: 0.78rem; font-weight: 800; color: var(--c-emerald-400);">6 VIDEOS • PLAYLIST</span>
+            <h3 class="card-title" style="margin: 10px 0 8px;">Manual Guest Post Outreach Training</h3>
             <p class="card-text">Live screen recordings showing how to prospect real blogs, scrape editor contacts, and write pitches.</p>
-            <a href="https://youtube.com" target="_blank" rel="noopener" class="card-action" style="color: #059669;">Watch Playlist on YouTube &rarr;</a>
+            <div class="card-action">
+              <a href="https://youtube.com" target="_blank" rel="noopener" class="btn btn-secondary" style="width: 100%; justify-content: space-between;">
+                <span>Watch Playlist</span>
+                <svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
           </div>
 
           <!-- Playlist 3 -->
           <div class="card">
-            <div style="height: 180px; background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 3rem; margin-bottom: 16px;">
-              ▶️
+            <div style="height: 160px; background: rgba(59, 130, 246, 0.08); border: 1px solid rgba(59, 130, 246, 0.2); border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+              <svg class="icon" viewBox="0 0 24 24" style="width: 48px; height: 48px; color: #60a5fa;"><polygon points="5 3 19 12 5 21 5 3"/></svg>
             </div>
-            <span style="font-size: 0.8rem; font-weight: 800; color: var(--secondary);">8 VIDEOS • PLAYLIST</span>
-            <h3 style="margin: 8px 0;">Live Website SEO Audits</h3>
+            <span class="mono-metric" style="font-size: 0.78rem; font-weight: 800; color: #60a5fa;">8 VIDEOS • PLAYLIST</span>
+            <h3 class="card-title" style="margin: 10px 0 8px;">Live Website SEO Audits</h3>
             <p class="card-text">Unfiltered audits of student websites identifying crawl errors, schema mistakes, and quick ranking fixes.</p>
-            <a href="https://youtube.com" target="_blank" rel="noopener" class="card-action">Watch Playlist on YouTube &rarr;</a>
+            <div class="card-action">
+              <a href="https://youtube.com" target="_blank" rel="noopener" class="btn btn-secondary" style="width: 100%; justify-content: space-between;">
+                <span>Watch Playlist</span>
+                <svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -109,10 +132,15 @@
 
     <!-- Weekly Zoom Reminder -->
     <section class="container">
-      <div class="cta-banner-section" style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);">
-        <h2>Want Live Interactive Video Mentorship?</h2>
-        <p>Join our free live Sunday Zoom sessions where you can talk to me directly and share your screen.</p>
-        <a href="free-courses.html#zoom" class="btn btn-accent">Register for Free Sunday Zoom Class</a>
+      <div class="card" style="background: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(99, 102, 241, 0.25) 0%, transparent 70%), rgba(11, 17, 32, 0.95); border-color: rgba(99, 102, 241, 0.35); text-align: center; padding: 60px 32px;">
+        <h2 style="font-size: clamp(2rem, 3.8vw, 2.6rem); margin-bottom: 16px;">Want Live Interactive Video Mentorship?</h2>
+        <p style="color: var(--c-slate-300); font-size: 1.15rem; max-width: 620px; margin: 0 auto 32px;">Join our free live Sunday Zoom sessions where you can talk to Asim directly and share your screen.</p>
+        <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+          <a href="free-courses.html#zoom" class="btn btn-primary" style="padding: 14px 28px;">
+            <span>Register for Free Sunday Zoom Class</span>
+            <svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
       </div>
     </section>
   </main>
@@ -121,8 +149,8 @@
   <footer class="site-footer">
     <div class="container">
       <div class="footer-bottom" style="border: none; padding-top: 0;">
-        <div>© <span id="current-year">2026</span> Asim SEO Wala. All Rights Reserved.</div>
-        <div><a href="index.html">Back to Homepage</a></div>
+        <div>© <span id="current-year">2026</span> Asim SEO Wala PRO. All Rights Reserved.</div>
+        <div><a href="index.html">Back to Homepage &rarr;</a></div>
       </div>
     </div>
   </footer>

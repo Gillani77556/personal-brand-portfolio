@@ -1,17 +1,20 @@
 /**
- * Main JavaScript for Personal Branding & Portfolio Website
+ * Main JavaScript for Asim SEO Wala PRO - Personal Branding & Portfolio Website
  */
 
 document.addEventListener('DOMContentLoaded', () => {
-  // 1. Mobile Menu Toggle
+  // 1. Mobile Menu Toggle with Lucide SVG Icons
   const mobileToggle = document.querySelector('.mobile-toggle');
   const navMenu = document.querySelector('.nav-menu');
+
+  const menuSvg = '<svg class="icon" viewBox="0 0 24 24"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>';
+  const closeSvg = '<svg class="icon" viewBox="0 0 24 24"><line x1="18" x2="6" y1="6" y2="18"/><line x1="6" x2="18" y1="6" y2="18"/></svg>';
 
   if (mobileToggle && navMenu) {
     mobileToggle.addEventListener('click', () => {
       navMenu.classList.toggle('open');
       const isOpen = navMenu.classList.contains('open');
-      mobileToggle.innerHTML = isOpen ? '✕' : '☰';
+      mobileToggle.innerHTML = isOpen ? closeSvg : menuSvg;
       mobileToggle.setAttribute('aria-expanded', isOpen);
     });
 
@@ -20,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
       link.addEventListener('click', () => {
         if (navMenu.classList.contains('open')) {
           navMenu.classList.remove('open');
-          mobileToggle.innerHTML = '☰';
+          mobileToggle.innerHTML = menuSvg;
         }
       });
     });
@@ -70,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
       e.preventDefault();
-      alert('Thank you for your project inquiry! I will review your website details and reply via email within 12–24 business hours.');
+      alert('Thank you for your project inquiry! Asim will review your website details and reply via email within 12–24 business hours.');
       contactForm.reset();
     });
   }
