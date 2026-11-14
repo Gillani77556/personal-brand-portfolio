@@ -4,6 +4,32 @@
   "trailingSlash": false,
   "headers": [
     {
+      "source": "/asim-seowala-elementor-template.json",
+      "headers": [
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=\"asim-seowala-elementor-template.json\""
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        }
+      ]
+    },
+    {
+      "source": "/asim-seowala-portfolio.zip",
+      "headers": [
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=\"asim-seowala-portfolio.zip\""
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/zip"
+        }
+      ]
+    },
+    {
       "source": "/(.*)",
       "headers": [
         {
@@ -31,3 +57,4 @@
     }
   ]
 }
+
