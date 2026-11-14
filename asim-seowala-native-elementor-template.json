@@ -1,0 +1,2765 @@
+{
+  "version": "0.4",
+  "title": "Asim SEO Wala - 100% Native Elementor Master Template",
+  "type": "page",
+  "content": [
+    {
+      "id": "8fd57f9",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "📌 01. Header & Brand Navigation",
+        "background_background": "classic",
+        "background_color": "#060911",
+        "padding": {
+          "unit": "px",
+          "top": "16",
+          "right": "24",
+          "bottom": "16",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "defaultEditSettings": {
+        "defaultEditRoute": "content"
+      },
+      "elements": [
+        {
+          "id": "84c3114",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 30,
+            "_inline_size": null
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "192e93c",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://personal-brand-portfolio-three.vercel.app/assets/images/logo.svg",
+                  "id": ""
+                },
+                "image_size": "custom",
+                "image_custom_dimension": {
+                  "width": 180,
+                  "height": 45
+                },
+                "align": "left",
+                "link_to": "custom",
+                "link": {
+                  "url": "#top",
+                  "is_external": false,
+                  "nofollow": false
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "7951d5d",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": null
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "6066508",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n        <div style=\"display: flex; gap: 20px; align-items: center; justify-content: center; font-weight: 500; font-size: 15px;\">\n          <a href=\"#about\" style=\"color: #cbd5e1; text-decoration: none;\">About</a>\n          <a href=\"#services\" style=\"color: #cbd5e1; text-decoration: none;\">Services</a>\n          <a href=\"#results\" style=\"color: #cbd5e1; text-decoration: none;\">Results</a>\n          <a href=\"#reviews\" style=\"color: #cbd5e1; text-decoration: none;\">Reviews</a>\n          <a href=\"#courses\" style=\"color: #cbd5e1; text-decoration: none;\">Free Academy</a>\n          <a href=\"#faq\" style=\"color: #cbd5e1; text-decoration: none;\">FAQ</a>\n          <a href=\"#contact\" style=\"color: #cbd5e1; text-decoration: none;\">Contact</a>\n        </div>\n        ",
+                "align": "center"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "45441b8",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 20,
+            "_inline_size": null
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "be40ad2",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Hire Me →",
+                "link": {
+                  "url": "#contact",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "align": "right",
+                "background_color": "#10b981",
+                "button_text_color": "#ffffff",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "8",
+                  "bottom": "8",
+                  "left": "8",
+                  "isLinked": true
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2095cfa",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "🚀 02. Hero Showcase Section",
+        "background_background": "classic",
+        "background_color": "#060911",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "defaultEditSettings": {
+        "defaultEditRoute": "content"
+      },
+      "elements": [
+        {
+          "id": "993ff3f",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 55,
+            "_inline_size": null
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "89d118d",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "🟢 AVAILABLE FOR 2 NEW SEO RETAINERS",
+                "header_size": "h5",
+                "align": "left",
+                "title_color": "#10b981",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13,
+                  "sizes": []
+                },
+                "typography_font_weight": "700"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "b024807",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Grow Your Organic Traffic and Revenue With Asim SEO Wala",
+                "header_size": "h1",
+                "align": "left",
+                "title_color": "#f8fafc",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 46,
+                  "sizes": []
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.15,
+                  "sizes": []
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "233d2fb",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='font-size: 1.1rem; line-height: 1.6; color: #94a3b8;'>100% White-Hat Search Strategy, High-Intent Keyword Targeting, and Real Business Growth—Zero Fluff, Zero Spam.</p>",
+                "align": "left"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "3f052ac",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Audit My Website Free →",
+                "link": {
+                  "url": "#contact",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "align": "left",
+                "background_color": "#10b981",
+                "button_text_color": "#ffffff",
+                "size": "md",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "8",
+                  "bottom": "8",
+                  "left": "8",
+                  "isLinked": true
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "bbcd760",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style='margin-top: 15px; color: #cbd5e1; font-size: 0.95rem;'>⭐⭐⭐⭐⭐ <strong style='color:#f8fafc;'>4.9/5 Rating</strong> · 50+ Verified Client Reviews · Upwork Top Rated</div>",
+                "align": "left"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "98ae069",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 45,
+            "_inline_size": null
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "eff1e03",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://personal-brand-portfolio-three.vercel.app/assets/images/asim-hero-headshot.webp",
+                  "id": ""
+                },
+                "image_size": "full",
+                "align": "center",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "3ea2f63",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n        <div style=\"background: rgba(15, 23, 42, 0.85); border: 1px solid rgba(16, 185, 129, 0.4); border-radius: 12px; padding: 14px 20px; margin-top: 15px; display: flex; justify-content: space-between; align-items: center;\">\n          <div>\n            <div style=\"color: #10b981; font-weight: 800; font-size: 1.25rem;\">+340% Traffic</div>\n            <div style=\"color: #94a3b8; font-size: 0.85rem;\">SaaS Ranking Case Study</div>\n          </div>\n          <div style=\"text-align: right;\">\n            <div style=\"color: #38bdf8; font-weight: 800; font-size: 1.25rem;\">100% White-Hat</div>\n            <div style=\"color: #94a3b8; font-size: 0.85rem;\">Pure Manual Outreach</div>\n          </div>\n        </div>\n        "
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "579bdd1",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "📊 03. Trust & Experience Stats",
+        "background_background": "classic",
+        "background_color": "#080d1a",
+        "padding": {
+          "unit": "px",
+          "top": "40",
+          "right": "20",
+          "bottom": "40",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "defaultEditSettings": {
+        "defaultEditRoute": "content"
+      },
+      "elements": [
+        {
+          "id": "af4e7b6",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": null,
+            "background_color": "#0b1120",
+            "padding": {
+              "unit": "px",
+              "top": "24",
+              "right": "16",
+              "bottom": "24",
+              "left": "16",
+              "isLinked": true
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "f40c724",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "counter",
+              "settings": {
+                "starting_number": 0,
+                "ending_number": 8,
+                "suffix": "+",
+                "title": "Years Experience",
+                "number_color": "#10b981",
+                "title_color": "#cbd5e1"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "1982bc2",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": null,
+            "background_color": "#0b1120",
+            "padding": {
+              "unit": "px",
+              "top": "24",
+              "right": "16",
+              "bottom": "24",
+              "left": "16",
+              "isLinked": true
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "0d7f953",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "counter",
+              "settings": {
+                "starting_number": 0,
+                "ending_number": 150,
+                "suffix": "+",
+                "title": "Delivered Projects",
+                "number_color": "#38bdf8",
+                "title_color": "#cbd5e1"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "774f021",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": null,
+            "background_color": "#0b1120",
+            "padding": {
+              "unit": "px",
+              "top": "24",
+              "right": "16",
+              "bottom": "24",
+              "left": "16",
+              "isLinked": true
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "36bad5b",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "counter",
+              "settings": {
+                "starting_number": 0,
+                "ending_number": 25,
+                "suffix": "M+",
+                "title": "Organic Visitors",
+                "number_color": "#10b981",
+                "title_color": "#cbd5e1"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "44e018c",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": null,
+            "background_color": "#0b1120",
+            "padding": {
+              "unit": "px",
+              "top": "24",
+              "right": "16",
+              "bottom": "24",
+              "left": "16",
+              "isLinked": true
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "cf21317",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "counter",
+              "settings": {
+                "starting_number": 0,
+                "ending_number": 100,
+                "suffix": "%",
+                "title": "White-Hat Safe",
+                "number_color": "#38bdf8",
+                "title_color": "#cbd5e1"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f858f1c",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "👨‍💻 04. About Asim & Mission",
+        "background_background": "classic",
+        "background_color": "#060911",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "20",
+          "bottom": "70",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "defaultEditSettings": {
+        "defaultEditRoute": "content"
+      },
+      "elements": [
+        {
+          "id": "ddd04cc",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": null
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "0c7bacd",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "WHO I AM & WHAT I STAND FOR",
+                "header_size": "h5",
+                "title_color": "#10b981",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13,
+                  "sizes": []
+                },
+                "typography_font_weight": "700"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "3cc052d",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Search Strategy Backed by Real Experience, Not Theory",
+                "header_size": "h2",
+                "title_color": "#f8fafc",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 34,
+                  "sizes": []
+                },
+                "typography_font_weight": "800"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "c5657f0",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n        <p style=\"color: #cbd5e1; font-size: 1.05rem; line-height: 1.7;\">\n          I built my career on two simple commitments: helping international businesses grow their organic search revenue, and teaching practical freelancing skills to upcoming talent across Pakistan and beyond completely free of charge.\n        </p>\n        <p style=\"color: #94a3b8; font-size: 1rem; line-height: 1.6;\">\n          Starting with just a laptop, I tested Google search algorithms across hundreds of sites. I learned what truly moves rankings—sound technical foundations, high-intent content, and real editorial outreach—and rejected cheap spam tactics like PBNs and link farms.\n        </p>\n        <ul style=\"color: #cbd5e1; line-height: 1.8; margin-top: 15px;\">\n          <li><strong style=\"color: #10b981;\">✓ 100% Manual Blogger Outreach</strong> (Zero PBN networks)</li>\n          <li><strong style=\"color: #10b981;\">✓ Transparent Monthly Analytics</strong> (Ahrefs & Search Console)</li>\n          <li><strong style=\"color: #10b981;\">✓ Direct Communication</strong> (No junior account managers)</li>\n          <li><strong style=\"color: #10b981;\">✓ Free Community Mentorship</strong> (Giving back to upcoming youth)</li>\n        </ul>\n        "
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "0626597",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": null
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "5e8244c",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://personal-brand-portfolio-three.vercel.app/assets/images/asim-executive-desk.webp",
+                  "id": ""
+                },
+                "image_size": "full",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "12",
+                  "bottom": "12",
+                  "left": "12",
+                  "isLinked": true
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "92ce6fe",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://personal-brand-portfolio-three.vercel.app/assets/images/asim-china-expo.webp",
+                  "id": ""
+                },
+                "image_size": "full",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "12",
+                  "bottom": "12",
+                  "left": "12",
+                  "isLinked": true
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ddaca82",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "⚡ 05A. Services Header",
+        "background_background": "classic",
+        "background_color": "#0b1120",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "10",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "defaultEditSettings": {
+        "defaultEditRoute": "content"
+      },
+      "elements": [
+        {
+          "id": "88d5533",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "2a74b1f",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "SERVICES & DELIVERABLES",
+                "header_size": "h5",
+                "align": "center",
+                "title_color": "#10b981",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13,
+                  "sizes": []
+                },
+                "typography_font_weight": "700"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "4903902",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "How I Help Your Business Grow on Google",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#f8fafc",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 34,
+                  "sizes": []
+                },
+                "typography_font_weight": "800"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "f7cbbb3",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center; color: #94a3b8; max-width: 650px; margin: 0 auto 30px;'>Targeted search engine optimization designed to generate real paying customers, not just vanity rankings.</p>",
+                "align": "center"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b340798",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "⚡ 05B. Three Core Services Grid",
+        "background_background": "classic",
+        "background_color": "#0b1120",
+        "padding": {
+          "unit": "px",
+          "top": "10",
+          "right": "20",
+          "bottom": "60",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "defaultEditSettings": {
+        "defaultEditRoute": "content"
+      },
+      "elements": [
+        {
+          "id": "93f7595",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "faab1f3",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "🔍 Full-Stack SEO Strategy",
+                "header_size": "h3",
+                "title_color": "#f8fafc",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22,
+                  "sizes": []
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "8405aa0",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n        <p style=\"color: #94a3b8; font-size: 0.95rem;\">Technical audits, Core Web Vitals remediation, keyword architecture, and on-page optimization built for sustainable search growth.</p>\n        <ul style=\"color: #cbd5e1; font-size: 0.9rem; line-height: 1.8; padding-left: 18px;\">\n          <li>Full Technical Crawl & Audit</li>\n          <li>Competitor Keyword Gap Analysis</li>\n          <li>On-Page & Schema Architecture</li>\n          <li>Monthly Traffic & Ranking Reports</li>\n        </ul>\n        "
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "4bcefd7",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Inquire About SEO →",
+                "link": {
+                  "url": "#contact",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "background_color": "#10b981",
+                "button_text_color": "#ffffff",
+                "align": "center",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "6",
+                  "right": "6",
+                  "bottom": "6",
+                  "left": "6",
+                  "isLinked": true
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "a5f250b",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "36e990a",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "🔗 Authority Guest Posting",
+                "header_size": "h3",
+                "title_color": "#f8fafc",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22,
+                  "sizes": []
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "1032d8b",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n        <p style=\"color: #94a3b8; font-size: 0.95rem;\">100% manual, pitch-based editorial link outreach to real websites with verified organic search traffic. Zero PBNs or link farms.</p>\n        <ul style=\"color: #cbd5e1; font-size: 0.9rem; line-height: 1.8; padding-left: 18px;\">\n          <li>Pure Manual Blogger Outreach</li>\n          <li>Ahrefs DR 40–80+ Real Traffic Sites</li>\n          <li>DoFollow Contextual Placements</li>\n          <li>Permanent Indexing Guarantee</li>\n        </ul>\n        "
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "c8bca34",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Order Guest Posts →",
+                "link": {
+                  "url": "#contact",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "background_color": "#10b981",
+                "button_text_color": "#ffffff",
+                "align": "center",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "6",
+                  "right": "6",
+                  "bottom": "6",
+                  "left": "6",
+                  "isLinked": true
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "ec98f41",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "2934e3d",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "✍️ Conversion Content Writing",
+                "header_size": "h3",
+                "title_color": "#f8fafc",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22,
+                  "sizes": []
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "3061f8a",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n        <p style=\"color: #94a3b8; font-size: 0.95rem;\">Human-crafted, research-backed copy designed to rank high on search engines while converting readers into paying customers.</p>\n        <ul style=\"color: #cbd5e1; font-size: 0.9rem; line-height: 1.8; padding-left: 18px;\">\n          <li>Commercial Intent Keyword Mapping</li>\n          <li>Surfer / NLP Term Optimization</li>\n          <li>Native English (Zero AI Jargon)</li>\n          <li>Compelling Lead Conversion CTAs</li>\n        </ul>\n        "
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "d97f6c9",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Get Content Strategy →",
+                "link": {
+                  "url": "#contact",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "background_color": "#10b981",
+                "button_text_color": "#ffffff",
+                "align": "center",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "6",
+                  "right": "6",
+                  "bottom": "6",
+                  "left": "6",
+                  "isLinked": true
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1c1a0b",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "📈 06. Verified Case Studies & Results",
+        "background_background": "classic",
+        "background_color": "#060911",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "20",
+          "bottom": "70",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "defaultEditSettings": {
+        "defaultEditRoute": "content"
+      },
+      "elements": [
+        {
+          "id": "b9be316",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "aab8fc0",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "+340% Traffic",
+                "header_size": "h2",
+                "title_color": "#10b981"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "1c8ce2e",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "B2B SaaS Platform (San Francisco)",
+                "header_size": "h4",
+                "title_color": "#f8fafc"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "d85d27e",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #94a3b8;'>Scaled organic search from 0 to 85,000 monthly visitors in 7 months through high-intent comparison keywords and authoritative SaaS outreach.</p>"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "781d0e8",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "f8bb0d9",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "+215% Revenue",
+                "header_size": "h2",
+                "title_color": "#38bdf8"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "180ef58",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "E-Commerce Fashion Store (UK)",
+                "header_size": "h4",
+                "title_color": "#f8fafc"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "4f7c037",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #94a3b8;'>Achieved top-3 Google rankings for 18 competitive commercial keywords, driving an organic sales boost in 5 months of clean technical execution.</p>"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "7623ea7",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "3a39af0",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "1.2M Impressions",
+                "header_size": "h2",
+                "title_color": "#10b981"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "e57cff9",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Tech Media & Publisher (Canada)",
+                "header_size": "h4",
+                "title_color": "#f8fafc"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "90a7bf5",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #94a3b8;'>Structured topic clusters and Core Web Vitals remediation, producing a +450% traffic surge and doubling display and affiliate revenues.</p>"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "372e695",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "⭐ 07. International Client Reviews",
+        "background_background": "classic",
+        "background_color": "#0b1120",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "20",
+          "bottom": "70",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "defaultEditSettings": {
+        "defaultEditRoute": "content"
+      },
+      "elements": [
+        {
+          "id": "2f42285",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "18327dd",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "testimonial",
+              "settings": {
+                "testimonial_content": "Asim completely transformed our organic search pipeline. His technical audit uncovered issues three previous agencies missed, and his manual guest posting earned us authoritative mentions that actually move the needle.",
+                "testimonial_name": "Mark R.",
+                "testimonial_job": "SaaS Founder, San Francisco",
+                "name_color": "#f8fafc",
+                "job_color": "#10b981",
+                "content_color": "#cbd5e1"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "4990d80",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "3698fc4",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "testimonial",
+              "settings": {
+                "testimonial_content": "The guest posting outreach Asim handles is the cleanest in the industry. Real sites with actual traffic, completely transparent spreadsheets, and zero PBN fluff. Our organic revenue jumped by 215%.",
+                "testimonial_name": "Sarah Jenkins",
+                "testimonial_job": "E-commerce Director, UK",
+                "name_color": "#f8fafc",
+                "job_color": "#10b981",
+                "content_color": "#cbd5e1"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "7f8ac7a",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "189fc4f",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "testimonial",
+              "settings": {
+                "testimonial_content": "Finding a reliable SEO partner who doesn't rely on PBNs or buzzwords is rare. Asim's strategic guidance doubled our ad revenue and scaled our organic impressions to over 1.2 million a month.",
+                "testimonial_name": "David Chen",
+                "testimonial_job": "Managing Editor, Toronto",
+                "name_color": "#f8fafc",
+                "job_color": "#10b981",
+                "content_color": "#cbd5e1"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1afa205",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "🎓 08. Free Learning Academy & Live Mentorship",
+        "background_background": "classic",
+        "background_color": "#060911",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "20",
+          "bottom": "70",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "defaultEditSettings": {
+        "defaultEditRoute": "content"
+      },
+      "elements": [
+        {
+          "id": "1645c25",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 60,
+            "_inline_size": null
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "407fa24",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "FREE EDUCATION PLATFORM",
+                "header_size": "h5",
+                "title_color": "#10b981",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13,
+                  "sizes": []
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "dba7da1",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Learn SEO and Freelancing for Free",
+                "header_size": "h2",
+                "title_color": "#f8fafc",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32,
+                  "sizes": []
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "f0c2893",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n        <p style=\"color: #cbd5e1; font-size: 1.05rem;\">\n          I believe knowledge should be accessible to everyone. Through free video tutorials in Urdu/Hindi and weekly Sunday live Zoom sessions, I teach upcoming freelancers and business owners how to master Google search without paying thousands for guru courses.\n        </p>\n        <ul style=\"color: #94a3b8; line-height: 1.8;\">\n          <li>✓ 100% Free Urdu/Hindi Video Tutorials</li>\n          <li>✓ Weekly Live Sunday Zoom Mentorship & Q&A</li>\n          <li>✓ Practical Client Closing & Outreach Blueprints</li>\n          <li>✓ Zero Paid Courses, Zero Hidden Funnels</li>\n        </ul>\n        "
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "c25c1c7",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 40,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "2ba0659",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "📅 Weekly Sunday Live Zoom Class",
+                "header_size": "h3",
+                "title_color": "#f8fafc"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "41576a5",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n        <p style=\"color: #cbd5e1;\">Every Sunday at 8:00 PM PKT. Live site audits, student questions, and freelancing career guidance.</p>\n        <div style=\"background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 8px; padding: 12px; margin-bottom: 16px;\">\n          <strong style=\"color: #10b981;\">100% Free Entry</strong> · Open to All Students\n        </div>\n        "
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "8d1ad8b",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Join Free Sunday Class →",
+                "link": {
+                  "url": "#contact",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "background_color": "#10b981",
+                "button_text_color": "#ffffff",
+                "align": "center",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "6",
+                  "right": "6",
+                  "bottom": "6",
+                  "left": "6",
+                  "isLinked": true
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eb70e28",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "🎥 09. Video Tutorials Showcase",
+        "background_background": "classic",
+        "background_color": "#0b1120",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "20",
+          "bottom": "70",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "defaultEditSettings": {
+        "defaultEditRoute": "content"
+      },
+      "elements": [
+        {
+          "id": "b4734ac",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "6f6d3f6",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "🎥 Fiverr Gig Ranking 2026 Blueprint",
+                "header_size": "h4",
+                "title_color": "#f8fafc"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "6263cb4",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #94a3b8;'>Step-by-step video breakdown showing how to research low-competition Fiverr keywords, structure gig packages, and gain initial orders without artificial reviews.</p>"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "ddef61e",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Watch Video Tutorial →",
+                "link": {
+                  "url": "https://youtube.com",
+                  "is_external": true,
+                  "nofollow": true
+                },
+                "background_color": "rgba(255, 255, 255, 0.08)",
+                "button_text_color": "#cbd5e1"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "568210f",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "dfb33f7",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "🎥 Cold Email Guest Post Outreach Demo",
+                "header_size": "h4",
+                "title_color": "#f8fafc"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "8eee84b",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #94a3b8;'>Live screen-recording demonstrating how to find real editor contact information, craft personalized pitches, and secure high DR backlinks on genuine publications.</p>"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "5baee2a",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Watch Video Tutorial →",
+                "link": {
+                  "url": "https://youtube.com",
+                  "is_external": true,
+                  "nofollow": true
+                },
+                "background_color": "rgba(255, 255, 255, 0.08)",
+                "button_text_color": "#cbd5e1"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d541fbd",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "❓ 10. Frequently Asked Questions (FAQ)",
+        "background_background": "classic",
+        "background_color": "#060911",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "20",
+          "bottom": "70",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "defaultEditSettings": {
+        "defaultEditRoute": "content"
+      },
+      "elements": [
+        {
+          "id": "65a8e60",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "786aa7a",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "CLIENT FAQ",
+                "header_size": "h5",
+                "align": "center",
+                "title_color": "#10b981",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13,
+                  "sizes": []
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "e82e1a6",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Frequently Asked Questions by Clients",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#f8fafc",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 34,
+                  "sizes": []
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "eb17c7d",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "accordion",
+              "settings": {
+                "tabs": [
+                  {
+                    "_id": "faq_01",
+                    "tab_title": "Do you use Private Blog Networks (PBNs) or automated link schemes?",
+                    "tab_content": "Never. Every single guest post and backlink is secured through 100% manual, personalized blogger outreach to real, active websites with verified organic search traffic (Ahrefs DR 40–80+). Zero PBNs, zero link farms, and zero algorithmic risk."
+                  },
+                  {
+                    "_id": "faq_02",
+                    "tab_title": "How long does it take to see measurable SEO ranking improvements?",
+                    "tab_content": "Technical fixes, Core Web Vitals remediation, and indexation corrections produce noticeable Search Console gains within 2 to 4 weeks. Competitive commercial keyword jumps and scalable organic revenue compounding typically mature over 3 to 6 months of steady execution."
+                  },
+                  {
+                    "_id": "faq_03",
+                    "tab_title": "What payment methods and currencies do you support for international clients?",
+                    "tab_content": "We accommodate global clients with flexible invoicing in USD, EUR, GBP, and PKR. Payments can be processed securely via Wise (formerly TransferWise), Payoneer, Direct International Bank Wire, or Stripe."
+                  },
+                  {
+                    "_id": "faq_04",
+                    "tab_title": "Do you offer white-label guest posting and SEO services for digital agencies?",
+                    "tab_content": "Yes. We act as a dedicated outreach backend for multiple marketing agencies across the US, UK, and Australia. We deliver unbranded, white-label client spreadsheets, live URL verification reports, and customized anchor text strategies."
+                  },
+                  {
+                    "_id": "faq_05",
+                    "tab_title": "Are there long-term lock-in contracts?",
+                    "tab_content": "No lock-in contracts. Client retainers operate on a month-to-month basis with transparent deliverables, and guest posting packages can be purchased as one-time campaigns or ongoing monthly orders."
+                  }
+                ],
+                "title_color": "#f8fafc",
+                "tab_active_color": "#10b981",
+                "content_color": "#cbd5e1"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dca9bb3",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "📬 11. Contact & Lead Consultation",
+        "background_background": "classic",
+        "background_color": "#0b1120",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "20",
+          "bottom": "70",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "defaultEditSettings": {
+        "defaultEditRoute": "content"
+      },
+      "elements": [
+        {
+          "id": "69bcee8",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 45,
+            "_inline_size": null
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "d09befe",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "GET IN TOUCH",
+                "header_size": "h5",
+                "title_color": "#10b981",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13,
+                  "sizes": []
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "e40bd57",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Ready to Grow Your Website Traffic on Google?",
+                "header_size": "h2",
+                "title_color": "#f8fafc",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32,
+                  "sizes": []
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "51beaed",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n        <p style=\"color: #cbd5e1; font-size: 1.05rem; line-height: 1.6;\">\n          Whether you need a dedicated SEO strategist, a high-authority guest posting campaign, or compelling conversion copy, I am ready to help.\n        </p>\n        <p style=\"color: #94a3b8; margin-top: 15px;\">\n          ⚡ <strong style=\"color: #f8fafc;\">Response Guarantee:</strong> Direct reply within 12–24 business hours.<br>\n          📧 <strong style=\"color: #f8fafc;\">Direct Email:</strong> asimseowala@gmail.com\n        </p>\n        "
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "7c14f0a",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "💬 Chat on WhatsApp Instantly →",
+                "link": {
+                  "url": "https://wa.me/?text=Hi%20Asim%2C%20I%20am%20interested%20in%20SEO%20and%20ranking%20for%20my%20website",
+                  "is_external": true,
+                  "nofollow": false
+                },
+                "background_color": "#10b981",
+                "button_text_color": "#ffffff",
+                "size": "lg",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "8",
+                  "bottom": "8",
+                  "left": "8",
+                  "isLinked": true
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "e790c79",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 55,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "e0788b5",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Send a Project Inquiry",
+                "header_size": "h3",
+                "title_color": "#f8fafc"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "dcf9d82",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n        <form id=\"client-inquiry-form\" style=\"display: flex; flex-direction: column; gap: 14px; margin-top: 16px;\">\n          <div>\n            <label style=\"color: #cbd5e1; font-size: 0.9rem; font-weight: 600; display: block; margin-bottom: 6px;\">Your Full Name</label>\n            <input type=\"text\" placeholder=\"e.g. John Doe\" style=\"width: 100%; background: #0b1120; border: 1px solid rgba(255,255,255,0.12); color: #f8fafc; padding: 12px 14px; border-radius: 8px;\" required>\n          </div>\n          <div>\n            <label style=\"color: #cbd5e1; font-size: 0.9rem; font-weight: 600; display: block; margin-bottom: 6px;\">Business Email</label>\n            <input type=\"email\" placeholder=\"e.g. john@company.com\" style=\"width: 100%; background: #0b1120; border: 1px solid rgba(255,255,255,0.12); color: #f8fafc; padding: 12px 14px; border-radius: 8px;\" required>\n          </div>\n          <div>\n            <label style=\"color: #cbd5e1; font-size: 0.9rem; font-weight: 600; display: block; margin-bottom: 6px;\">Website URL</label>\n            <input type=\"url\" placeholder=\"https://yourwebsite.com\" style=\"width: 100%; background: #0b1120; border: 1px solid rgba(255,255,255,0.12); color: #f8fafc; padding: 12px 14px; border-radius: 8px;\">\n          </div>\n          <div>\n            <label style=\"color: #cbd5e1; font-size: 0.9rem; font-weight: 600; display: block; margin-bottom: 6px;\">Service Needed</label>\n            <select style=\"width: 100%; background: #0b1120; border: 1px solid rgba(255,255,255,0.12); color: #f8fafc; padding: 12px 14px; border-radius: 8px;\">\n              <option>Full-Stack SEO Strategy</option>\n              <option>High-Authority Guest Posting</option>\n              <option>Conversion Content Writing</option>\n              <option>Free Initial Website Audit</option>\n            </select>\n          </div>\n          <div>\n            <label style=\"color: #cbd5e1; font-size: 0.9rem; font-weight: 600; display: block; margin-bottom: 6px;\">Project Goals & Details</label>\n            <textarea rows=\"4\" placeholder=\"Tell me about your current rankings, target audience, and monthly revenue goals...\" style=\"width: 100%; background: #0b1120; border: 1px solid rgba(255,255,255,0.12); color: #f8fafc; padding: 12px 14px; border-radius: 8px;\" required></textarea>\n          </div>\n          <button type=\"submit\" style=\"background: #10b981; color: #fff; font-weight: 700; font-size: 1rem; padding: 14px; border: none; border-radius: 8px; cursor: pointer; margin-top: 8px;\">Send Project Inquiry →</button>\n        </form>\n        "
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "47e3344",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "📜 12. Legal Policies & Disclaimers",
+        "background_background": "classic",
+        "background_color": "#060911",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "20",
+          "bottom": "70",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "defaultEditSettings": {
+        "defaultEditRoute": "content"
+      },
+      "elements": [
+        {
+          "id": "2e47863",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "3b17bf9",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "🔒 Privacy Policy",
+                "header_size": "h4",
+                "title_color": "#f8fafc"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "b21a815",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #94a3b8; font-size: 0.9rem;'>We respect your data privacy. Inquiries and website credentials shared for audits are held under strict confidentiality. We never sell or share client data with third parties.</p>"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "c271509",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "24ef95a",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "⚖️ Terms of Service",
+                "header_size": "h4",
+                "title_color": "#f8fafc"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "ebcb34f",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #94a3b8; font-size: 0.9rem;'>All retainer engagements and guest posting campaigns operate with clearly defined scopes, transparent deliverable reports, and zero lock-in contracts.</p>"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "620711f",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "aae6651",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "📢 AdSense & Affiliate",
+                "header_size": "h4",
+                "title_color": "#f8fafc"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "f708747",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #94a3b8; font-size: 0.9rem;'>Educational resources and software tool reviews on this site may feature affiliate links. We only recommend tools we personally test and use on client campaigns.</p>"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b51cd24",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "⚓ 13. Master 4-Column Footer",
+        "background_background": "classic",
+        "background_color": "#060911",
+        "padding": {
+          "unit": "px",
+          "top": "50",
+          "right": "20",
+          "bottom": "30",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "defaultEditSettings": {
+        "defaultEditRoute": "content"
+      },
+      "elements": [
+        {
+          "id": "f626d75",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 40,
+            "_inline_size": null
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "12b27d9",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://personal-brand-portfolio-three.vercel.app/assets/images/logo.svg",
+                  "id": ""
+                },
+                "image_size": "custom",
+                "image_custom_dimension": {
+                  "width": 180,
+                  "height": 45
+                },
+                "align": "left"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "e35dba3",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #94a3b8; font-size: 0.95rem; margin-top: 12px;'>Top-Rated SEO Specialist & Outreach Consultant helping international brands scale organic search revenue and mentoring talent for free.</p>"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "f6c21d8",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 20,
+            "_inline_size": null
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "44cc4ec",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Quick Links",
+                "header_size": "h5",
+                "title_color": "#f8fafc"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "598684a",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n        <div style=\"line-height: 2; font-size: 0.9rem;\">\n          <a href=\"#about\" style=\"color: #cbd5e1; text-decoration: none;\">About Me</a><br>\n          <a href=\"#results\" style=\"color: #cbd5e1; text-decoration: none;\">Portfolio</a><br>\n          <a href=\"#reviews\" style=\"color: #cbd5e1; text-decoration: none;\">Testimonials</a><br>\n          <a href=\"#contact\" style=\"color: #cbd5e1; text-decoration: none;\">Contact Me</a>\n        </div>\n        "
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "0c79ee8",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 20,
+            "_inline_size": null
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "0a80a95",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Services",
+                "header_size": "h5",
+                "title_color": "#f8fafc"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "55c4816",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n        <div style=\"line-height: 2; font-size: 0.9rem;\">\n          <a href=\"#services\" style=\"color: #cbd5e1; text-decoration: none;\">Full SEO Strategy</a><br>\n          <a href=\"#services\" style=\"color: #cbd5e1; text-decoration: none;\">Guest Posting</a><br>\n          <a href=\"#services\" style=\"color: #cbd5e1; text-decoration: none;\">Content Writing</a><br>\n          <a href=\"#contact\" style=\"color: #cbd5e1; text-decoration: none;\">Free Audit</a>\n        </div>\n        "
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "f770ad6",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 20,
+            "_inline_size": null
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "125df92",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Free Learning",
+                "header_size": "h5",
+                "title_color": "#f8fafc"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "ec600e7",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n        <div style=\"line-height: 2; font-size: 0.9rem;\">\n          <a href=\"#courses\" style=\"color: #cbd5e1; text-decoration: none;\">Free Academy</a><br>\n          <a href=\"#courses\" style=\"color: #cbd5e1; text-decoration: none;\">Sunday Zoom</a><br>\n          <a href=\"#courses\" style=\"color: #cbd5e1; text-decoration: none;\">Video Hub</a><br>\n          <a href=\"#faq\" style=\"color: #cbd5e1; text-decoration: none;\">Client FAQ</a>\n        </div>\n        "
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {}
+}

@@ -1,27 +1,37 @@
 {
   "version": "0.4",
-  "title": "Asim SEO Wala - All-in-One Master Template",
+  "title": "Asim SEO Wala - 100% Native Elementor Master Template",
   "type": "page",
   "content": [
     {
-      "id": "98fa71a",
+      "id": "8fd57f9",
       "elType": "section",
       "isInner": false,
       "settings": {
-        "layout": "full_width",
-        "gap": "no",
-        "_title": "🎨 01. Global CSS & Design System"
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "📌 01. Header & Brand Navigation",
+        "background_background": "classic",
+        "background_color": "#060911",
+        "padding": {
+          "unit": "px",
+          "top": "16",
+          "right": "24",
+          "bottom": "16",
+          "left": "24",
+          "isLinked": false
+        }
       },
       "defaultEditSettings": {
         "defaultEditRoute": "content"
       },
       "elements": [
         {
-          "id": "9dae4bc",
+          "id": "84c3114",
           "elType": "column",
           "isInner": false,
           "settings": {
-            "_column_size": 100,
+            "_column_size": 30,
             "_inline_size": null
           },
           "defaultEditSettings": {
@@ -29,12 +39,98 @@
           },
           "elements": [
             {
-              "id": "107db38",
+              "id": "192e93c",
               "elType": "widget",
               "isInner": false,
-              "widgetType": "html",
+              "widgetType": "image",
               "settings": {
-                "html": "\n<style>\n/* =========================================================\n   Asim SEO Wala PRO - Master Elementor Theme Compatibility Resets\n   ========================================================= */\n.elementor-section.elementor-section-boxed > .elementor-container {\n  max-width: 100% !important;\n  width: 100% !important;\n  padding: 0 !important;\n}\n.elementor-widget-html {\n  width: 100% !important;\n}\n.elementor-widget-container {\n  width: 100% !important;\n}\n.elementor-column-gap-default > .elementor-column > .elementor-element-populated {\n  padding: 0 !important;\n}\n.elementor-widget-wrap {\n  padding: 0 !important;\n}\nhtml {\n  scroll-behavior: smooth;\n}\nbody {\n  background-color: #060911 !important;\n  color: #cbd5e1 !important;\n  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;\n  margin: 0 !important;\n  padding: 0 !important;\n  overflow-x: hidden;\n}\n.site-header a, .hero-section a, .section a, .card a, .site-footer a, .nav-menu a {\n  text-decoration: none !important;\n}\n*, *::before, *::after {\n  box-sizing: border-box;\n}\n\n@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap');:root{--c-obsidian-950:#060911;--c-obsidian-900:#0B1120;--c-slate-900:#0f172a;--c-slate-800:#1e293b;--c-slate-700:#334155;--c-slate-600:#475569;--c-slate-400:#94a3b8;--c-slate-300:#cbd5e1;--c-slate-100:#f1f5f9;--c-white:#f8fafc;--c-emerald-500:#10b981;--c-emerald-400:#34d399;--c-emerald-600:#059669;--c-cyan-400:#38bdf8;--c-blue-500:#3b82f6;--c-blue-600:#2563eb;--c-indigo-500:#6366f1;--glass-card-bg:rgba(15,23,42,0.65);--glass-card-hover:rgba(15,23,42,0.85);--glass-card-border:rgba(255,255,255,0.08);--glass-card-border-hover:rgba(16,185,129,0.4);--glass-nav-bg:rgba(6,9,17,0.85);--glass-icon-bg:rgba(255,255,255,0.04);--glass-icon-border:rgba(255,255,255,0.1);--grad-emerald:linear-gradient(135deg,#10b981 0%,#059669 100%);--grad-emerald-text:linear-gradient(135deg,#34d399 0%,#10b981 40%,#38bdf8 100%);--grad-border-top:linear-gradient(90deg,transparent,#10b981 50%,#38bdf8 80%,transparent);--shadow-subtle:0 1px 2px rgba(0,0,0,0.4);--shadow-card:0 10px 30px -10px rgba(0,0,0,0.5),0 0 1px 1px rgba(255,255,255,0.05);--shadow-card-hover:0 25px 50px -12px rgba(0,0,0,0.7),0 0 25px -5px rgba(16,185,129,0.2);--shadow-glow-emerald:0 0 50px -10px rgba(16,185,129,0.35);--shadow-glow-purple:0 0 50px -10px rgba(99,102,241,0.25);--shadow-btn:0 10px 25px -5px rgba(16,185,129,0.4),inset 0 1px 0 rgba(255,255,255,0.25);--radius-xs:6px;--radius-sm:10px;--radius-md:16px;--radius-lg:24px;--radius-full:9999px;--max-w:1220px}*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth;background-color:var(--c-obsidian-950)}body{font-family:'Inter',-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif;color:var(--c-slate-400);background-color:var(--c-obsidian-950);line-height:1.7;font-size:16px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden}a{color:inherit;text-decoration:none;transition:all 0.25s cubic-bezier(0.16,1,0.3,1)}picture{display:contents}img{max-width:100%;height:auto;display:block}.container{width:100%;max-width:var(--max-w);margin:0 auto;padding:0 24px}.editorial-img-wrap{position:relative;overflow:hidden;border-radius:var(--radius-sm);background:var(--c-obsidian-900)}.editorial-img-wrap::after{content:'';position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 40px rgba(6,9,17,0.85);background:linear-gradient(to top,#0B1120 5%,transparent 45%);border-radius:inherit;z-index:2}.editorial-img-wrap img,.hero-portrait-frame img,.bento-card img,.live-studio-frame img,.crop-dell-desk{filter:contrast(1.06) saturate(0.95);transition:transform 0.5s cubic-bezier(0.16,1,0.3,1),filter 0.3s ease;display:block}h1,h2,h3,h4,h5{font-family:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif;color:var(--c-white);font-weight:700;line-height:1.22;letter-spacing:-0.02em}h1{font-size:clamp(2.2rem,4vw,3.4rem);letter-spacing:-0.025em;line-height:1.18;margin-bottom:20px}h2{font-size:clamp(1.75rem,3.2vw,2.45rem);letter-spacing:-0.02em;line-height:1.25;margin-bottom:16px}h3{font-size:clamp(1.22rem,2vw,1.48rem);letter-spacing:-0.015em;line-height:1.35;margin-bottom:10px}h4{font-size:1.08rem;letter-spacing:-0.01em;line-height:1.4;margin-bottom:8px}.gradient-title{background:var(--grad-emerald-text);-webkit-background-clip:text;-webkit-text-fill-color:transparent;display:inline}.mono-metric{font-family:'JetBrains Mono',monospace;font-variant-numeric:tabular-nums;letter-spacing:-0.02em}.pill-badge{display:inline-flex;align-items:center;gap:8px;font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--c-emerald-400);background:rgba(16,185,129,0.08);border:1px solid rgba(16,185,129,0.25);padding:5px 14px;border-radius:var(--radius-full);margin-bottom:16px}.section-subtext{font-size:1.08rem;color:var(--c-slate-300);max-width:660px;line-height:1.68;margin-bottom:40px}.icon{width:20px;height:20px;stroke-width:2;stroke:currentColor;fill:none;stroke-linecap:round;stroke-linejoin:round;display:inline-block;vertical-align:middle}.icon-box{width:44px;height:44px;display:inline-flex;align-items:center;justify-content:center;background:var(--glass-icon-bg);border:1px solid var(--glass-icon-border);border-radius:12px;color:var(--c-emerald-400);transition:all 0.25s ease;flex-shrink:0}.card:hover .icon-box,.bento-card:hover .icon-box{background:rgba(16,185,129,0.12);border-color:rgba(16,185,129,0.35);color:#ffffff;transform:scale(1.05)}.star-icon{width:16px;height:16px;fill:#f59e0b;stroke:#f59e0b}.site-header{position:sticky;top:0;z-index:1000;background:var(--glass-nav-bg);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,0.08);transition:all 0.3s ease}.nav-container{display:flex;align-items:center;justify-content:space-between;height:76px}.site-logo{display:inline-flex;align-items:center;gap:10px;font-family:'Plus Jakarta Sans',sans-serif;font-size:1.32rem;font-weight:800;letter-spacing:-0.03em;color:var(--c-white);transition:transform 0.2s cubic-bezier(0.16,1,0.3,1)}.site-logo:hover{transform:translateY(-1px)}.site-logo-icon{width:38px;height:38px;border-radius:10px;flex-shrink:0;display:block;box-shadow:0 4px 18px -2px rgba(16,185,129,0.35);border:1px solid rgba(255,255,255,0.12);transition:all 0.3s cubic-bezier(0.16,1,0.3,1)}.site-logo:hover .site-logo-icon{box-shadow:0 6px 24px rgba(16,185,129,0.55);border-color:rgba(16,185,129,0.5);transform:scale(1.05)}.logo-text-wrap{display:inline-flex;align-items:center;gap:6px}.logo-brand{color:var(--c-white)}.logo-tag{color:var(--c-emerald-400)}.logo-badge{font-family:'JetBrains Mono',monospace;font-size:0.65rem;font-weight:800;letter-spacing:0.08em;padding:3px 7px;border-radius:var(--radius-xs);background:rgba(16,185,129,0.15);border:1px solid rgba(16,185,129,0.3);color:var(--c-emerald-400);margin-left:4px}.nav-menu{display:flex;align-items:center;gap:24px;list-style:none}.nav-item{position:relative}.nav-link{font-size:0.92rem;font-weight:500;color:var(--c-slate-400);padding:8px 12px;border-radius:var(--radius-xs)}.nav-link:hover,.nav-link.active{color:var(--c-white)}.has-dropdown{position:relative}.dropdown-toggle{background:none;border:none;cursor:pointer;font-family:inherit;font-size:0.95rem;font-weight:500;color:var(--c-slate-300);display:inline-flex;align-items:center;gap:6px;padding:0;transition:color 0.2s ease}.dropdown-toggle:hover,.has-dropdown:hover .dropdown-toggle,.has-dropdown.dropdown-open .dropdown-toggle{color:var(--c-white)}.dropdown-chevron{width:14px;height:14px;stroke-width:2.5;transition:transform 0.25s ease}.has-dropdown.dropdown-open .dropdown-chevron,.has-dropdown:hover .dropdown-chevron{transform:rotate(180deg)}.dropdown-menu{position:absolute;top:calc(100% + 12px);left:0;min-width:245px;background:rgba(11,17,32,0.98);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,0.12);border-radius:var(--radius-sm);padding:8px;list-style:none;box-shadow:0 20px 45px -10px rgba(0,0,0,0.85),0 0 20px rgba(16,185,129,0.15);display:none;z-index:1000}.has-dropdown:hover .dropdown-menu,.has-dropdown.dropdown-open .dropdown-menu{display:block !important;animation:dropdown-pop 0.2s cubic-bezier(0.16,1,0.3,1)}@keyframes dropdown-pop{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}.dropdown-item a{display:flex;align-items:center;justify-content:space-between;padding:10px 14px;font-size:0.9rem;font-weight:500;color:var(--c-slate-300);border-radius:var(--radius-xs);transition:all 0.2s ease}.dropdown-item a:hover{color:var(--c-white);background:rgba(255,255,255,0.08);transform:translateX(3px)}.mobile-toggle{display:none;background:var(--glass-icon-bg);border:1px solid var(--glass-icon-border);color:var(--c-white);padding:8px 12px;border-radius:var(--radius-xs);cursor:pointer}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-size:0.94rem;font-weight:600;padding:13px 24px;border-radius:var(--radius-sm);cursor:pointer;border:1px solid transparent;transition:all 0.25s cubic-bezier(0.16,1,0.3,1);text-decoration:none;white-space:nowrap}.btn-primary{background:var(--grad-emerald);color:#ffffff !important;box-shadow:var(--shadow-btn)}.btn-primary:hover{transform:translateY(-2px);box-shadow:0 16px 32px -4px rgba(16,185,129,0.5),inset 0 1px 0 rgba(255,255,255,0.35);color:#ffffff !important}.btn-secondary{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.12);color:var(--c-white) !important;backdrop-filter:blur(8px)}.btn-secondary:hover{background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.25);transform:translateY(-2px);color:#ffffff !important}.btn-outline-green{background:rgba(16,185,129,0.08);border:1px solid rgba(16,185,129,0.3);color:var(--c-emerald-400) !important}.btn-outline-green:hover{background:rgba(16,185,129,0.16);border-color:rgba(16,185,129,0.5);transform:translateY(-2px)}.hero-section{position:relative;padding:90px 0 60px;background-color:var(--c-obsidian-950);background-image:radial-gradient(ellipse 70% 50% at 50% -10%,rgba(16,185,129,0.12) 0%,transparent 70%),radial-gradient(ellipse 60% 40% at 90% 25%,rgba(59,130,246,0.08) 0%,transparent 60%);overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.15fr 0.95fr;gap:48px;align-items:center}.status-pill{display:inline-flex;align-items:center;gap:10px;font-size:0.85rem;font-weight:600;color:var(--c-emerald-400);background:rgba(16,185,129,0.08);border:1px solid rgba(16,185,129,0.25);padding:6px 16px;border-radius:var(--radius-full);margin-bottom:24px}.pulse-indicator{width:8px;height:8px;background-color:var(--c-emerald-500);border-radius:50%;box-shadow:0 0 10px var(--c-emerald-400);animation:pulse-dot 2s infinite ease-in-out}@keyframes pulse-dot{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.35);opacity:0.6}}.hero-description{font-size:1.12rem;color:var(--c-slate-300);line-height:1.8;margin-bottom:36px;max-width:620px}.hero-cta-group{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:48px}.hero-proof-strip{display:flex;gap:36px;padding-top:24px;border-top:1px solid rgba(255,255,255,0.08)}.proof-metric{display:flex;flex-direction:column}.proof-metric strong{font-family:'JetBrains Mono',monospace;font-size:1.6rem;font-weight:800;color:var(--c-white);line-height:1.2}.proof-metric span{font-size:0.82rem;color:var(--c-slate-400);font-weight:500}.hero-stage-container{position:relative;width:100%;max-width:520px;min-height:480px;margin-left:auto;display:flex;justify-content:flex-end}.hero-ambient-glow{position:absolute;top:10%;right:10%;width:320px;height:320px;background:radial-gradient(circle,rgba(16,185,129,0.22) 0%,rgba(59,130,246,0.12) 40%,transparent 70%);filter:blur(40px);pointer-events:none;z-index:1}.hero-portrait-frame{position:relative;width:100%;max-width:340px;aspect-ratio:4 / 5;border-radius:20px;overflow:hidden;border:1px solid rgba(255,255,255,0.12);background:rgba(15,23,42,0.7);box-shadow:0 25px 60px -15px rgba(0,0,0,0.9),var(--shadow-glow-emerald);z-index:2;margin-left:auto}.hero-portrait-frame::after{content:'';position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 40px rgba(6,9,17,0.85);background:linear-gradient(to top,#0B1120 5%,transparent 45%);border-radius:inherit;z-index:3}.hero-portrait-img{width:100%;height:100%;object-fit:cover;object-position:top center;filter:contrast(1.06) saturate(0.95);display:block}.hero-portrait-badge{position:absolute;top:16px;right:16px;display:inline-flex;align-items:center;gap:8px;font-size:0.8rem;font-weight:600;color:var(--c-white);background:rgba(6,9,17,0.88);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(16,185,129,0.35);padding:6px 14px;border-radius:var(--radius-full);box-shadow:0 10px 25px -5px rgba(0,0,0,0.6);z-index:4}.seo-console-overlap-card{position:absolute;bottom:-20px;left:-30px;width:340px;background:rgba(15,23,42,0.92);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,0.12);border-radius:16px;padding:20px 22px;box-shadow:0 25px 50px -10px rgba(0,0,0,0.85),0 0 30px -5px rgba(16,185,129,0.25);z-index:10}.console-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,0.08)}.console-header-brand{display:flex;align-items:center;gap:8px;font-size:0.85rem;font-weight:700;color:var(--c-white)}.console-header-badge{font-family:'JetBrains Mono',monospace;font-size:0.72rem;font-weight:700;color:var(--c-emerald-400);background:rgba(16,185,129,0.12);border:1px solid rgba(16,185,129,0.25);padding:3px 8px;border-radius:var(--radius-xs)}.console-metrics-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:16px}.console-stat-box{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:var(--radius-xs);padding:10px 14px}.stat-label{font-size:0.75rem;color:var(--c-slate-400);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:2px}.stat-val{font-family:'JetBrains Mono',monospace;font-size:1.35rem;font-weight:800;color:var(--c-white);line-height:1.2}.stat-growth{font-family:'JetBrains Mono',monospace;font-size:0.75rem;font-weight:700;color:var(--c-emerald-400);margin-top:2px}.console-spline-box{width:100%;height:80px;margin-bottom:12px;position:relative}.spline-svg{width:100%;height:100%;overflow:visible}.console-verified-footer{display:flex;align-items:center;justify-content:space-between;font-size:0.78rem;color:var(--c-slate-400);padding-top:10px;border-top:1px solid rgba(255,255,255,0.06)}.logo-ticker-section{padding:28px 0;background:var(--c-obsidian-900);border-top:1px solid rgba(255,255,255,0.06);border-bottom:1px solid rgba(255,255,255,0.06);overflow:hidden;position:relative}.ticker-fade-mask{width:100%;overflow:hidden;mask-image:linear-gradient(to right,transparent,black 15%,black 85%,transparent);-webkit-mask-image:linear-gradient(to right,transparent,black 15%,black 85%,transparent)}.ticker-track{display:flex;width:max-content;animation:marquee-scroll 28s linear infinite}.ticker-content{display:flex;align-items:center;gap:36px;padding-right:36px}.ticker-item{display:inline-flex;align-items:center;gap:10px;font-family:'Plus Jakarta Sans',sans-serif;font-size:0.95rem;font-weight:700;letter-spacing:-0.01em;color:var(--c-slate-400);white-space:nowrap;transition:color 0.25s ease}.ticker-item:hover{color:var(--c-white)}.ticker-dot{width:4px;height:4px;background:var(--c-emerald-500);border-radius:50%;opacity:0.6}@keyframes marquee-scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}section{padding:88px 0;position:relative}.bg-alt{background-color:var(--c-obsidian-900);background-image:radial-gradient(ellipse 70% 50% at 20% 50%,rgba(16,185,129,0.06) 0%,transparent 60%)}.bg-academy-glow{background-color:var(--c-obsidian-950);background-image:radial-gradient(ellipse 70% 50% at 50% 30%,rgba(99,102,241,0.12) 0%,rgba(139,92,246,0.05) 50%,transparent 80%),radial-gradient(ellipse 50% 40% at 80% 60%,rgba(59,130,246,0.08) 0%,transparent 60%)}.card{position:relative;background:var(--glass-card-bg);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid var(--glass-card-border);border-radius:var(--radius-md);padding:32px;transition:all 0.3s cubic-bezier(0.16,1,0.3,1);overflow:hidden}.card:hover{border-color:var(--glass-card-border-hover);transform:translateY(-4px);box-shadow:var(--shadow-card-hover)}.card-title{color:var(--c-white);font-size:1.3rem;margin-bottom:12px}.card-text{color:var(--c-slate-400);font-size:0.96rem;line-height:1.7}.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:28px}.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}.bento-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:24px}.bento-card{position:relative;background:var(--glass-card-bg);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid var(--glass-card-border);border-radius:var(--radius-md);padding:32px;transition:all 0.3s cubic-bezier(0.16,1,0.3,1);overflow:hidden;display:flex;flex-direction:column}.bento-card:hover{border-color:var(--glass-card-border-hover);transform:translateY(-4px);box-shadow:var(--shadow-card-hover)}.bento-span-7{grid-column:span 7}.bento-span-5{grid-column:span 5}.bento-span-4{grid-column:span 4}.bento-split-card{padding:0 !important;display:grid !important;grid-template-columns:1fr 1fr;align-items:stretch}.bento-split-left{padding:32px;display:flex;flex-direction:column}.bento-split-right{position:relative;height:100%;min-height:320px}.crop-china-expo-vertical{width:100%;height:100%;min-height:320px;object-fit:cover;object-position:center 15%;display:block}.bento-img-badge-overlay{position:absolute;bottom:16px;left:16px;right:16px;z-index:3}.bento-img-badge-overlay span{font-size:0.78rem;font-weight:700;color:var(--c-white);background:rgba(6,9,17,0.88);backdrop-filter:blur(8px);border:1px solid rgba(16,185,129,0.35);padding:5px 12px;border-radius:var(--radius-full);display:inline-block}.crop-pakistan-desk-top{width:100%;height:220px;object-fit:cover;object-position:center 18%;display:block}.crop-outdoor-vest-top{width:100%;height:220px;object-fit:cover;object-position:center 12%;display:block}.service-card-premium{position:relative;background:var(--glass-card-bg);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid var(--glass-card-border);border-radius:var(--radius-md);padding:36px 32px;transition:all 0.3s cubic-bezier(0.16,1,0.3,1);overflow:hidden;display:flex;flex-direction:column}.service-card-premium::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--grad-border-top);opacity:0.8;transition:opacity 0.3s ease}.service-card-premium:hover{border-color:var(--glass-card-border-hover);transform:translateY(-5px);box-shadow:var(--shadow-card-hover)}.service-card-premium:hover::before{opacity:1;height:3px}.deliverable-tags{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 24px}.deliverable-tag{font-family:'JetBrains Mono',monospace;font-size:0.74rem;font-weight:600;color:var(--c-slate-300);background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.09);padding:4px 10px;border-radius:var(--radius-xs)}.card-action{margin-top:auto;padding-top:16px}.case-card{position:relative;background:var(--glass-card-bg);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid var(--glass-card-border);border-radius:var(--radius-md);padding:32px;transition:all 0.3s ease;display:flex;flex-direction:column}.case-card:hover{border-color:var(--glass-card-border-hover);transform:translateY(-4px);box-shadow:var(--shadow-card-hover)}.case-metric{font-family:'JetBrains Mono',monospace;font-size:2.2rem;font-weight:800;background:var(--grad-emerald-text);-webkit-background-clip:text;-webkit-text-fill-color:transparent;line-height:1.1;margin-bottom:8px}.sparkline-box{width:100%;height:48px;margin:14px 0 16px}.sparkline-svg{width:100%;height:100%;overflow:visible}.case-tag{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:0.76rem;font-weight:700;text-transform:uppercase;color:var(--c-emerald-400);margin-bottom:8px}.zoom-cta-card{display:grid;grid-template-columns:1.05fr 0.95fr;gap:40px;background:rgba(11,17,32,0.9);border:1px solid rgba(99,102,241,0.25);border-radius:var(--radius-lg);padding:44px;box-shadow:var(--shadow-glow-purple),var(--shadow-card);align-items:center}.live-studio-frame{position:relative;border-radius:var(--radius-sm);overflow:hidden;border:1px solid rgba(255,255,255,0.12);box-shadow:0 20px 40px -10px rgba(0,0,0,0.7);background:var(--c-obsidian-900)}.live-studio-frame::after{content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(to right,#0B1120 0%,transparent 35%),linear-gradient(to top,#0B1120 5%,transparent 40%),linear-gradient(to bottom,rgba(6,9,17,0.4) 0%,transparent 30%);box-shadow:inset 0 0 35px rgba(6,9,17,0.9);border-radius:inherit;z-index:2}.crop-live-studio{width:100%;height:260px;object-fit:cover;object-position:70% 25%;display:block}.live-studio-badge{position:absolute;top:14px;left:14px;display:inline-flex;align-items:center;gap:8px;font-size:0.8rem;font-weight:700;color:#ffffff;background:rgba(6,9,17,0.88);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid rgba(239,68,68,0.4);padding:6px 14px;border-radius:var(--radius-full);z-index:4}.pulse-red{width:8px;height:8px;background-color:#ef4444;border-radius:50%;box-shadow:0 0 10px #ef4444;animation:pulse-dot 1.5s infinite ease-in-out}.zoom-meta-tags{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0 28px}.zoom-meta-tag{display:inline-flex;align-items:center;gap:6px;font-size:0.82rem;color:var(--c-slate-300);background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);padding:6px 14px;border-radius:var(--radius-full)}.crop-dell-desk{width:100%;height:380px;object-fit:cover;object-position:top left;border-radius:var(--radius-md);border:1px solid rgba(255,255,255,0.1)}.form-group{margin-bottom:20px}.form-label{display:block;font-size:0.86rem;font-weight:600;color:var(--c-slate-300);margin-bottom:8px}.form-control{width:100%;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12);border-radius:var(--radius-sm);padding:13px 16px;color:var(--c-white);font-size:0.95rem;font-family:inherit;transition:all 0.25s ease}.form-control:focus{outline:none;border-color:var(--c-emerald-500);background:rgba(255,255,255,0.07);box-shadow:0 0 0 3px rgba(16,185,129,0.2)}textarea.form-control{min-height:120px;resize:vertical}.toc-box{background:var(--glass-card-bg);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid var(--glass-card-border);border-radius:var(--radius-md);padding:24px;margin-bottom:36px}.toc-title{font-size:1.1rem;color:var(--c-white);margin-bottom:14px;display:flex;align-items:center;gap:8px}.toc-list{list-style:none}.toc-list li{margin-bottom:10px}.toc-list a{color:var(--c-slate-400);font-size:0.92rem;display:inline-flex;align-items:center;gap:8px}.toc-list a:hover{color:var(--c-emerald-400);transform:translateX(4px)}.adsense-slot{background:rgba(255,255,255,0.02);border:1px dashed rgba(255,255,255,0.1);border-radius:var(--radius-sm);padding:20px;text-align:center;color:var(--c-slate-500);font-size:0.82rem;margin:32px 0}.site-footer{background:var(--c-obsidian-950);border-top:1px solid rgba(255,255,255,0.08);padding:90px 0 36px}.footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:48px;margin-bottom:60px}.footer-col h4{font-size:0.95rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--c-white);margin-bottom:20px}.footer-col ul{list-style:none}.footer-col li{margin-bottom:12px}.footer-col a{font-size:0.9rem;color:var(--c-slate-400)}.footer-col a:hover{color:var(--c-emerald-400)}.footer-bottom{display:flex;align-items:center;justify-content:space-between;padding-top:32px;border-top:1px solid rgba(255,255,255,0.06);font-size:0.85rem;color:var(--c-slate-500)}@media (max-width:1024px){.hero-grid{grid-template-columns:1fr;gap:48px}.hero-stage-container{max-width:380px;margin:0 auto;justify-content:center;min-height:auto}.seo-console-overlap-card{position:relative;bottom:0;left:0;width:100%;max-width:380px;margin:-24px auto 0}.grid-4{grid-template-columns:repeat(2,1fr)}.grid-3{grid-template-columns:repeat(2,1fr)}.bento-span-7,.bento-span-5,.bento-span-4{grid-column:span 12}.bento-split-card{grid-template-columns:1fr !important}.bento-split-right,.crop-china-expo-vertical{min-height:280px;height:280px}.zoom-cta-card{grid-template-columns:1fr}.footer-grid{grid-template-columns:repeat(2,1fr)}}@media (max-width:768px){section{padding:68px 0}.mobile-toggle{display:block}.nav-menu{position:fixed !important;top:76px !important;left:0 !important;width:100vw !important;height:calc(100vh - 76px) !important;min-height:calc(100vh - 76px) !important;background:#060911 !important;background-color:#060911 !important;backdrop-filter:none !important;-webkit-backdrop-filter:none !important;border-bottom:2px solid rgba(16,185,129,0.4) !important;box-shadow:0 30px 60px rgba(0,0,0,0.98) !important;flex-direction:column !important;padding:20px 18px 60px !important;gap:12px !important;display:none;overflow-y:auto !important;-webkit-overflow-scrolling:touch !important;z-index:99999 !important}.nav-menu.open{display:flex;animation:menu-slide-down 0.25s cubic-bezier(0.16,1,0.3,1)}@keyframes menu-slide-down{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}.nav-menu .nav-item{width:100%}.nav-menu .nav-link:not(.dropdown-toggle){display:flex;align-items:center;justify-content:space-between;width:100%;font-size:1.05rem;font-weight:600;color:var(--c-slate-200);padding:12px 16px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px;transition:all 0.2s ease}.nav-menu .nav-link:hover,.nav-menu .nav-link.active{color:#FAFAFA;background:rgba(16,185,129,0.12);border-color:rgba(16,185,129,0.35)}.dropdown-toggle{width:100%;display:flex;align-items:center;justify-content:space-between;font-size:1.05rem;font-weight:600;color:var(--c-slate-200);padding:12px 16px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px;cursor:pointer;transition:all 0.2s ease}.has-dropdown.dropdown-open .dropdown-toggle{color:#FAFAFA;background:rgba(16,185,129,0.12);border-color:rgba(16,185,129,0.35)}.dropdown-menu{position:static;display:none !important;background:rgba(11,17,32,0.98);border:1px solid rgba(16,185,129,0.25);border-radius:10px;margin-top:8px;padding:8px;box-shadow:0 10px 25px rgba(0,0,0,0.5);width:100%}.has-dropdown.dropdown-open .dropdown-menu{display:block !important;animation:dropdown-pop 0.2s ease}.dropdown-item a{padding:10px 14px;font-size:0.94rem;color:var(--c-slate-300)}.nav-menu .nav-item .btn-primary{width:100%;margin-top:8px;padding:14px;font-size:1.02rem;font-weight:700;justify-content:center;box-shadow:0 8px 24px rgba(16,185,129,0.25)}.grid-2,.grid-3,.grid-4{grid-template-columns:1fr}.bento-grid{grid-template-columns:1fr;gap:20px}.bento-span-7,.bento-span-5,.bento-span-4{grid-column:span 1}.bento-split-card{grid-template-columns:1fr !important}.bento-split-left{padding:24px 20px}.bento-split-right,.crop-china-expo-vertical{min-height:240px;height:240px}.crop-pakistan-desk-top,.crop-outdoor-vest-top{height:200px}.hero-stage-container{max-width:320px;width:100%;margin:0 auto}.hero-portrait-frame{max-width:280px;margin:0 auto}.seo-console-overlap-card{width:100%;max-width:320px;padding:16px 18px;margin-top:-20px;border-radius:14px}.console-metrics-row{grid-template-columns:1fr;gap:8px}.console-stat-box{padding:8px 12px}.hero-proof-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.zoom-cta-card{padding:32px 22px;gap:28px}.live-studio-frame{margin-top:18px}.crop-live-studio{height:210px}.footer-grid{grid-template-columns:1fr}.footer-bottom{flex-direction:column;gap:16px;text-align:center}}@media (max-width:480px){.site-logo{font-size:1.15rem;gap:8px}.site-logo-icon{width:32px;height:32px;border-radius:8px}.container{padding:0 18px}h1{font-size:clamp(1.85rem,7.5vw,2.25rem);line-height:1.22}h2{font-size:clamp(1.5rem,5.5vw,1.85rem)}.hero-description{font-size:1rem;line-height:1.7;margin-bottom:28px}.hero-cta-group{flex-direction:column;width:100%}.hero-cta-group .btn{width:100%}.hero-proof-strip{grid-template-columns:1fr;gap:12px}.proof-metric strong{font-size:1.35rem}.card{padding:24px 18px}.service-card-premium{padding:26px 18px}.case-card{padding:26px 18px}}.toast-container{position:fixed;top:24px;right:24px;z-index:99999;display:flex;flex-direction:column;gap:12px;pointer-events:none;max-width:440px;width:calc(100% - 48px)}.toast-card{pointer-events:auto;display:flex;align-items:flex-start;gap:14px;background:rgba(11,17,32,0.96);border:1px solid rgba(16,185,129,0.4);box-shadow:0 20px 40px rgba(0,0,0,0.6),0 0 24px rgba(16,185,129,0.15);border-radius:12px;padding:16px 18px;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);transform:translateY(-20px);opacity:0;transition:all 0.3s cubic-bezier(0.16,1,0.3,1)}.toast-card.show{transform:translateY(0);opacity:1}.toast-icon{width:24px;height:24px;flex-shrink:0;color:#10B981;margin-top:2px}.toast-content{flex:1}.toast-title{font-family:var(--font-heading);font-size:0.95rem;font-weight:700;color:#FAFAFA;margin-bottom:4px}.toast-desc{font-size:0.85rem;color:#94A3B8;line-height:1.5}.toast-close{background:none;border:none;color:#64748B;cursor:pointer;padding:4px;display:flex;align-items:center;justify-content:center;border-radius:6px;transition:color 0.2s ease}.toast-close:hover{color:#FAFAFA}\n</style>\n"
+                "image": {
+                  "url": "https://personal-brand-portfolio-three.vercel.app/assets/images/logo.svg",
+                  "id": ""
+                },
+                "image_size": "custom",
+                "image_custom_dimension": {
+                  "width": 180,
+                  "height": 45
+                },
+                "align": "left",
+                "link_to": "custom",
+                "link": {
+                  "url": "#top",
+                  "is_external": false,
+                  "nofollow": false
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "7951d5d",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": null
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "6066508",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n        <div style=\"display: flex; gap: 20px; align-items: center; justify-content: center; font-weight: 500; font-size: 15px;\">\n          <a href=\"#about\" style=\"color: #cbd5e1; text-decoration: none;\">About</a>\n          <a href=\"#services\" style=\"color: #cbd5e1; text-decoration: none;\">Services</a>\n          <a href=\"#results\" style=\"color: #cbd5e1; text-decoration: none;\">Results</a>\n          <a href=\"#reviews\" style=\"color: #cbd5e1; text-decoration: none;\">Reviews</a>\n          <a href=\"#courses\" style=\"color: #cbd5e1; text-decoration: none;\">Free Academy</a>\n          <a href=\"#faq\" style=\"color: #cbd5e1; text-decoration: none;\">FAQ</a>\n          <a href=\"#contact\" style=\"color: #cbd5e1; text-decoration: none;\">Contact</a>\n        </div>\n        ",
+                "align": "center"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "45441b8",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 20,
+            "_inline_size": null
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "be40ad2",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Hire Me →",
+                "link": {
+                  "url": "#contact",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "align": "right",
+                "background_color": "#10b981",
+                "button_text_color": "#ffffff",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "8",
+                  "bottom": "8",
+                  "left": "8",
+                  "isLinked": true
+                }
               },
               "defaultEditSettings": {
                 "defaultEditRoute": "content"
@@ -46,24 +142,34 @@
       ]
     },
     {
-      "id": "ec4f66e",
+      "id": "2095cfa",
       "elType": "section",
       "isInner": false,
       "settings": {
-        "layout": "full_width",
-        "gap": "no",
-        "_title": "📌 02. Header & Sticky Navigation"
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "🚀 02. Hero Showcase Section",
+        "background_background": "classic",
+        "background_color": "#060911",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20",
+          "isLinked": false
+        }
       },
       "defaultEditSettings": {
         "defaultEditRoute": "content"
       },
       "elements": [
         {
-          "id": "fb0fcea",
+          "id": "993ff3f",
           "elType": "column",
           "isInner": false,
           "settings": {
-            "_column_size": 100,
+            "_column_size": 55,
             "_inline_size": null
           },
           "defaultEditSettings": {
@@ -71,12 +177,162 @@
           },
           "elements": [
             {
-              "id": "a3381bd",
+              "id": "89d118d",
               "elType": "widget",
               "isInner": false,
-              "widgetType": "html",
+              "widgetType": "heading",
               "settings": {
-                "html": "<header class=\"site-header\">\n    <div class=\"container nav-container\">\n      <a href=\"#top\" class=\"site-logo\">\n        <img src=\"https://personal-brand-portfolio-three.vercel.app/assets/images/logo.svg\" alt=\"Asim SEO Wala Logo\" class=\"site-logo-icon\" width=\"38\" height=\"38\">\n        <span class=\"logo-text-wrap\">\n          <span class=\"logo-brand\">Asim</span> <span class=\"logo-tag\">SEO Wala</span><span class=\"logo-badge\">PRO</span>\n        </span>\n      </a>\n\n      <button class=\"mobile-toggle\" aria-label=\"Toggle navigation\">\n        <svg class=\"icon\" viewBox=\"0 0 24 24\"><line x1=\"4\" x2=\"20\" y1=\"12\" y2=\"12\"/><line x1=\"4\" x2=\"20\" y1=\"6\" y2=\"6\"/><line x1=\"4\" x2=\"20\" y1=\"18\" y2=\"18\"/></svg>\n      </button>\n\n      <ul class=\"nav-menu\">\n        <li class=\"nav-item\"><a href=\"#top\" class=\"nav-link active\">Home</a></li>\n        <li class=\"nav-item\"><a href=\"#about\" class=\"nav-link\">About Us</a></li>\n        <li class=\"nav-item has-dropdown\">\n          <button type=\"button\" class=\"nav-link dropdown-toggle\" aria-expanded=\"false\">\n            <span>Services</span>\n            <svg class=\"icon dropdown-chevron\" viewBox=\"0 0 24 24\"><polyline points=\"6 9 12 15 18 9\"/></svg>\n          </button>\n          <ul class=\"dropdown-menu\">\n            <li class=\"dropdown-item\">\n              <a href=\"#services\">\n                <span style=\"display: flex; align-items: center; gap: 8px;\">\n                  <svg class=\"icon\" viewBox=\"0 0 24 24\" style=\"color: var(--c-emerald-400); width: 16px; height: 16px;\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg>\n                  SEO Services\n                </span>\n                <svg class=\"icon\" viewBox=\"0 0 24 24\" style=\"width: 14px; height: 14px; opacity: 0.5;\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg>\n              </a>\n            </li>\n            <li class=\"dropdown-item\">\n              <a href=\"#services\">\n                <span style=\"display: flex; align-items: center; gap: 8px;\">\n                  <svg class=\"icon\" viewBox=\"0 0 24 24\" style=\"color: var(--c-emerald-400); width: 16px; height: 16px;\"><path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"/><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"/></svg>\n                  Guest Posting\n                </span>\n                <svg class=\"icon\" viewBox=\"0 0 24 24\" style=\"width: 14px; height: 14px; opacity: 0.5;\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg>\n              </a>\n            </li>\n            <li class=\"dropdown-item\">\n              <a href=\"#services\">\n                <span style=\"display: flex; align-items: center; gap: 8px;\">\n                  <svg class=\"icon\" viewBox=\"0 0 24 24\" style=\"color: var(--c-emerald-400); width: 16px; height: 16px;\"><path d=\"M12 20h9\"/><path d=\"M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z\"/></svg>\n                  Content Writing\n                </span>\n                <svg class=\"icon\" viewBox=\"0 0 24 24\" style=\"width: 14px; height: 14px; opacity: 0.5;\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg>\n              </a>\n            </li>\n            <li class=\"dropdown-item\" style=\"border-top: 1px solid rgba(255, 255, 255, 0.08); margin-top: 4px; padding-top: 4px;\">\n              <a href=\"#services\" style=\"color: var(--c-emerald-400); font-weight: 600;\">\n                <span>All Services Overview</span>\n                <svg class=\"icon\" viewBox=\"0 0 24 24\" style=\"width: 14px; height: 14px;\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg>\n              </a>\n            </li>\n          </ul>\n        </li>\n        <li class=\"nav-item\"><a href=\"#results\" class=\"nav-link\">Portfolio</a></li>\n        <li class=\"nav-item\"><a href=\"#courses\" class=\"nav-link\">Free Courses</a></li>\n        <li class=\"nav-item\"><a href=\"#courses\" class=\"nav-link\">Blog</a></li>\n        <li class=\"nav-item\"><a href=\"#videos\" class=\"nav-link\">Videos</a></li>\n        <li class=\"nav-item\"><a href=\"#contact\" class=\"nav-link\">Contact Us</a></li>\n        <li class=\"nav-item\"><a href=\"#contact\" class=\"btn btn-primary\" style=\"padding: 10px 22px;\">Hire Me</a></li>\n      </ul>\n    </div>\n  </header>"
+                "title": "🟢 AVAILABLE FOR 2 NEW SEO RETAINERS",
+                "header_size": "h5",
+                "align": "left",
+                "title_color": "#10b981",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13,
+                  "sizes": []
+                },
+                "typography_font_weight": "700"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "b024807",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Grow Your Organic Traffic and Revenue With Asim SEO Wala",
+                "header_size": "h1",
+                "align": "left",
+                "title_color": "#f8fafc",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 46,
+                  "sizes": []
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.15,
+                  "sizes": []
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "233d2fb",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='font-size: 1.1rem; line-height: 1.6; color: #94a3b8;'>100% White-Hat Search Strategy, High-Intent Keyword Targeting, and Real Business Growth—Zero Fluff, Zero Spam.</p>",
+                "align": "left"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "3f052ac",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Audit My Website Free →",
+                "link": {
+                  "url": "#contact",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "align": "left",
+                "background_color": "#10b981",
+                "button_text_color": "#ffffff",
+                "size": "md",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "8",
+                  "bottom": "8",
+                  "left": "8",
+                  "isLinked": true
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "bbcd760",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style='margin-top: 15px; color: #cbd5e1; font-size: 0.95rem;'>⭐⭐⭐⭐⭐ <strong style='color:#f8fafc;'>4.9/5 Rating</strong> · 50+ Verified Client Reviews · Upwork Top Rated</div>",
+                "align": "left"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "98ae069",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 45,
+            "_inline_size": null
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "eff1e03",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://personal-brand-portfolio-three.vercel.app/assets/images/asim-hero-headshot.webp",
+                  "id": ""
+                },
+                "image_size": "full",
+                "align": "center",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "3ea2f63",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n        <div style=\"background: rgba(15, 23, 42, 0.85); border: 1px solid rgba(16, 185, 129, 0.4); border-radius: 12px; padding: 14px 20px; margin-top: 15px; display: flex; justify-content: space-between; align-items: center;\">\n          <div>\n            <div style=\"color: #10b981; font-weight: 800; font-size: 1.25rem;\">+340% Traffic</div>\n            <div style=\"color: #94a3b8; font-size: 0.85rem;\">SaaS Ranking Case Study</div>\n          </div>\n          <div style=\"text-align: right;\">\n            <div style=\"color: #38bdf8; font-weight: 800; font-size: 1.25rem;\">100% White-Hat</div>\n            <div style=\"color: #94a3b8; font-size: 0.85rem;\">Pure Manual Outreach</div>\n          </div>\n        </div>\n        "
               },
               "defaultEditSettings": {
                 "defaultEditRoute": "content"
@@ -88,37 +344,184 @@
       ]
     },
     {
-      "id": "d114e9e",
+      "id": "579bdd1",
       "elType": "section",
       "isInner": false,
       "settings": {
-        "layout": "full_width",
-        "gap": "no",
-        "_title": "🚀 03. Hero Showcase & Availability"
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "📊 03. Trust & Experience Stats",
+        "background_background": "classic",
+        "background_color": "#080d1a",
+        "padding": {
+          "unit": "px",
+          "top": "40",
+          "right": "20",
+          "bottom": "40",
+          "left": "20",
+          "isLinked": false
+        }
       },
       "defaultEditSettings": {
         "defaultEditRoute": "content"
       },
       "elements": [
         {
-          "id": "6aa54c5",
+          "id": "af4e7b6",
           "elType": "column",
           "isInner": false,
           "settings": {
-            "_column_size": 100,
-            "_inline_size": null
+            "_column_size": 25,
+            "_inline_size": null,
+            "background_color": "#0b1120",
+            "padding": {
+              "unit": "px",
+              "top": "24",
+              "right": "16",
+              "bottom": "24",
+              "left": "16",
+              "isLinked": true
+            }
           },
           "defaultEditSettings": {
             "defaultEditRoute": "content"
           },
           "elements": [
             {
-              "id": "128cae7",
+              "id": "f40c724",
               "elType": "widget",
               "isInner": false,
-              "widgetType": "html",
+              "widgetType": "counter",
               "settings": {
-                "html": "<section class=\"hero-section\" id=\"top\">\n      <div class=\"container hero-grid\">\n        <div>\n          <div class=\"status-pill\">\n            <img src=\"https://personal-brand-portfolio-three.vercel.app/assets/images/logo.svg\" alt=\"Asim SEO Wala Icon\" style=\"width: 20px; height: 20px; border-radius: 5px; flex-shrink: 0;\" width=\"20\" height=\"20\">\n            <span class=\"pulse-indicator\"></span> Available for International Client Campaigns & Mentorship\n          </div>\n          <h1>\n            Grow Your Organic Traffic and Revenue With <span class=\"gradient-title\">Asim SEO Wala</span>\n          </h1>\n          <p class=\"hero-description\">\n            I help businesses, SaaS founders, and online stores rank on Google through clean technical SEO and genuine manual outreach. No private blog networks, no spam tricks, just real rankings that bring paying customers.\n          </p>\n          <div class=\"hero-cta-group\">\n            <a href=\"#contact\" class=\"btn btn-primary\">\n              <span>Hire Asim / Start Project</span>\n              <svg class=\"icon\" viewBox=\"0 0 24 24\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg>\n            </a>\n            <a href=\"#results\" class=\"btn btn-secondary\">View Verified Case Studies</a>\n            <a href=\"#courses\" class=\"btn btn-outline-green\">Explore Free Courses</a>\n          </div>\n          <div class=\"hero-proof-strip\">\n            <div class=\"proof-metric\">\n              <strong class=\"mono-metric\">100+</strong>\n              <span>Ranked Websites</span>\n            </div>\n            <div class=\"proof-metric\">\n              <strong class=\"mono-metric\">10M+</strong>\n              <span>Organic Traffic Driven</span>\n            </div>\n            <div class=\"proof-metric\">\n              <strong class=\"mono-metric\">5,000+</strong>\n              <span>Students Mentored</span>\n            </div>\n          </div>\n        </div>\n\n        <div>\n          <!-- Ultra-Modern Layered Composition: Studio Portrait + Search Console Spline Area Chart -->\n          <div class=\"hero-stage-container\">\n            <div class=\"hero-ambient-glow\"></div>\n            <div class=\"hero-portrait-frame\">\n              <span class=\"hero-portrait-badge\">\n                <span class=\"pulse-indicator\"></span> Asim — Founder & Lead SEO Strategist\n              </span>\n              <picture>\n                <source srcset=\"https://personal-brand-portfolio-three.vercel.app/assets/images/asim-hero-headshot.webp\" type=\"image/webp\">\n                <img src=\"https://personal-brand-portfolio-three.vercel.app/assets/images/asim-hero-headshot.jpg\" alt=\"Asim - Founder & Lead SEO Strategist\" class=\"hero-portrait-img\" width=\"600\" height=\"750\" fetchpriority=\"high\">\n              </picture>\n            </div>\n\n            <!-- Overlapping Search Console Analytics Card -->\n            <div class=\"seo-console-overlap-card\">\n              <div class=\"console-header\">\n                <div class=\"console-header-brand\">\n                  <svg class=\"icon\" viewBox=\"0 0 24 24\" style=\"color: var(--c-emerald-400);\"><path d=\"M3 3v18h18\"/><path d=\"m19 9-5 5-4-4-3 3\"/></svg>\n                  <span>Search Console Analytics</span>\n                </div>\n                <span class=\"console-header-badge\">Google Verified</span>\n              </div>\n\n              <div class=\"console-metrics-row\">\n                <div class=\"console-stat-box\">\n                  <div class=\"stat-label\">Organic Clicks</div>\n                  <div class=\"stat-val mono-metric\">348,290</div>\n                  <div class=\"stat-growth mono-metric\">↑ +340.2% vs Last Period</div>\n                </div>\n                <div class=\"console-stat-box\">\n                  <div class=\"stat-label\">Total Impressions</div>\n                  <div class=\"stat-val mono-metric\">6.82M</div>\n                  <div class=\"stat-growth mono-metric\">↑ +215.8% Growth</div>\n                </div>\n              </div>\n\n              <!-- Glowing SVG Smooth Spline Area Chart -->\n              <div class=\"console-spline-box\">\n                <svg class=\"spline-svg\" viewBox=\"0 0 360 80\" preserveAspectRatio=\"none\">\n                  <defs>\n                    <linearGradient id=\"spline-grad\" x1=\"0%\" y1=\"0%\" x2=\"0%\" y2=\"100%\">\n                      <stop offset=\"0%\" stop-color=\"#10b981\" stop-opacity=\"0.45\" />\n                      <stop offset=\"100%\" stop-color=\"#10b981\" stop-opacity=\"0.0\" />\n                    </linearGradient>\n                    <filter id=\"glow\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"140%\">\n                      <feGaussianBlur stdDeviation=\"3\" result=\"blur\" />\n                      <feComposite in=\"SourceGraphic\" in2=\"blur\" operator=\"over\" />\n                    </filter>\n                  </defs>\n                  <!-- Gradient Area -->\n                  <path d=\"M 0,70 Q 40,65 80,50 T 160,42 T 240,25 T 310,12 T 360,4 L 360,80 L 0,80 Z\" fill=\"url(#spline-grad)\" />\n                  <!-- Glowing Spline Line -->\n                  <path d=\"M 0,70 Q 40,65 80,50 T 160,42 T 240,25 T 310,12 T 360,4\" fill=\"none\" stroke=\"#10b981\" stroke-width=\"3\" filter=\"url(#glow)\" />\n                  <!-- Accent Data Points -->\n                  <circle cx=\"80\" cy=\"50\" r=\"3.5\" fill=\"#10b981\" />\n                  <circle cx=\"160\" cy=\"42\" r=\"3.5\" fill=\"#10b981\" />\n                  <circle cx=\"240\" cy=\"25\" r=\"3.5\" fill=\"#10b981\" />\n                  <circle cx=\"360\" cy=\"4\" r=\"4.5\" fill=\"#34d399\" stroke=\"#060911\" stroke-width=\"2\" />\n                </svg>\n              </div>\n\n              <div class=\"console-verified-footer\">\n                <span style=\"display: inline-flex; align-items: center; gap: 6px;\">\n                  <svg class=\"icon\" viewBox=\"0 0 24 24\" style=\"color: var(--c-emerald-400); width: 16px; height: 16px;\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/><path d=\"m9 12 2 2 4-4\"/></svg>\n                  100% White-Hat Only\n                </span>\n                <span class=\"mono-metric\" style=\"font-weight: 700; color: var(--c-emerald-400);\">DR 40–80+ Genuine Outreach</span>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </section>"
+                "starting_number": 0,
+                "ending_number": 8,
+                "suffix": "+",
+                "title": "Years Experience",
+                "number_color": "#10b981",
+                "title_color": "#cbd5e1"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "1982bc2",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": null,
+            "background_color": "#0b1120",
+            "padding": {
+              "unit": "px",
+              "top": "24",
+              "right": "16",
+              "bottom": "24",
+              "left": "16",
+              "isLinked": true
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "0d7f953",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "counter",
+              "settings": {
+                "starting_number": 0,
+                "ending_number": 150,
+                "suffix": "+",
+                "title": "Delivered Projects",
+                "number_color": "#38bdf8",
+                "title_color": "#cbd5e1"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "774f021",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": null,
+            "background_color": "#0b1120",
+            "padding": {
+              "unit": "px",
+              "top": "24",
+              "right": "16",
+              "bottom": "24",
+              "left": "16",
+              "isLinked": true
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "36bad5b",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "counter",
+              "settings": {
+                "starting_number": 0,
+                "ending_number": 25,
+                "suffix": "M+",
+                "title": "Organic Visitors",
+                "number_color": "#10b981",
+                "title_color": "#cbd5e1"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "44e018c",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": null,
+            "background_color": "#0b1120",
+            "padding": {
+              "unit": "px",
+              "top": "24",
+              "right": "16",
+              "bottom": "24",
+              "left": "16",
+              "isLinked": true
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "cf21317",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "counter",
+              "settings": {
+                "starting_number": 0,
+                "ending_number": 100,
+                "suffix": "%",
+                "title": "White-Hat Safe",
+                "number_color": "#38bdf8",
+                "title_color": "#cbd5e1"
               },
               "defaultEditSettings": {
                 "defaultEditRoute": "content"
@@ -130,24 +533,34 @@
       ]
     },
     {
-      "id": "1a96c33",
+      "id": "f858f1c",
       "elType": "section",
       "isInner": false,
       "settings": {
-        "layout": "full_width",
-        "gap": "no",
-        "_title": "👨‍💻 04. About Asim & Hands-on Experience"
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "👨‍💻 04. About Asim & Mission",
+        "background_background": "classic",
+        "background_color": "#060911",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "20",
+          "bottom": "70",
+          "left": "20",
+          "isLinked": false
+        }
       },
       "defaultEditSettings": {
         "defaultEditRoute": "content"
       },
       "elements": [
         {
-          "id": "7f9d881",
+          "id": "ddd04cc",
           "elType": "column",
           "isInner": false,
           "settings": {
-            "_column_size": 100,
+            "_column_size": 50,
             "_inline_size": null
           },
           "defaultEditSettings": {
@@ -155,12 +568,121 @@
           },
           "elements": [
             {
-              "id": "9a8afde",
+              "id": "0c7bacd",
               "elType": "widget",
               "isInner": false,
-              "widgetType": "html",
+              "widgetType": "heading",
               "settings": {
-                "html": "<section class=\"bg-alt\" id=\"about\">\n      <div class=\"container\">\n        <span class=\"pill-badge\">WHO I AM</span>\n        <h2>Search Strategy Backed by Real Experience</h2>\n        <p class=\"section-subtext\">\n          I built my career on two simple commitments: helping international businesses grow their search revenue, and teaching practical freelancing skills to upcoming talent across Pakistan and beyond completely free of charge.\n        </p>\n\n        <!-- Asymmetrical Bento Grid -->\n        <div class=\"bento-grid\">\n          <!-- Bento Card 1 (Large Span: China Expo 2-Column Split Feature) -->\n          <div class=\"bento-card bento-span-7 bento-split-card\">\n            <div class=\"bento-split-left\">\n              <div style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;\">\n                <div class=\"icon-box\">\n                  <svg class=\"icon\" viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20\"/><path d=\"M2 12h20\"/></svg>\n                </div>\n                <span class=\"pill-badge\" style=\"margin-bottom: 0;\">Global Outreach</span>\n              </div>\n              <h3 class=\"card-title\">International Reach and Partnerships</h3>\n              <p class=\"card-text\">\n                Working with founders, marketing heads, and agencies across the US, UK, Canada, and Australia. I regularly attend international trade expos to build direct relationships with overseas partners.\n              </p>\n              <div style=\"margin-top: auto; padding-top: 18px;\">\n                <span class=\"mono-metric\" style=\"font-size: 0.8rem; color: var(--c-emerald-400); font-weight: 700;\">Global Partner Outreach</span>\n              </div>\n            </div>\n            <div class=\"bento-split-right editorial-img-wrap\">\n              <picture>\n                <source srcset=\"https://personal-brand-portfolio-three.vercel.app/assets/images/asim-china-expo.webp\" type=\"image/webp\">\n                <img src=\"https://personal-brand-portfolio-three.vercel.app/assets/images/asim-china-expo.jpg\" alt=\"Asim at International RACC Expo\" class=\"crop-china-expo-vertical\" width=\"799\" height=\"1066\" loading=\"lazy\" decoding=\"async\">\n              </picture>\n              <div class=\"bento-img-badge-overlay\">\n                <span>Global Networking & Outreach</span>\n              </div>\n            </div>\n          </div>\n\n          <!-- Bento Card 2 (Medium Span: Executive Desk with Pakistan Flag - Image at TOP) -->\n          <div class=\"bento-card bento-span-5\">\n            <div class=\"editorial-img-wrap\" style=\"margin-bottom: 20px;\">\n              <picture>\n                <source srcset=\"https://personal-brand-portfolio-three.vercel.app/assets/images/asim-executive-desk.webp\" type=\"image/webp\">\n                <img src=\"https://personal-brand-portfolio-three.vercel.app/assets/images/asim-executive-desk.jpg\" alt=\"Asim at Executive Desk with Pakistan Flag\" class=\"crop-pakistan-desk-top\" width=\"800\" height=\"600\" loading=\"lazy\" decoding=\"async\">\n              </picture>\n            </div>\n            <div style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;\">\n              <div class=\"icon-box\">\n                <svg class=\"icon\" viewBox=\"0 0 24 24\"><path d=\"M21.42 10.922a1 1 0 0 0-.019-.838L12.83 3.18a2 2 0 0 0-1.66 0L2.6 10.084a1 1 0 0 0 0 1.832l8.57 6.908a2 2 0 0 0 1.66 0l8.57-6.908a1 1 0 0 0 .02-.994z\"/><path d=\"M6 12v5c3 3 9 3 12 0v-5\"/></svg>\n              </div>\n              <span class=\"pill-badge\" style=\"margin-bottom: 0;\">Community</span>\n            </div>\n            <h3 class=\"card-title\">Free Mentorship for Ambitious Youth</h3>\n            <p class=\"card-text\">\n              Every weekend I run free workshops to help students across South Asia learn real SEO and freelancing skills so they can land global clients without paying for expensive courses.\n            </p>\n          </div>\n\n          <!-- Bento Card 3 (Medium Span: Outdoor Sunglasses Portrait - Image at TOP) -->\n          <div class=\"bento-card bento-span-4\">\n            <div class=\"editorial-img-wrap\" style=\"margin-bottom: 20px;\">\n              <picture>\n                <source srcset=\"https://personal-brand-portfolio-three.vercel.app/assets/images/asim-outdoor-vest.webp\" type=\"image/webp\">\n                <img src=\"https://personal-brand-portfolio-three.vercel.app/assets/images/asim-outdoor-vest.jpg\" alt=\"Asim - Founder Story\" class=\"crop-outdoor-vest-top\" width=\"600\" height=\"900\" loading=\"lazy\" decoding=\"async\">\n              </picture>\n            </div>\n            <h3 class=\"card-title\">Real Experience in the Field</h3>\n            <p class=\"card-text\" style=\"margin-bottom: 20px;\">\n              From working on a single laptop to managing campaigns with millions of search visitors. I only teach and apply methods I have tested myself.\n            </p>\n            <a href=\"#about\" class=\"btn btn-secondary\" style=\"width: 100%; justify-content: space-between; margin-top: auto;\">\n              <span>Read Asim's Full Journey</span>\n              <svg class=\"icon\" viewBox=\"0 0 24 24\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg>\n            </a>\n          </div>\n\n          <!-- Bento Card 4 (Clean Glassmorphic Card: 100% White-Hat) -->\n          <div class=\"bento-card bento-span-4\">\n            <div class=\"icon-box\" style=\"margin-bottom: 20px;\">\n              <svg class=\"icon\" viewBox=\"0 0 24 24\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/><path d=\"m9 12 2 2 4-4\"/></svg>\n            </div>\n            <h3 class=\"card-title\">100% White-Hat Only</h3>\n            <p class=\"card-text\">\n              Strict adherence to Google search engine quality guidelines. Zero PBNs, zero algorithmic shortcuts, and sustainable multi-year organic ranking moats.\n            </p>\n            <div style=\"margin-top: auto; padding-top: 18px;\">\n              <span class=\"mono-metric\" style=\"font-size: 0.8rem; color: var(--c-emerald-400); font-weight: 700;\">Zero Algorithmic Risk</span>\n            </div>\n          </div>\n\n          <!-- Bento Card 5 (Clean Glassmorphic Card: Data-Driven ROI) -->\n          <div class=\"bento-card bento-span-4\">\n            <div class=\"icon-box\" style=\"margin-bottom: 20px;\">\n              <svg class=\"icon\" viewBox=\"0 0 24 24\"><polyline points=\"22 7 13.5 15.5 8.5 10.5 2 17\"/><polyline points=\"16 7 22 7 22 13\"/></svg>\n            </div>\n            <h3 class=\"card-title\">Focused on Business Growth</h3>\n            <p class=\"card-text\">\n              Rankings only matter if they help your business grow. Every technical fix and outreach placement is designed to bring you real buyers and qualified leads.\n            </p>\n            <div style=\"margin-top: auto; padding-top: 18px;\">\n              <span class=\"mono-metric\" style=\"font-size: 0.8rem; color: var(--c-emerald-400); font-weight: 700;\">Revenue-First Metrics</span>\n            </div>\n          </div>\n        </div>\n      </div>\n    </section>"
+                "title": "WHO I AM & WHAT I STAND FOR",
+                "header_size": "h5",
+                "title_color": "#10b981",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13,
+                  "sizes": []
+                },
+                "typography_font_weight": "700"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "3cc052d",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Search Strategy Backed by Real Experience, Not Theory",
+                "header_size": "h2",
+                "title_color": "#f8fafc",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 34,
+                  "sizes": []
+                },
+                "typography_font_weight": "800"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "c5657f0",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n        <p style=\"color: #cbd5e1; font-size: 1.05rem; line-height: 1.7;\">\n          I built my career on two simple commitments: helping international businesses grow their organic search revenue, and teaching practical freelancing skills to upcoming talent across Pakistan and beyond completely free of charge.\n        </p>\n        <p style=\"color: #94a3b8; font-size: 1rem; line-height: 1.6;\">\n          Starting with just a laptop, I tested Google search algorithms across hundreds of sites. I learned what truly moves rankings—sound technical foundations, high-intent content, and real editorial outreach—and rejected cheap spam tactics like PBNs and link farms.\n        </p>\n        <ul style=\"color: #cbd5e1; line-height: 1.8; margin-top: 15px;\">\n          <li><strong style=\"color: #10b981;\">✓ 100% Manual Blogger Outreach</strong> (Zero PBN networks)</li>\n          <li><strong style=\"color: #10b981;\">✓ Transparent Monthly Analytics</strong> (Ahrefs & Search Console)</li>\n          <li><strong style=\"color: #10b981;\">✓ Direct Communication</strong> (No junior account managers)</li>\n          <li><strong style=\"color: #10b981;\">✓ Free Community Mentorship</strong> (Giving back to upcoming youth)</li>\n        </ul>\n        "
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "0626597",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": null
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "5e8244c",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://personal-brand-portfolio-three.vercel.app/assets/images/asim-executive-desk.webp",
+                  "id": ""
+                },
+                "image_size": "full",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "12",
+                  "bottom": "12",
+                  "left": "12",
+                  "isLinked": true
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "92ce6fe",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://personal-brand-portfolio-three.vercel.app/assets/images/asim-china-expo.webp",
+                  "id": ""
+                },
+                "image_size": "full",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "12",
+                  "bottom": "12",
+                  "left": "12",
+                  "isLinked": true
+                }
               },
               "defaultEditSettings": {
                 "defaultEditRoute": "content"
@@ -172,20 +694,30 @@
       ]
     },
     {
-      "id": "7b05d2d",
+      "id": "ddaca82",
       "elType": "section",
       "isInner": false,
       "settings": {
-        "layout": "full_width",
-        "gap": "no",
-        "_title": "⚡ 05. Three Core SEO Services"
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "⚡ 05A. Services Header",
+        "background_background": "classic",
+        "background_color": "#0b1120",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "10",
+          "left": "20",
+          "isLinked": false
+        }
       },
       "defaultEditSettings": {
         "defaultEditRoute": "content"
       },
       "elements": [
         {
-          "id": "0651514",
+          "id": "88d5533",
           "elType": "column",
           "isInner": false,
           "settings": {
@@ -197,12 +729,60 @@
           },
           "elements": [
             {
-              "id": "78a72c1",
+              "id": "2a74b1f",
               "elType": "widget",
               "isInner": false,
-              "widgetType": "html",
+              "widgetType": "heading",
               "settings": {
-                "html": "<section id=\"services\">\n      <div class=\"container\">\n        <span class=\"pill-badge\">CLIENT SERVICES</span>\n        <h2>How I Help Your Business Grow on Google</h2>\n        <p class=\"section-subtext\">\n          Whether your site has technical ranking issues, needs authoritative backlinks, or requires well-researched content, I provide hands-on execution from start to finish.\n        </p>\n\n        <div class=\"grid-3\">\n          <!-- Service 1 -->\n          <div class=\"service-card-premium\">\n            <div class=\"icon-box\" style=\"margin-bottom: 20px;\">\n              <svg class=\"icon\" viewBox=\"0 0 24 24\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg>\n            </div>\n            <h3 class=\"card-title\">Technical and On-Page SEO</h3>\n            <p class=\"card-text\">\n              Fixing crawl errors, index bloat, and site speed bottlenecks, then mapping keywords with high buying intent to pages designed to convert.\n            </p>\n            <div class=\"deliverable-tags\">\n              <span class=\"deliverable-tag\">Core Web Vitals</span>\n              <span class=\"deliverable-tag\">Crawl Budget</span>\n              <span class=\"deliverable-tag\">Competitor Gap</span>\n              <span class=\"deliverable-tag\">Cluster Architecture</span>\n            </div>\n            <div class=\"card-action\">\n              <a href=\"#services\" class=\"btn btn-secondary\" style=\"width: 100%; justify-content: space-between;\">\n                <span>Explore SEO Services</span>\n                <svg class=\"icon\" viewBox=\"0 0 24 24\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg>\n              </a>\n            </div>\n          </div>\n\n          <!-- Service 2 -->\n          <div class=\"service-card-premium\">\n            <div class=\"icon-box\" style=\"margin-bottom: 20px;\">\n              <svg class=\"icon\" viewBox=\"0 0 24 24\"><path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"/><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"/></svg>\n            </div>\n            <h3 class=\"card-title\">Manual Guest Posting Outreach</h3>\n            <p class=\"card-text\">\n              Direct outreach to genuine blogs with verified search traffic. Permanent do-follow backlinks on relevant sites with DR 40 to 80+. Never PBNs.\n            </p>\n            <div class=\"deliverable-tags\">\n              <span class=\"deliverable-tag mono-metric\">DR 40–80+ Manual Outreach</span>\n              <span class=\"deliverable-tag\">DoFollow In-Content</span>\n              <span class=\"deliverable-tag\">Zero PBNs</span>\n              <span class=\"deliverable-tag\">Real Organic Traffic</span>\n            </div>\n            <div class=\"card-action\">\n              <a href=\"#services\" class=\"btn btn-secondary\" style=\"width: 100%; justify-content: space-between;\">\n                <span>Explore Guest Posting</span>\n                <svg class=\"icon\" viewBox=\"0 0 24 24\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg>\n              </a>\n            </div>\n          </div>\n\n          <!-- Service 3 -->\n          <div class=\"service-card-premium\">\n            <div class=\"icon-box\" style=\"margin-bottom: 20px;\">\n              <svg class=\"icon\" viewBox=\"0 0 24 24\"><path d=\"M12 20h9\"/><path d=\"M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z\"/></svg>\n            </div>\n            <h3 class=\"card-title\">SEO Content Writing</h3>\n            <p class=\"card-text\">\n              Well-researched, human-written guides and product comparisons that answer what your customers are actually searching for on Google.\n            </p>\n            <div class=\"deliverable-tags\">\n              <span class=\"deliverable-tag\">Search Intent Alignment</span>\n              <span class=\"deliverable-tag\">EEAT Optimized</span>\n              <span class=\"deliverable-tag\">Entity Enrichment</span>\n              <span class=\"deliverable-tag\">Zero AI Fluff</span>\n            </div>\n            <div class=\"card-action\">\n              <a href=\"#services\" class=\"btn btn-secondary\" style=\"width: 100%; justify-content: space-between;\">\n                <span>Explore Content Writing</span>\n                <svg class=\"icon\" viewBox=\"0 0 24 24\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg>\n              </a>\n            </div>\n          </div>\n        </div>\n      </div>\n    </section>"
+                "title": "SERVICES & DELIVERABLES",
+                "header_size": "h5",
+                "align": "center",
+                "title_color": "#10b981",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13,
+                  "sizes": []
+                },
+                "typography_font_weight": "700"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "4903902",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "How I Help Your Business Grow on Google",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#f8fafc",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 34,
+                  "sizes": []
+                },
+                "typography_font_weight": "800"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "f7cbbb3",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center; color: #94a3b8; max-width: 650px; margin: 0 auto 30px;'>Targeted search engine optimization designed to generate real paying customers, not just vanity rankings.</p>",
+                "align": "center"
               },
               "defaultEditSettings": {
                 "defaultEditRoute": "content"
@@ -214,37 +794,332 @@
       ]
     },
     {
-      "id": "e49fe12",
+      "id": "b340798",
       "elType": "section",
       "isInner": false,
       "settings": {
-        "layout": "full_width",
-        "gap": "no",
-        "_title": "📈 06. Verified Case Studies & Traffic Gains"
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "⚡ 05B. Three Core Services Grid",
+        "background_background": "classic",
+        "background_color": "#0b1120",
+        "padding": {
+          "unit": "px",
+          "top": "10",
+          "right": "20",
+          "bottom": "60",
+          "left": "20",
+          "isLinked": false
+        }
       },
       "defaultEditSettings": {
         "defaultEditRoute": "content"
       },
       "elements": [
         {
-          "id": "b9a91e1",
+          "id": "93f7595",
           "elType": "column",
           "isInner": false,
           "settings": {
-            "_column_size": 100,
-            "_inline_size": null
+            "_column_size": 33,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
           },
           "defaultEditSettings": {
             "defaultEditRoute": "content"
           },
           "elements": [
             {
-              "id": "6e5b50f",
+              "id": "faab1f3",
               "elType": "widget",
               "isInner": false,
-              "widgetType": "html",
+              "widgetType": "heading",
               "settings": {
-                "html": "<section class=\"bg-alt\" id=\"results\">\n      <div class=\"container\">\n        <span class=\"pill-badge\">VERIFIED CASE STUDIES</span>\n        <h2>Proven Track Record: Real Rankings & Traffic Gains</h2>\n        <p class=\"section-subtext\">\n          Explore snapshots of recent client campaigns demonstrating verified organic traffic growth, first-page rankings, and high-DA link placements.\n        </p>\n\n        <div class=\"grid-3\">\n          <!-- Case 1 -->\n          <div class=\"case-card\">\n            <span class=\"case-tag\">B2B SaaS (USA)</span>\n            <div class=\"case-metric mono-metric\">+320% Traffic Growth</div>\n            <div class=\"sparkline-box\">\n              <svg class=\"sparkline-svg\" viewBox=\"0 0 200 48\" preserveAspectRatio=\"none\">\n                <path d=\"M0,42 Q30,38 60,32 T120,24 T160,14 T200,4 L200,48 L0,48 Z\" fill=\"rgba(16, 185, 129, 0.15)\" />\n                <path d=\"M0,42 Q30,38 60,32 T120,24 T160,14 T200,4\" fill=\"none\" stroke=\"#10b981\" stroke-width=\"2.5\" />\n                <circle cx=\"200\" cy=\"4\" r=\"3.5\" fill=\"#34d399\" />\n              </svg>\n            </div>\n            <p class=\"card-text\">\n              Overhauled indexation, cleaned 404 crawl waste, and built 18 DR 65+ contextual backlinks resulting in tripling inbound demo inquiries within 5 months.\n            </p>\n            <div class=\"card-action\">\n              <a href=\"#results\" class=\"btn btn-secondary\" style=\"width: 100%; justify-content: space-between;\">\n                <span>View Case Details</span>\n                <svg class=\"icon\" viewBox=\"0 0 24 24\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg>\n              </a>\n            </div>\n          </div>\n\n          <!-- Case 2 -->\n          <div class=\"case-card\">\n            <span class=\"case-tag\">E-Commerce Brand (UK)</span>\n            <div class=\"case-metric mono-metric\">#1 for 14 Keywords</div>\n            <div class=\"sparkline-box\">\n              <svg class=\"sparkline-svg\" viewBox=\"0 0 200 48\" preserveAspectRatio=\"none\">\n                <path d=\"M0,40 Q40,36 80,26 T140,18 T180,10 T200,3 L200,48 L0,48 Z\" fill=\"rgba(16, 185, 129, 0.15)\" />\n                <path d=\"M0,40 Q40,36 80,26 T140,18 T180,10 T200,3\" fill=\"none\" stroke=\"#10b981\" stroke-width=\"2.5\" />\n                <circle cx=\"200\" cy=\"3\" r=\"3.5\" fill=\"#34d399\" />\n              </svg>\n            </div>\n            <p class=\"card-text\">\n              Optimized product category schema, built internal cluster links, and secured placements on top consumer lifestyle portals.\n            </p>\n            <div class=\"card-action\">\n              <a href=\"#results\" class=\"btn btn-secondary\" style=\"width: 100%; justify-content: space-between;\">\n                <span>View Case Details</span>\n                <svg class=\"icon\" viewBox=\"0 0 24 24\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg>\n              </a>\n            </div>\n          </div>\n\n          <!-- Case 3 -->\n          <div class=\"case-card\">\n            <span class=\"case-tag\">FinTech Publication (Global)</span>\n            <div class=\"case-metric mono-metric\">0 to 85,000 Visitors</div>\n            <div class=\"sparkline-box\">\n              <svg class=\"sparkline-svg\" viewBox=\"0 0 200 48\" preserveAspectRatio=\"none\">\n                <path d=\"M0,44 Q50,42 90,30 T150,16 T185,8 T200,2 L200,48 L0,48 Z\" fill=\"rgba(16, 185, 129, 0.15)\" />\n                <path d=\"M0,44 Q50,42 90,30 T150,16 T185,8 T200,2\" fill=\"none\" stroke=\"#10b981\" stroke-width=\"2.5\" />\n                <circle cx=\"200\" cy=\"2\" r=\"3.5\" fill=\"#34d399\" />\n              </svg>\n            </div>\n            <p class=\"card-text\">\n              Researched low-competition informational keywords and authored 35 in-depth technical guides with zero PBN reliance.\n            </p>\n            <div class=\"card-action\">\n              <a href=\"#results\" class=\"btn btn-secondary\" style=\"width: 100%; justify-content: space-between;\">\n                <span>View Case Details</span>\n                <svg class=\"icon\" viewBox=\"0 0 24 24\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg>\n              </a>\n            </div>\n          </div>\n        </div>\n\n        <div style=\"margin-top: 40px; text-align: center;\">\n          <a href=\"#results\" class=\"btn btn-primary\">\n            <span>View Complete Portfolio & Proof</span>\n            <svg class=\"icon\" viewBox=\"0 0 24 24\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg>\n          </a>\n        </div>\n      </div>\n    </section>"
+                "title": "🔍 Full-Stack SEO Strategy",
+                "header_size": "h3",
+                "title_color": "#f8fafc",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22,
+                  "sizes": []
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "8405aa0",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n        <p style=\"color: #94a3b8; font-size: 0.95rem;\">Technical audits, Core Web Vitals remediation, keyword architecture, and on-page optimization built for sustainable search growth.</p>\n        <ul style=\"color: #cbd5e1; font-size: 0.9rem; line-height: 1.8; padding-left: 18px;\">\n          <li>Full Technical Crawl & Audit</li>\n          <li>Competitor Keyword Gap Analysis</li>\n          <li>On-Page & Schema Architecture</li>\n          <li>Monthly Traffic & Ranking Reports</li>\n        </ul>\n        "
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "4bcefd7",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Inquire About SEO →",
+                "link": {
+                  "url": "#contact",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "background_color": "#10b981",
+                "button_text_color": "#ffffff",
+                "align": "center",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "6",
+                  "right": "6",
+                  "bottom": "6",
+                  "left": "6",
+                  "isLinked": true
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "a5f250b",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "36e990a",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "🔗 Authority Guest Posting",
+                "header_size": "h3",
+                "title_color": "#f8fafc",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22,
+                  "sizes": []
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "1032d8b",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n        <p style=\"color: #94a3b8; font-size: 0.95rem;\">100% manual, pitch-based editorial link outreach to real websites with verified organic search traffic. Zero PBNs or link farms.</p>\n        <ul style=\"color: #cbd5e1; font-size: 0.9rem; line-height: 1.8; padding-left: 18px;\">\n          <li>Pure Manual Blogger Outreach</li>\n          <li>Ahrefs DR 40–80+ Real Traffic Sites</li>\n          <li>DoFollow Contextual Placements</li>\n          <li>Permanent Indexing Guarantee</li>\n        </ul>\n        "
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "c8bca34",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Order Guest Posts →",
+                "link": {
+                  "url": "#contact",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "background_color": "#10b981",
+                "button_text_color": "#ffffff",
+                "align": "center",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "6",
+                  "right": "6",
+                  "bottom": "6",
+                  "left": "6",
+                  "isLinked": true
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "ec98f41",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "2934e3d",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "✍️ Conversion Content Writing",
+                "header_size": "h3",
+                "title_color": "#f8fafc",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22,
+                  "sizes": []
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "3061f8a",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n        <p style=\"color: #94a3b8; font-size: 0.95rem;\">Human-crafted, research-backed copy designed to rank high on search engines while converting readers into paying customers.</p>\n        <ul style=\"color: #cbd5e1; font-size: 0.9rem; line-height: 1.8; padding-left: 18px;\">\n          <li>Commercial Intent Keyword Mapping</li>\n          <li>Surfer / NLP Term Optimization</li>\n          <li>Native English (Zero AI Jargon)</li>\n          <li>Compelling Lead Conversion CTAs</li>\n        </ul>\n        "
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "d97f6c9",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Get Content Strategy →",
+                "link": {
+                  "url": "#contact",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "background_color": "#10b981",
+                "button_text_color": "#ffffff",
+                "align": "center",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "6",
+                  "right": "6",
+                  "bottom": "6",
+                  "left": "6",
+                  "isLinked": true
+                }
               },
               "defaultEditSettings": {
                 "defaultEditRoute": "content"
@@ -256,37 +1131,275 @@
       ]
     },
     {
-      "id": "25b6a08",
+      "id": "a1c1a0b",
       "elType": "section",
       "isInner": false,
       "settings": {
-        "layout": "full_width",
-        "gap": "no",
-        "_title": "⭐ 07. International Client Reviews"
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "📈 06. Verified Case Studies & Results",
+        "background_background": "classic",
+        "background_color": "#060911",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "20",
+          "bottom": "70",
+          "left": "20",
+          "isLinked": false
+        }
       },
       "defaultEditSettings": {
         "defaultEditRoute": "content"
       },
       "elements": [
         {
-          "id": "cc2db29",
+          "id": "b9be316",
           "elType": "column",
           "isInner": false,
           "settings": {
-            "_column_size": 100,
-            "_inline_size": null
+            "_column_size": 33,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
           },
           "defaultEditSettings": {
             "defaultEditRoute": "content"
           },
           "elements": [
             {
-              "id": "04d06f8",
+              "id": "aab8fc0",
               "elType": "widget",
               "isInner": false,
-              "widgetType": "html",
+              "widgetType": "heading",
               "settings": {
-                "html": "<section id=\"reviews\">\n      <div class=\"container\">\n        <span class=\"pill-badge\">CLIENT FEEDBACK</span>\n        <h2>What International Clients Say</h2>\n        <p class=\"section-subtext\">\n          Genuine, unedited feedback from business founders, marketing directors, and agency partners worldwide.\n        </p>\n\n        <div class=\"grid-3\">\n          <div class=\"card\">\n            <div style=\"display: flex; gap: 4px; margin-bottom: 16px;\">\n              <svg class=\"star-icon\" viewBox=\"0 0 24 24\"><polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"/></svg>\n              <svg class=\"star-icon\" viewBox=\"0 0 24 24\"><polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"/></svg>\n              <svg class=\"star-icon\" viewBox=\"0 0 24 24\"><polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"/></svg>\n              <svg class=\"star-icon\" viewBox=\"0 0 24 24\"><polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"/></svg>\n              <svg class=\"star-icon\" viewBox=\"0 0 24 24\"><polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"/></svg>\n            </div>\n            <p class=\"card-text\" style=\"font-style: italic; margin-bottom: 20px;\">\n              \"Before working with Asim, our organic traffic had been stuck for months. He found technical indexing issues our previous agency missed completely. Four months later, our qualified demo requests more than tripled. He is straightforward, fast, and knows his craft.\"\n            </p>\n            <div style=\"border-top: 1px solid rgba(255,255,255,0.08); padding-top: 14px;\">\n              <strong style=\"color: var(--c-white); display: block;\">Mark R.</strong>\n              <span style=\"font-size: 0.82rem; color: var(--c-slate-400);\">CEO, SaaS Growth Labs (San Francisco, USA)</span>\n            </div>\n          </div>\n\n          <div class=\"card\">\n            <div style=\"display: flex; gap: 4px; margin-bottom: 16px;\">\n              <svg class=\"star-icon\" viewBox=\"0 0 24 24\"><polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"/></svg>\n              <svg class=\"star-icon\" viewBox=\"0 0 24 24\"><polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"/></svg>\n              <svg class=\"star-icon\" viewBox=\"0 0 24 24\"><polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"/></svg>\n              <svg class=\"star-icon\" viewBox=\"0 0 24 24\"><polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"/></svg>\n              <svg class=\"star-icon\" viewBox=\"0 0 24 24\"><polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"/></svg>\n            </div>\n            <p class=\"card-text\" style=\"font-style: italic; margin-bottom: 20px;\">\n              \"Finding a link builder who does not secretly use private blog networks is rare. Asim shared every pitch and publisher URL with us before publishing. Every backlink was on an active website with genuine search traffic. His honesty and work ethic are top tier.\"\n            </p>\n            <div style=\"border-top: 1px solid rgba(255,255,255,0.08); padding-top: 14px;\">\n              <strong style=\"color: var(--c-white); display: block;\">Sarah Jenkins</strong>\n              <span style=\"font-size: 0.82rem; color: var(--c-slate-400);\">Head of Growth, E-Com Brands (London, UK)</span>\n            </div>\n          </div>\n\n          <div class=\"card\">\n            <div style=\"display: flex; gap: 4px; margin-bottom: 16px;\">\n              <svg class=\"star-icon\" viewBox=\"0 0 24 24\"><polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"/></svg>\n              <svg class=\"star-icon\" viewBox=\"0 0 24 24\"><polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"/></svg>\n              <svg class=\"star-icon\" viewBox=\"0 0 24 24\"><polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"/></svg>\n              <svg class=\"star-icon\" viewBox=\"0 0 24 24\"><polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"/></svg>\n              <svg class=\"star-icon\" viewBox=\"0 0 24 24\"><polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"/></svg>\n            </div>\n            <p class=\"card-text\" style=\"font-style: italic; margin-bottom: 20px;\">\n              \"His articles actually read like they were written by someone who understands our industry, not an AI bot. Reader time on page doubled within weeks and the ranking gains followed right after. Highly recommended for any serious content project.\"\n            </p>\n            <div style=\"border-top: 1px solid rgba(255,255,255,0.08); padding-top: 14px;\">\n              <strong style=\"color: var(--c-white); display: block;\">David Chen</strong>\n              <span style=\"font-size: 0.82rem; color: var(--c-slate-400);\">Managing Editor, TechVision (Toronto, Canada)</span>\n            </div>\n          </div>\n        </div>\n      </div>\n    </section>"
+                "title": "+340% Traffic",
+                "header_size": "h2",
+                "title_color": "#10b981"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "1c8ce2e",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "B2B SaaS Platform (San Francisco)",
+                "header_size": "h4",
+                "title_color": "#f8fafc"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "d85d27e",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #94a3b8;'>Scaled organic search from 0 to 85,000 monthly visitors in 7 months through high-intent comparison keywords and authoritative SaaS outreach.</p>"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "781d0e8",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "f8bb0d9",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "+215% Revenue",
+                "header_size": "h2",
+                "title_color": "#38bdf8"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "180ef58",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "E-Commerce Fashion Store (UK)",
+                "header_size": "h4",
+                "title_color": "#f8fafc"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "4f7c037",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #94a3b8;'>Achieved top-3 Google rankings for 18 competitive commercial keywords, driving an organic sales boost in 5 months of clean technical execution.</p>"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "7623ea7",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "3a39af0",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "1.2M Impressions",
+                "header_size": "h2",
+                "title_color": "#10b981"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "e57cff9",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Tech Media & Publisher (Canada)",
+                "header_size": "h4",
+                "title_color": "#f8fafc"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "90a7bf5",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #94a3b8;'>Structured topic clusters and Core Web Vitals remediation, producing a +450% traffic surge and doubling display and affiliate revenues.</p>"
               },
               "defaultEditSettings": {
                 "defaultEditRoute": "content"
@@ -298,37 +1411,200 @@
       ]
     },
     {
-      "id": "3b293af",
+      "id": "372e695",
       "elType": "section",
       "isInner": false,
       "settings": {
-        "layout": "full_width",
-        "gap": "no",
-        "_title": "🎓 08. Free Learning Academy"
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "⭐ 07. International Client Reviews",
+        "background_background": "classic",
+        "background_color": "#0b1120",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "20",
+          "bottom": "70",
+          "left": "20",
+          "isLinked": false
+        }
       },
       "defaultEditSettings": {
         "defaultEditRoute": "content"
       },
       "elements": [
         {
-          "id": "dea1f14",
+          "id": "2f42285",
           "elType": "column",
           "isInner": false,
           "settings": {
-            "_column_size": 100,
-            "_inline_size": null
+            "_column_size": 33,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
           },
           "defaultEditSettings": {
             "defaultEditRoute": "content"
           },
           "elements": [
             {
-              "id": "76c849c",
+              "id": "18327dd",
               "elType": "widget",
               "isInner": false,
-              "widgetType": "html",
+              "widgetType": "testimonial",
               "settings": {
-                "html": "<section class=\"bg-academy-glow\" id=\"courses\">\n      <div class=\"container\">\n        <span class=\"pill-badge\" style=\"background: rgba(99, 102, 241, 0.12); color: #818cf8; border-color: rgba(99, 102, 241, 0.3);\">FREE EDUCATION</span>\n        <h2>Learn SEO and Freelancing for Free</h2>\n        <p class=\"section-subtext\">\n          You do not need expensive paid courses or secret groups to make a living online. I share the exact methods I use with international clients so anyone with dedication can build a real freelancing career.\n        </p>\n\n        <div class=\"grid-4\">\n          <div class=\"card\">\n            <div class=\"icon-box\" style=\"margin-bottom: 20px;\">\n              <svg class=\"icon\" viewBox=\"0 0 24 24\"><path d=\"M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z\"/><path d=\"M6 6h10\"/><path d=\"M6 10h10\"/></svg>\n            </div>\n            <h3 class=\"card-title\">Beginner SEO</h3>\n            <p class=\"card-text\">Step-by-step fundamentals: Search intent, indexing, crawling, and keyword clustering.</p>\n          </div>\n\n          <div class=\"card\">\n            <div class=\"icon-box\" style=\"margin-bottom: 20px;\">\n              <svg class=\"icon\" viewBox=\"0 0 24 24\"><path d=\"M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z\"/><path d=\"m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z\"/></svg>\n            </div>\n            <h3 class=\"card-title\">Fiverr Gig Ranking</h3>\n            <p class=\"card-text\">Algorithmic gig SEO, tag optimization, and conversion strategies to hit Page 1.</p>\n          </div>\n\n          <div class=\"card\">\n            <div class=\"icon-box\" style=\"margin-bottom: 20px;\">\n              <svg class=\"icon\" viewBox=\"0 0 24 24\"><rect width=\"20\" height=\"16\" x=\"2\" y=\"4\" rx=\"2\"/><path d=\"m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7\"/></svg>\n            </div>\n            <h3 class=\"card-title\">Guest Posting Training</h3>\n            <p class=\"card-text\">Pitching webmasters, negotiating editorial placements, and building an outreach business.</p>\n          </div>\n\n          <div class=\"card\">\n            <div class=\"icon-box\" style=\"margin-bottom: 20px;\">\n              <svg class=\"icon\" viewBox=\"0 0 24 24\"><rect width=\"20\" height=\"14\" x=\"2\" y=\"7\" rx=\"2\" ry=\"2\"/><path d=\"M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16\"/></svg>\n            </div>\n            <h3 class=\"card-title\">Client Communication</h3>\n            <p class=\"card-text\">Writing proposals that win, pitching international clients, and handling contracts.</p>\n          </div>\n        </div>\n\n        <div style=\"margin-top: 40px;\">\n          <a href=\"#courses\" class=\"btn btn-primary\">\n            <span>Explore Free Course Modules</span>\n            <svg class=\"icon\" viewBox=\"0 0 24 24\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg>\n          </a>\n        </div>\n      </div>\n    </section>"
+                "testimonial_content": "Asim completely transformed our organic search pipeline. His technical audit uncovered issues three previous agencies missed, and his manual guest posting earned us authoritative mentions that actually move the needle.",
+                "testimonial_name": "Mark R.",
+                "testimonial_job": "SaaS Founder, San Francisco",
+                "name_color": "#f8fafc",
+                "job_color": "#10b981",
+                "content_color": "#cbd5e1"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "4990d80",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "3698fc4",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "testimonial",
+              "settings": {
+                "testimonial_content": "The guest posting outreach Asim handles is the cleanest in the industry. Real sites with actual traffic, completely transparent spreadsheets, and zero PBN fluff. Our organic revenue jumped by 215%.",
+                "testimonial_name": "Sarah Jenkins",
+                "testimonial_job": "E-commerce Director, UK",
+                "name_color": "#f8fafc",
+                "job_color": "#10b981",
+                "content_color": "#cbd5e1"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "7f8ac7a",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "189fc4f",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "testimonial",
+              "settings": {
+                "testimonial_content": "Finding a reliable SEO partner who doesn't rely on PBNs or buzzwords is rare. Asim's strategic guidance doubled our ad revenue and scaled our organic impressions to over 1.2 million a month.",
+                "testimonial_name": "David Chen",
+                "testimonial_job": "Managing Editor, Toronto",
+                "name_color": "#f8fafc",
+                "job_color": "#10b981",
+                "content_color": "#cbd5e1"
               },
               "defaultEditSettings": {
                 "defaultEditRoute": "content"
@@ -340,24 +1616,34 @@
       ]
     },
     {
-      "id": "bb1a8f9",
+      "id": "1afa205",
       "elType": "section",
       "isInner": false,
       "settings": {
-        "layout": "full_width",
-        "gap": "no",
-        "_title": "📆 09. Weekly Sunday Live Zoom Classes"
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "🎓 08. Free Learning Academy & Live Mentorship",
+        "background_background": "classic",
+        "background_color": "#060911",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "20",
+          "bottom": "70",
+          "left": "20",
+          "isLinked": false
+        }
       },
       "defaultEditSettings": {
         "defaultEditRoute": "content"
       },
       "elements": [
         {
-          "id": "d2d9a30",
+          "id": "1645c25",
           "elType": "column",
           "isInner": false,
           "settings": {
-            "_column_size": 100,
+            "_column_size": 60,
             "_inline_size": null
           },
           "defaultEditSettings": {
@@ -365,12 +1651,151 @@
           },
           "elements": [
             {
-              "id": "07cfe30",
+              "id": "407fa24",
               "elType": "widget",
               "isInner": false,
-              "widgetType": "html",
+              "widgetType": "heading",
               "settings": {
-                "html": "<section>\n      <div class=\"container\">\n        <div class=\"zoom-cta-card\">\n          <div>\n            <span class=\"pill-badge\" style=\"background: rgba(99, 102, 241, 0.15); color: #818cf8; border-color: rgba(99, 102, 241, 0.35);\">FREE LIVE WORKSHOPS</span>\n            <h2>Weekly Sunday Zoom Classes and Open Q&A</h2>\n            <p style=\"color: var(--c-slate-300); font-size: 1.08rem; margin-bottom: 24px;\">\n              Every Sunday evening, I host an open workshop. Students share their screens, we audit Fiverr gigs live, review search audits, and discuss solutions to real freelancing roadblocks. Completely free, no sales pitch.\n            </p>\n            <div class=\"zoom-meta-tags\">\n              <span class=\"zoom-meta-tag\">\n                <svg class=\"icon\" viewBox=\"0 0 24 24\" style=\"color: var(--c-emerald-400); width: 16px; height: 16px;\"><rect width=\"18\" height=\"18\" x=\"3\" y=\"4\" rx=\"2\" ry=\"2\"/><line x1=\"16\" x2=\"16\" y1=\"2\" y2=\"6\"/><line x1=\"8\" x2=\"8\" y1=\"2\" y2=\"6\"/><line x1=\"3\" x2=\"21\" y1=\"10\" y2=\"10\"/></svg>\n                Every Sunday\n              </span>\n              <span class=\"zoom-meta-tag mono-metric\">\n                <svg class=\"icon\" viewBox=\"0 0 24 24\" style=\"color: var(--c-emerald-400); width: 16px; height: 16px;\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><polyline points=\"12 6 12 12 16 14\"/></svg>\n                8:00 PM PKT / 8:30 PM IST\n              </span>\n              <span class=\"zoom-meta-tag\">\n                <svg class=\"icon\" viewBox=\"0 0 24 24\" style=\"color: var(--c-emerald-400); width: 16px; height: 16px;\"><path d=\"M12 2v20\"/><path d=\"M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6\"/></svg>\n                100% Free (Zero Fees)\n              </span>\n            </div>\n\n            <!-- Embedded Live Screen-Share Audit Studio Photo (Photo #4) -->\n            <div class=\"live-studio-frame\">\n              <span class=\"live-studio-badge\">\n                <span class=\"pulse-red\"></span> Live Screen-Share Audit Studio\n              </span>\n              <picture>\n                <source srcset=\"https://personal-brand-portfolio-three.vercel.app/assets/images/asim-live-studio.webp\" type=\"image/webp\">\n                <img src=\"https://personal-brand-portfolio-three.vercel.app/assets/images/asim-live-studio.jpg\" alt=\"Asim in Live Screen-Share Audit Studio\" class=\"crop-live-studio\" width=\"800\" height=\"600\" loading=\"lazy\" decoding=\"async\">\n              </picture>\n            </div>\n          </div>\n\n          <div class=\"card\" style=\"padding: 36px 30px;\">\n            <h3 style=\"font-size: 1.35rem; margin-bottom: 8px;\">Reserve Your Free Seat</h3>\n            <p style=\"font-size: 0.9rem; color: var(--c-slate-400); margin-bottom: 24px;\">Zoom access credentials are sent directly to your email and WhatsApp.</p>\n            <form id=\"zoom-registration-form\">\n              <div class=\"form-group\">\n                <label for=\"student-name\" class=\"form-label\">Full Name</label>\n                <input type=\"text\" id=\"student-name\" class=\"form-control\" placeholder=\"e.g. Ali Khan\" required>\n              </div>\n              <div class=\"form-group\">\n                <label for=\"student-email\" class=\"form-label\">Email Address (for Zoom Link)</label>\n                <input type=\"email\" id=\"student-email\" class=\"form-control\" placeholder=\"e.g. ali@example.com\" required>\n              </div>\n              <div class=\"form-group\">\n                <label for=\"student-whatsapp\" class=\"form-label\">WhatsApp Number</label>\n                <input type=\"tel\" id=\"student-whatsapp\" class=\"form-control\" placeholder=\"+92 300 1234567\" required>\n              </div>\n              <button type=\"submit\" class=\"btn btn-primary\" style=\"width: 100%;\">\n                <span>Register for Next Free Session</span>\n                <svg class=\"icon\" viewBox=\"0 0 24 24\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg>\n              </button>\n            </form>\n          </div>\n        </div>\n      </div>\n    </section>"
+                "title": "FREE EDUCATION PLATFORM",
+                "header_size": "h5",
+                "title_color": "#10b981",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13,
+                  "sizes": []
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "dba7da1",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Learn SEO and Freelancing for Free",
+                "header_size": "h2",
+                "title_color": "#f8fafc",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32,
+                  "sizes": []
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "f0c2893",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n        <p style=\"color: #cbd5e1; font-size: 1.05rem;\">\n          I believe knowledge should be accessible to everyone. Through free video tutorials in Urdu/Hindi and weekly Sunday live Zoom sessions, I teach upcoming freelancers and business owners how to master Google search without paying thousands for guru courses.\n        </p>\n        <ul style=\"color: #94a3b8; line-height: 1.8;\">\n          <li>✓ 100% Free Urdu/Hindi Video Tutorials</li>\n          <li>✓ Weekly Live Sunday Zoom Mentorship & Q&A</li>\n          <li>✓ Practical Client Closing & Outreach Blueprints</li>\n          <li>✓ Zero Paid Courses, Zero Hidden Funnels</li>\n        </ul>\n        "
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "c25c1c7",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 40,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "2ba0659",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "📅 Weekly Sunday Live Zoom Class",
+                "header_size": "h3",
+                "title_color": "#f8fafc"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "41576a5",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n        <p style=\"color: #cbd5e1;\">Every Sunday at 8:00 PM PKT. Live site audits, student questions, and freelancing career guidance.</p>\n        <div style=\"background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 8px; padding: 12px; margin-bottom: 16px;\">\n          <strong style=\"color: #10b981;\">100% Free Entry</strong> · Open to All Students\n        </div>\n        "
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "8d1ad8b",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Join Free Sunday Class →",
+                "link": {
+                  "url": "#contact",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "background_color": "#10b981",
+                "button_text_color": "#ffffff",
+                "align": "center",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "6",
+                  "right": "6",
+                  "bottom": "6",
+                  "left": "6",
+                  "isLinked": true
+                }
               },
               "defaultEditSettings": {
                 "defaultEditRoute": "content"
@@ -382,37 +1807,200 @@
       ]
     },
     {
-      "id": "3e40d74",
+      "id": "eb70e28",
       "elType": "section",
       "isInner": false,
       "settings": {
-        "layout": "full_width",
-        "gap": "no",
-        "_title": "🎥 10. Screen-Share Video Tutorials"
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "🎥 09. Video Tutorials Showcase",
+        "background_background": "classic",
+        "background_color": "#0b1120",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "20",
+          "bottom": "70",
+          "left": "20",
+          "isLinked": false
+        }
       },
       "defaultEditSettings": {
         "defaultEditRoute": "content"
       },
       "elements": [
         {
-          "id": "b3ddb14",
+          "id": "b4734ac",
           "elType": "column",
           "isInner": false,
           "settings": {
-            "_column_size": 100,
-            "_inline_size": null
+            "_column_size": 50,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
           },
           "defaultEditSettings": {
             "defaultEditRoute": "content"
           },
           "elements": [
             {
-              "id": "177d21a",
+              "id": "6f6d3f6",
               "elType": "widget",
               "isInner": false,
-              "widgetType": "html",
+              "widgetType": "heading",
               "settings": {
-                "html": "<section id=\"videos\">\n      <div class=\"container\">\n        <span class=\"pill-badge\">VIDEO MASTERCLASSES</span>\n        <h2>Learn Through Screen-Share Video Tutorials</h2>\n        <p class=\"section-subtext\">\n          Watch comprehensive step-by-step tutorials, live campaign walk-throughs, and recorded Zoom sessions on YouTube with Asim SEO Wala.\n        </p>\n\n        <div class=\"grid-2\">\n          <div>\n            <div style=\"background: #000; border-radius: var(--radius-md); overflow: hidden; position: relative; padding-top: 56.25%; border: 1px solid rgba(255,255,255,0.1); box-shadow: var(--shadow-card);\">\n              <iframe style=\"position: absolute; top:0; left:0; width:100%; height:100%; border:0;\" src=\"https://www.youtube-nocookie.com/embed/El3IZFGERbM\" title=\"Featured Video Masterclass: How Search Works\" loading=\"lazy\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n            </div>\n            <h3 style=\"margin-top: 20px;\">Featured Masterclass: How Search Engines Work & Ranking Fundamentals</h3>\n            <p style=\"color: var(--c-slate-400); font-size: 0.96rem;\">Understand indexing architecture, crawl budgets, and entity-based ranking fundamentals directly from official search engineers.</p>\n          </div>\n\n          <div>\n            <div class=\"card\" style=\"margin-bottom: 20px;\">\n              <div style=\"display: flex; align-items: center; gap: 12px; margin-bottom: 8px;\">\n                <div class=\"icon-box\" style=\"width: 36px; height: 36px;\">\n                  <svg class=\"icon\" viewBox=\"0 0 24 24\" style=\"width: 18px; height: 18px;\"><path d=\"m22 8-6 4 6 4V8z\"/><rect width=\"14\" height=\"12\" x=\"2\" y=\"6\" rx=\"2\" ry=\"2\"/></svg>\n                </div>\n                <h4 style=\"color: var(--c-white); margin-bottom: 0;\">Complete Fiverr Gig Ranking Course</h4>\n              </div>\n              <p class=\"card-text\">A 5-part video series breaking down exact keyword placement and client negotiation.</p>\n              <a href=\"#videos\" class=\"btn btn-secondary\" style=\"margin-top: 14px; padding: 8px 16px; font-size: 0.85rem;\">Watch Playlist &rarr;</a>\n            </div>\n\n            <div class=\"card\" style=\"margin-bottom: 24px;\">\n              <div style=\"display: flex; align-items: center; gap: 12px; margin-bottom: 8px;\">\n                <div class=\"icon-box\" style=\"width: 36px; height: 36px;\">\n                  <svg class=\"icon\" viewBox=\"0 0 24 24\" style=\"width: 18px; height: 18px;\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20\"/><path d=\"M2 12h20\"/></svg>\n                </div>\n                <h4 style=\"color: var(--c-white); margin-bottom: 0;\">Manual Guest Post Outreach Tutorial</h4>\n              </div>\n              <p class=\"card-text\">How to scrape real webmaster emails and pitch editorial articles that get accepted.</p>\n              <a href=\"#videos\" class=\"btn btn-secondary\" style=\"margin-top: 14px; padding: 8px 16px; font-size: 0.85rem;\">Watch Playlist &rarr;</a>\n            </div>\n\n            <a href=\"https://youtube.com\" target=\"_blank\" rel=\"noopener\" class=\"btn btn-primary\" style=\"background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%); border-color: #ef4444; box-shadow: 0 10px 25px -4px rgba(239, 68, 68, 0.4);\">\n              <span>Subscribe on YouTube (Free)</span>\n              <svg class=\"icon\" viewBox=\"0 0 24 24\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg>\n            </a>\n          </div>\n        </div>\n      </div>\n    </section>"
+                "title": "🎥 Fiverr Gig Ranking 2026 Blueprint",
+                "header_size": "h4",
+                "title_color": "#f8fafc"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "6263cb4",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #94a3b8;'>Step-by-step video breakdown showing how to research low-competition Fiverr keywords, structure gig packages, and gain initial orders without artificial reviews.</p>"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "ddef61e",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Watch Video Tutorial →",
+                "link": {
+                  "url": "https://youtube.com",
+                  "is_external": true,
+                  "nofollow": true
+                },
+                "background_color": "rgba(255, 255, 255, 0.08)",
+                "button_text_color": "#cbd5e1"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "568210f",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "dfb33f7",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "🎥 Cold Email Guest Post Outreach Demo",
+                "header_size": "h4",
+                "title_color": "#f8fafc"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "8eee84b",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #94a3b8;'>Live screen-recording demonstrating how to find real editor contact information, craft personalized pitches, and secure high DR backlinks on genuine publications.</p>"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "5baee2a",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Watch Video Tutorial →",
+                "link": {
+                  "url": "https://youtube.com",
+                  "is_external": true,
+                  "nofollow": true
+                },
+                "background_color": "rgba(255, 255, 255, 0.08)",
+                "button_text_color": "#cbd5e1"
               },
               "defaultEditSettings": {
                 "defaultEditRoute": "content"
@@ -424,20 +2012,30 @@
       ]
     },
     {
-      "id": "cad4fd0",
+      "id": "d541fbd",
       "elType": "section",
       "isInner": false,
       "settings": {
-        "layout": "full_width",
-        "gap": "no",
-        "_title": "❓ 11. Frequently Asked Questions (FAQ)"
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "❓ 10. Frequently Asked Questions (FAQ)",
+        "background_background": "classic",
+        "background_color": "#060911",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "20",
+          "bottom": "70",
+          "left": "20",
+          "isLinked": false
+        }
       },
       "defaultEditSettings": {
         "defaultEditRoute": "content"
       },
       "elements": [
         {
-          "id": "3bef396",
+          "id": "65a8e60",
           "elType": "column",
           "isInner": false,
           "settings": {
@@ -449,12 +2047,83 @@
           },
           "elements": [
             {
-              "id": "c43a071",
+              "id": "786aa7a",
               "elType": "widget",
               "isInner": false,
-              "widgetType": "html",
+              "widgetType": "heading",
               "settings": {
-                "html": "<section class=\"bg-alt\" id=\"faq\">\n      <div class=\"container\" style=\"max-width: 860px;\">\n        <span class=\"pill-badge\">CLIENT FAQ</span>\n        <h2>Frequently Asked Questions by Clients</h2>\n        <p class=\"section-subtext\">Everything you need to know about working together, deliverables, and engagement terms.</p>\n\n        <div style=\"margin-top: 32px; display: flex; flex-direction: column; gap: 16px;\">\n          <div class=\"card\">\n            <h4 style=\"color: var(--c-white); margin-bottom: 8px;\">Do you use Private Blog Networks (PBNs) or automated link schemes?</h4>\n            <p class=\"card-text\">Never. Every single guest post and backlink is secured through 100% manual, personalized blogger outreach to real, active websites with verified organic search traffic (Ahrefs DR 40–80+). Zero PBNs, zero link farms, and zero algorithmic risk.</p>\n          </div>\n\n          <div class=\"card\">\n            <h4 style=\"color: var(--c-white); margin-bottom: 8px;\">How long does it take to see measurable SEO ranking improvements?</h4>\n            <p class=\"card-text\">Technical fixes, Core Web Vitals remediation, and indexation corrections produce noticeable Search Console gains within 2 to 4 weeks. Competitive commercial keyword jumps and scalable organic revenue compounding typically mature over 3 to 6 months of steady execution.</p>\n          </div>\n\n          <div class=\"card\">\n            <h4 style=\"color: var(--c-white); margin-bottom: 8px;\">What payment methods and currencies do you support for international clients?</h4>\n            <p class=\"card-text\">We accommodate global clients with flexible invoicing in USD, EUR, GBP, and PKR. Payments can be processed securely via Wise (formerly TransferWise), Payoneer, Direct International Bank Wire, or Stripe.</p>\n          </div>\n\n          <div class=\"card\">\n            <h4 style=\"color: var(--c-white); margin-bottom: 8px;\">Do you offer white-label guest posting and SEO services for digital agencies?</h4>\n            <p class=\"card-text\">Yes. We act as a dedicated outreach backend for multiple marketing agencies across the US, UK, and Australia. We deliver unbranded, white-label client spreadsheets, live URL verification reports, and customized anchor text strategies.</p>\n          </div>\n\n          <div class=\"card\">\n            <h4 style=\"color: var(--c-white); margin-bottom: 8px;\">Are there long-term lock-in contracts?</h4>\n            <p class=\"card-text\">No lock-in contracts. Client retainers operate on a month-to-month basis with transparent deliverables, and guest posting packages can be purchased as one-time campaigns or ongoing monthly orders.</p>\n          </div>\n        </div>\n      </div>\n    </section>"
+                "title": "CLIENT FAQ",
+                "header_size": "h5",
+                "align": "center",
+                "title_color": "#10b981",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13,
+                  "sizes": []
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "e82e1a6",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Frequently Asked Questions by Clients",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#f8fafc",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 34,
+                  "sizes": []
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "eb17c7d",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "accordion",
+              "settings": {
+                "tabs": [
+                  {
+                    "_id": "faq_01",
+                    "tab_title": "Do you use Private Blog Networks (PBNs) or automated link schemes?",
+                    "tab_content": "Never. Every single guest post and backlink is secured through 100% manual, personalized blogger outreach to real, active websites with verified organic search traffic (Ahrefs DR 40–80+). Zero PBNs, zero link farms, and zero algorithmic risk."
+                  },
+                  {
+                    "_id": "faq_02",
+                    "tab_title": "How long does it take to see measurable SEO ranking improvements?",
+                    "tab_content": "Technical fixes, Core Web Vitals remediation, and indexation corrections produce noticeable Search Console gains within 2 to 4 weeks. Competitive commercial keyword jumps and scalable organic revenue compounding typically mature over 3 to 6 months of steady execution."
+                  },
+                  {
+                    "_id": "faq_03",
+                    "tab_title": "What payment methods and currencies do you support for international clients?",
+                    "tab_content": "We accommodate global clients with flexible invoicing in USD, EUR, GBP, and PKR. Payments can be processed securely via Wise (formerly TransferWise), Payoneer, Direct International Bank Wire, or Stripe."
+                  },
+                  {
+                    "_id": "faq_04",
+                    "tab_title": "Do you offer white-label guest posting and SEO services for digital agencies?",
+                    "tab_content": "Yes. We act as a dedicated outreach backend for multiple marketing agencies across the US, UK, and Australia. We deliver unbranded, white-label client spreadsheets, live URL verification reports, and customized anchor text strategies."
+                  },
+                  {
+                    "_id": "faq_05",
+                    "tab_title": "Are there long-term lock-in contracts?",
+                    "tab_content": "No lock-in contracts. Client retainers operate on a month-to-month basis with transparent deliverables, and guest posting packages can be purchased as one-time campaigns or ongoing monthly orders."
+                  }
+                ],
+                "title_color": "#f8fafc",
+                "tab_active_color": "#10b981",
+                "content_color": "#cbd5e1"
               },
               "defaultEditSettings": {
                 "defaultEditRoute": "content"
@@ -466,24 +2135,34 @@
       ]
     },
     {
-      "id": "707cbf1",
+      "id": "dca9bb3",
       "elType": "section",
       "isInner": false,
       "settings": {
-        "layout": "full_width",
-        "gap": "no",
-        "_title": "📬 12. Contact Form & WhatsApp CTA"
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "📬 11. Contact & Lead Consultation",
+        "background_background": "classic",
+        "background_color": "#0b1120",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "20",
+          "bottom": "70",
+          "left": "20",
+          "isLinked": false
+        }
       },
       "defaultEditSettings": {
         "defaultEditRoute": "content"
       },
       "elements": [
         {
-          "id": "4634538",
+          "id": "69bcee8",
           "elType": "column",
           "isInner": false,
           "settings": {
-            "_column_size": 100,
+            "_column_size": 45,
             "_inline_size": null
           },
           "defaultEditSettings": {
@@ -491,12 +2170,151 @@
           },
           "elements": [
             {
-              "id": "8373fe4",
+              "id": "d09befe",
               "elType": "widget",
               "isInner": false,
-              "widgetType": "html",
+              "widgetType": "heading",
               "settings": {
-                "html": "\n    <section class=\"hero-section\" id=\"contact\" style=\"padding: 70px 0 20px; text-align: center;\">\n      <div class=\"container\">\n        <span class=\"pill-badge\">GET IN TOUCH</span>\n        <h2 style=\"max-width: 800px; margin: 0 auto 16px;\">Ready to Scale Your Organic Search Growth?</h2>\n        <p class=\"section-subtext\" style=\"margin: 0 auto 20px;\">\n          Send your website URL and project goals below, or message me directly on WhatsApp for an immediate response.\n        </p>\n      </div>\n    </section>\n    <section style=\"padding-top: 20px;\">\n      <div class=\"container\">\n        <div class=\"grid-2\" style=\"align-items: start; gap: 48px;\">\n\n          <!-- Left Column: Contact Details & Guarantee -->\n          <div>\n            <h2>Contact Information</h2>\n            <p style=\"color: var(--c-slate-300); font-size: 1.05rem; margin-bottom: 30px;\">\n              I respect your time and respond to all client inquiries within <strong style=\"color: var(--c-emerald-400);\">12 to 24 business hours</strong>.\n            </p>\n\n            <div class=\"card\" style=\"margin-bottom: 20px;\">\n              <div style=\"display: flex; align-items: center; gap: 14px; margin-bottom: 10px;\">\n                <div class=\"icon-box\">\n                  <svg class=\"icon\" viewBox=\"0 0 24 24\"><rect width=\"20\" height=\"16\" x=\"2\" y=\"4\" rx=\"2\"/><path d=\"m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7\"/></svg>\n                </div>\n                <h4 style=\"margin-bottom: 0; color: var(--c-white);\">Business Email</h4>\n              </div>\n              <p style=\"color: var(--c-slate-400); margin-bottom: 8px;\">Direct inquiries & project briefs:</p>\n              <a href=\"mailto:contact@asimseowala.com\" style=\"font-size: 1.1rem; font-weight: 700; color: var(--c-emerald-400);\">contact@asimseowala.com</a>\n            </div>\n\n            <div class=\"card\" style=\"margin-bottom: 20px;\">\n              <div style=\"display: flex; align-items: center; gap: 14px; margin-bottom: 10px;\">\n                <div class=\"icon-box\">\n                  <svg class=\"icon\" viewBox=\"0 0 24 24\"><path d=\"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z\"/></svg>\n                </div>\n                <h4 style=\"margin-bottom: 0; color: var(--c-white);\">WhatsApp Direct Chat</h4>\n              </div>\n              <p style=\"color: var(--c-slate-400); margin-bottom: 8px;\">For quick questions & instant messaging:</p>\n              <a href=\"https://wa.me/?text=Hi%20Asim%20SEO%20Wala%2C%20I%20am%20interested%20in%20your%20SEO%20and%20Guest%20Posting%20services\" target=\"_blank\" rel=\"noopener\" style=\"font-size: 1.1rem; font-weight: 700; color: var(--c-emerald-400);\">Start Direct WhatsApp Chat &rarr;</a>\n            </div>\n\n            <div class=\"card\" style=\"margin-bottom: 20px; background: rgba(16, 185, 129, 0.05); border-color: rgba(16, 185, 129, 0.2);\">\n              <div style=\"display: flex; align-items: center; gap: 12px; margin-bottom: 14px;\">\n                <div class=\"icon-box\">\n                  <svg class=\"icon\" viewBox=\"0 0 24 24\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/><path d=\"m9 12 2 2 4-4\"/></svg>\n                </div>\n                <h4 style=\"margin-bottom: 0; color: var(--c-white);\">Client Commitment</h4>\n              </div>\n              <ul style=\"list-style: none; font-size: 0.95rem; line-height: 2; color: var(--c-slate-300);\">\n                <li style=\"display: flex; align-items: center; gap: 8px;\">\n                  <svg class=\"icon\" viewBox=\"0 0 24 24\" style=\"color: var(--c-emerald-400); width: 16px; height: 16px;\"><polyline points=\"20 6 9 17 4 12\"/></svg>\n                  Direct communication with Asim (zero agency middle-men)\n                </li>\n                <li style=\"display: flex; align-items: center; gap: 8px;\">\n                  <svg class=\"icon\" viewBox=\"0 0 24 24\" style=\"color: var(--c-emerald-400); width: 16px; height: 16px;\"><polyline points=\"20 6 9 17 4 12\"/></svg>\n                  100% White-Hat Google compliance guarantee\n                </li>\n                <li style=\"display: flex; align-items: center; gap: 8px;\">\n                  <svg class=\"icon\" viewBox=\"0 0 24 24\" style=\"color: var(--c-emerald-400); width: 16px; height: 16px;\"><polyline points=\"20 6 9 17 4 12\"/></svg>\n                  Transparent monthly Search Console & analytics tracking\n                </li>\n                <li style=\"display: flex; align-items: center; gap: 8px;\">\n                  <svg class=\"icon\" viewBox=\"0 0 24 24\" style=\"color: var(--c-emerald-400); width: 16px; height: 16px;\"><polyline points=\"20 6 9 17 4 12\"/></svg>\n                  Strict non-disclosure agreements (NDAs) respected\n                </li>\n              </ul>\n            </div>\n          </div>\n\n          <!-- Right Column: Project Inquiry Form -->\n          <div>\n            <div class=\"card\" style=\"padding: 40px 32px; box-shadow: var(--shadow-card);\">\n              <h3 style=\"margin-bottom: 8px;\">Send a Project Inquiry</h3>\n              <p style=\"color: var(--c-slate-400); font-size: 0.92rem; margin-bottom: 24px;\">Fill in your campaign details to receive a free preliminary audit breakdown.</p>\n              <form id=\"client-inquiry-form\">\n                <div class=\"form-group\">\n                  <label for=\"c-name\" class=\"form-label\">Your Full Name</label>\n                  <input type=\"text\" id=\"c-name\" class=\"form-control\" placeholder=\"e.g. John Doe\" required>\n                </div>\n                <div class=\"form-group\">\n                  <label for=\"c-email\" class=\"form-label\">Business Email</label>\n                  <input type=\"email\" id=\"c-email\" class=\"form-control\" placeholder=\"e.g. john@company.com\" required>\n                </div>\n                <div class=\"form-group\">\n                  <label for=\"c-url\" class=\"form-label\">Target Website URL</label>\n                  <input type=\"url\" id=\"c-url\" class=\"form-control\" placeholder=\"https://yourwebsite.com\" required>\n                </div>\n                <div class=\"form-group\">\n                  <label for=\"c-service\" class=\"form-label\">Service Needed</label>\n                  <select id=\"c-service\" class=\"form-control\" required style=\"background-color: var(--c-obsidian-900);\">\n                    <option value=\"\">Select Primary Service...</option>\n                    <option value=\"seo\">Comprehensive SEO Consulting & Audits</option>\n                    <option value=\"guest-posting\">High-Authority Guest Posting Outreach</option>\n                    <option value=\"content\">SEO & Conversion Content Writing</option>\n                    <option value=\"turnkey\">Full Turnkey Growth Package</option>\n                  </select>\n                </div>\n                <div class=\"form-group\">\n                  <label for=\"c-budget\" class=\"form-label\">Estimated Monthly Budget</label>\n                  <select id=\"c-budget\" class=\"form-control\" required style=\"background-color: var(--c-obsidian-900);\">\n                    <option value=\"\">Select Budget Range...</option>\n                    <option value=\"under-500\">Under $500</option>\n                    <option value=\"500-1500\">$500 – $1,500</option>\n                    <option value=\"1500-3000\">$1,500 – $3,000</option>\n                    <option value=\"3000+\">$3,000+</option>\n                  </select>\n                </div>\n                <div class=\"form-group\">\n                  <label for=\"c-message\" class=\"form-label\">Project Goals & Background</label>\n                  <textarea id=\"c-message\" class=\"form-control\" rows=\"4\" placeholder=\"Briefly describe your current search challenges and primary growth targets...\" required></textarea>\n                </div>\n                <button type=\"submit\" class=\"btn btn-primary\" style=\"width: 100%;\">\n                  <span>Submit Project Inquiry</span>\n                  <svg class=\"icon\" viewBox=\"0 0 24 24\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg>\n                </button>\n              </form>\n            </div>\n          </div>\n\n        </div>\n      </div>\n    </section>"
+                "title": "GET IN TOUCH",
+                "header_size": "h5",
+                "title_color": "#10b981",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13,
+                  "sizes": []
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "e40bd57",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Ready to Grow Your Website Traffic on Google?",
+                "header_size": "h2",
+                "title_color": "#f8fafc",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32,
+                  "sizes": []
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "51beaed",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n        <p style=\"color: #cbd5e1; font-size: 1.05rem; line-height: 1.6;\">\n          Whether you need a dedicated SEO strategist, a high-authority guest posting campaign, or compelling conversion copy, I am ready to help.\n        </p>\n        <p style=\"color: #94a3b8; margin-top: 15px;\">\n          ⚡ <strong style=\"color: #f8fafc;\">Response Guarantee:</strong> Direct reply within 12–24 business hours.<br>\n          📧 <strong style=\"color: #f8fafc;\">Direct Email:</strong> asimseowala@gmail.com\n        </p>\n        "
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "7c14f0a",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "💬 Chat on WhatsApp Instantly →",
+                "link": {
+                  "url": "https://wa.me/?text=Hi%20Asim%2C%20I%20am%20interested%20in%20SEO%20and%20ranking%20for%20my%20website",
+                  "is_external": true,
+                  "nofollow": false
+                },
+                "background_color": "#10b981",
+                "button_text_color": "#ffffff",
+                "size": "lg",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "8",
+                  "bottom": "8",
+                  "left": "8",
+                  "isLinked": true
+                }
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "e790c79",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 55,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "e0788b5",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Send a Project Inquiry",
+                "header_size": "h3",
+                "title_color": "#f8fafc"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "dcf9d82",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n        <form id=\"client-inquiry-form\" style=\"display: flex; flex-direction: column; gap: 14px; margin-top: 16px;\">\n          <div>\n            <label style=\"color: #cbd5e1; font-size: 0.9rem; font-weight: 600; display: block; margin-bottom: 6px;\">Your Full Name</label>\n            <input type=\"text\" placeholder=\"e.g. John Doe\" style=\"width: 100%; background: #0b1120; border: 1px solid rgba(255,255,255,0.12); color: #f8fafc; padding: 12px 14px; border-radius: 8px;\" required>\n          </div>\n          <div>\n            <label style=\"color: #cbd5e1; font-size: 0.9rem; font-weight: 600; display: block; margin-bottom: 6px;\">Business Email</label>\n            <input type=\"email\" placeholder=\"e.g. john@company.com\" style=\"width: 100%; background: #0b1120; border: 1px solid rgba(255,255,255,0.12); color: #f8fafc; padding: 12px 14px; border-radius: 8px;\" required>\n          </div>\n          <div>\n            <label style=\"color: #cbd5e1; font-size: 0.9rem; font-weight: 600; display: block; margin-bottom: 6px;\">Website URL</label>\n            <input type=\"url\" placeholder=\"https://yourwebsite.com\" style=\"width: 100%; background: #0b1120; border: 1px solid rgba(255,255,255,0.12); color: #f8fafc; padding: 12px 14px; border-radius: 8px;\">\n          </div>\n          <div>\n            <label style=\"color: #cbd5e1; font-size: 0.9rem; font-weight: 600; display: block; margin-bottom: 6px;\">Service Needed</label>\n            <select style=\"width: 100%; background: #0b1120; border: 1px solid rgba(255,255,255,0.12); color: #f8fafc; padding: 12px 14px; border-radius: 8px;\">\n              <option>Full-Stack SEO Strategy</option>\n              <option>High-Authority Guest Posting</option>\n              <option>Conversion Content Writing</option>\n              <option>Free Initial Website Audit</option>\n            </select>\n          </div>\n          <div>\n            <label style=\"color: #cbd5e1; font-size: 0.9rem; font-weight: 600; display: block; margin-bottom: 6px;\">Project Goals & Details</label>\n            <textarea rows=\"4\" placeholder=\"Tell me about your current rankings, target audience, and monthly revenue goals...\" style=\"width: 100%; background: #0b1120; border: 1px solid rgba(255,255,255,0.12); color: #f8fafc; padding: 12px 14px; border-radius: 8px;\" required></textarea>\n          </div>\n          <button type=\"submit\" style=\"background: #10b981; color: #fff; font-weight: 700; font-size: 1rem; padding: 14px; border: none; border-radius: 8px; cursor: pointer; margin-top: 8px;\">Send Project Inquiry →</button>\n        </form>\n        "
               },
               "defaultEditSettings": {
                 "defaultEditRoute": "content"
@@ -508,37 +2326,230 @@
       ]
     },
     {
-      "id": "ffd95ba",
+      "id": "47e3344",
       "elType": "section",
       "isInner": false,
       "settings": {
-        "layout": "full_width",
-        "gap": "no",
-        "_title": "📜 13. Legal Policies, Terms & Disclaimer"
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "📜 12. Legal Policies & Disclaimers",
+        "background_background": "classic",
+        "background_color": "#060911",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "20",
+          "bottom": "70",
+          "left": "20",
+          "isLinked": false
+        }
       },
       "defaultEditSettings": {
         "defaultEditRoute": "content"
       },
       "elements": [
         {
-          "id": "c2fced6",
+          "id": "2e47863",
           "elType": "column",
           "isInner": false,
           "settings": {
-            "_column_size": 100,
-            "_inline_size": null
+            "_column_size": 33,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
           },
           "defaultEditSettings": {
             "defaultEditRoute": "content"
           },
           "elements": [
             {
-              "id": "96f3b23",
+              "id": "3b17bf9",
               "elType": "widget",
               "isInner": false,
-              "widgetType": "html",
+              "widgetType": "heading",
               "settings": {
-                "html": "<section id=\"privacy\" style=\"padding: 60px 0; border-top: 1px solid rgba(255, 255, 255, 0.08);\">\n      <div class=\"container\" style=\"max-width: 860px;\">\n        <span class=\"pill-badge\">TRANSPARENCY & LEGAL</span>\n        <h2>Privacy Policy, Terms & AdSense Disclaimer</h2>\n        <div class=\"card\" style=\"margin-top: 24px; font-size: 0.94rem; line-height: 1.8; color: var(--c-slate-400);\">\n          <h4 id=\"terms\" style=\"color: var(--c-white); margin-bottom: 8px;\">Privacy Policy & Data Protection</h4>\n          <p style=\"margin-bottom: 20px;\">We respect your privacy. Any information submitted via our project inquiry forms, email, or WhatsApp is strictly confidential and will never be shared, sold, or rented to third parties. We sign Non-Disclosure Agreements (NDAs) upon request for sensitive client data.</p>\n          \n          <h4 style=\"color: var(--c-white); margin-bottom: 8px;\">Terms of Service & Guarantees</h4>\n          <p style=\"margin-bottom: 20px;\">All services adhere strictly to Google's Search Essentials guidelines. Backlink placements secured through our guest posting outreach are permanent, contextual, and do-follow, backed by a 12-month free replacement guarantee if an editorial publisher removes an article.</p>\n\n          <h4 id=\"disclaimer\" style=\"color: var(--c-white); margin-bottom: 8px;\">Google AdSense & Educational Disclaimer</h4>\n          <p>Educational articles and guides on this website may display Google AdSense advertising units. Commercial services and client campaign pages remain 100% ad-free to ensure a premium, focused experience. Case studies and past metrics reflect real historical outcomes and do not constitute an absolute guarantee of specific search ranking positions.</p>\n        </div>\n      </div>\n    </section>"
+                "title": "🔒 Privacy Policy",
+                "header_size": "h4",
+                "title_color": "#f8fafc"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "b21a815",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #94a3b8; font-size: 0.9rem;'>We respect your data privacy. Inquiries and website credentials shared for audits are held under strict confidentiality. We never sell or share client data with third parties.</p>"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "c271509",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "24ef95a",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "⚖️ Terms of Service",
+                "header_size": "h4",
+                "title_color": "#f8fafc"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "ebcb34f",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #94a3b8; font-size: 0.9rem;'>All retainer engagements and guest posting campaigns operate with clearly defined scopes, transparent deliverable reports, and zero lock-in contracts.</p>"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "620711f",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#0f172a",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255, 255, 255, 0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "30",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "aae6651",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "📢 AdSense & Affiliate",
+                "header_size": "h4",
+                "title_color": "#f8fafc"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "f708747",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #94a3b8; font-size: 0.9rem;'>Educational resources and software tool reviews on this site may feature affiliate links. We only recommend tools we personally test and use on client campaigns.</p>"
               },
               "defaultEditSettings": {
                 "defaultEditRoute": "content"
@@ -550,24 +2561,34 @@
       ]
     },
     {
-      "id": "d0b246c",
+      "id": "b51cd24",
       "elType": "section",
       "isInner": false,
       "settings": {
-        "layout": "full_width",
-        "gap": "no",
-        "_title": "⚓ 14. Master Footer & Copyright"
+        "layout": "boxed",
+        "gap": "default",
+        "_title": "⚓ 13. Master 4-Column Footer",
+        "background_background": "classic",
+        "background_color": "#060911",
+        "padding": {
+          "unit": "px",
+          "top": "50",
+          "right": "20",
+          "bottom": "30",
+          "left": "20",
+          "isLinked": false
+        }
       },
       "defaultEditSettings": {
         "defaultEditRoute": "content"
       },
       "elements": [
         {
-          "id": "72d745b",
+          "id": "f626d75",
           "elType": "column",
           "isInner": false,
           "settings": {
-            "_column_size": 100,
+            "_column_size": 40,
             "_inline_size": null
           },
           "defaultEditSettings": {
@@ -575,12 +2596,34 @@
           },
           "elements": [
             {
-              "id": "7adf050",
+              "id": "12b27d9",
               "elType": "widget",
               "isInner": false,
-              "widgetType": "html",
+              "widgetType": "image",
               "settings": {
-                "html": "<footer class=\"site-footer\">\n    <div class=\"container\">\n      <div class=\"footer-grid\">\n        <div class=\"footer-col\">\n          <a href=\"#top\" class=\"site-logo\" style=\"margin-bottom: 16px;\">\n            <img src=\"https://personal-brand-portfolio-three.vercel.app/assets/images/logo.svg\" alt=\"Asim SEO Wala Logo\" class=\"site-logo-icon\" width=\"38\" height=\"38\">\n            <span class=\"logo-text-wrap\">\n              <span class=\"logo-brand\">Asim</span> <span class=\"logo-tag\">SEO Wala</span><span class=\"logo-badge\">PRO</span>\n            </span>\n          </a>\n          <p style=\"font-size: 0.94rem; line-height: 1.7; margin-top: 14px; color: var(--c-slate-400);\">\n            Professional SEO Consultant, Guest Posting Outreach Specialist, and Free Digital Marketing Educator. Delivering verifiable client results and empowering the next generation of freelancers across Asia.\n          </p>\n        </div>\n\n        <div class=\"footer-col\">\n          <h4>Quick Links</h4>\n          <ul>\n            <li><a href=\"#top\">Home</a></li>\n            <li><a href=\"#about\">About Us</a></li>\n            <li><a href=\"#results\">Portfolio & Proof</a></li>\n            <li><a href=\"#contact\">Contact & Hire</a></li>\n          </ul>\n        </div>\n\n        <div class=\"footer-col\">\n          <h4>Services</h4>\n          <ul>\n            <li><a href=\"#services\">SEO Services</a></li>\n            <li><a href=\"#services\">Guest Posting</a></li>\n            <li><a href=\"#services\">Content Writing</a></li>\n            <li><a href=\"#services\">All Services Overview</a></li>\n          </ul>\n        </div>\n\n        <div class=\"footer-col\">\n          <h4>Free Learning</h4>\n          <ul>\n            <li><a href=\"#courses\">Free Courses</a></li>\n            <li><a href=\"#zoom\">Weekly Zoom Classes</a></li>\n            <li><a href=\"#courses\">Articles & Guides</a></li>\n            <li><a href=\"#videos\">YouTube Video Hub</a></li>\n          </ul>\n        </div>\n      </div>\n\n      <div class=\"footer-bottom\">\n        <div>\n          © <span id=\"current-year\">2026</span> Asim SEO Wala PRO. All Rights Reserved.\n        </div>\n        <div>\n          <a href=\"#privacy\" style=\"margin-right: 20px;\">Privacy Policy</a>\n          <a href=\"#terms\" style=\"margin-right: 20px;\">Terms of Service</a>\n          <a href=\"#disclaimer\">Google AdSense Disclaimer</a>\n        </div>\n      </div>\n    </div>\n  </footer>"
+                "image": {
+                  "url": "https://personal-brand-portfolio-three.vercel.app/assets/images/logo.svg",
+                  "id": ""
+                },
+                "image_size": "custom",
+                "image_custom_dimension": {
+                  "width": 180,
+                  "height": 45
+                },
+                "align": "left"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "e35dba3",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #94a3b8; font-size: 0.95rem; margin-top: 12px;'>Top-Rated SEO Specialist & Outreach Consultant helping international brands scale organic search revenue and mentoring talent for free.</p>"
               },
               "defaultEditSettings": {
                 "defaultEditRoute": "content"
@@ -588,28 +2631,13 @@
               "elements": []
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "858bc76",
-      "elType": "section",
-      "isInner": false,
-      "settings": {
-        "layout": "full_width",
-        "gap": "no",
-        "_title": "⚙️ 15. Interactive Scripts Engine"
-      },
-      "defaultEditSettings": {
-        "defaultEditRoute": "content"
-      },
-      "elements": [
+        },
         {
-          "id": "2e2959a",
+          "id": "f6c21d8",
           "elType": "column",
           "isInner": false,
           "settings": {
-            "_column_size": 100,
+            "_column_size": 20,
             "_inline_size": null
           },
           "defaultEditSettings": {
@@ -617,12 +2645,111 @@
           },
           "elements": [
             {
-              "id": "e7a3875",
+              "id": "44cc4ec",
               "elType": "widget",
               "isInner": false,
-              "widgetType": "html",
+              "widgetType": "heading",
               "settings": {
-                "html": "\n<script>\ndocument.addEventListener('DOMContentLoaded', () => {\n  // Mobile Nav Toggle\n  const mobileToggle = document.querySelector('.mobile-toggle');\n  const navMenu = document.querySelector('.nav-menu');\n  const menuSvg = '<svg class=\"icon\" viewBox=\"0 0 24 24\"><line x1=\"4\" x2=\"20\" y1=\"12\" y2=\"12\"/><line x1=\"4\" x2=\"20\" y1=\"6\" y2=\"6\"/><line x1=\"4\" x2=\"20\" y1=\"18\" y2=\"18\"/></svg>';\n  const closeSvg = '<svg class=\"icon\" viewBox=\"0 0 24 24\"><line x1=\"18\" x2=\"6\" y1=\"6\" y2=\"18\"/><line x1=\"6\" x2=\"18\" y1=\"6\" y2=\"18\"/></svg>';\n\n  if (mobileToggle && navMenu) {\n    mobileToggle.addEventListener('click', (e) => {\n      e.stopPropagation();\n      navMenu.classList.toggle('open');\n      const isOpen = navMenu.classList.contains('open');\n      mobileToggle.innerHTML = isOpen ? closeSvg : menuSvg;\n      mobileToggle.setAttribute('aria-expanded', isOpen);\n    });\n\n    document.querySelectorAll('.nav-link, .nav-menu .btn-primary').forEach(link => {\n      link.addEventListener('click', () => {\n        if (navMenu.classList.contains('open')) {\n          navMenu.classList.remove('open');\n          mobileToggle.innerHTML = menuSvg;\n        }\n      });\n    });\n  }\n\n  // Sticky Header Scroll\n  const siteHeader = document.querySelector('.site-header');\n  window.addEventListener('scroll', () => {\n    if (window.scrollY > 40) {\n      siteHeader?.classList.add('scrolled');\n    } else {\n      siteHeader?.classList.remove('scrolled');\n    }\n  });\n\n  // Dynamic Year\n  const yearElement = document.getElementById('current-year');\n  if (yearElement) {\n    yearElement.textContent = new Date().getFullYear();\n  }\n\n  // Toast Notification System\n  function showToast(title, message) {\n    let container = document.querySelector('.toast-container');\n    if (!container) {\n      container = document.createElement('div');\n      container.className = 'toast-container';\n      document.body.appendChild(container);\n    }\n\n    const toast = document.createElement('div');\n    toast.className = 'toast-card';\n    toast.innerHTML = `\n      <svg class=\"toast-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n        <path d=\"M22 11.08V12a10 10 0 1 1-5.93-9.14\"/>\n        <polyline points=\"22 4 12 14.01 9 11.01\"/>\n      </svg>\n      <div class=\"toast-content\">\n        <div class=\"toast-title\">${title}</div>\n        <div class=\"toast-desc\">${message}</div>\n      </div>\n      <button class=\"toast-close\" aria-label=\"Close notification\">\n        <svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n          <line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"/>\n          <line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"/>\n        </svg>\n      </button>\n    `;\n\n    container.appendChild(toast);\n    requestAnimationFrame(() => toast.classList.add('show'));\n\n    const removeToast = () => {\n      toast.classList.remove('show');\n      setTimeout(() => toast.remove(), 350);\n    };\n\n    toast.querySelector('.toast-close').addEventListener('click', removeToast);\n    setTimeout(removeToast, 5000);\n  }\n\n  // Form Submissions\n  document.querySelectorAll('form[id=\"client-inquiry-form\"]').forEach(form => {\n    form.addEventListener('submit', (e) => {\n      e.preventDefault();\n      const submitBtn = form.querySelector('button[type=\"submit\"]');\n      const originalText = submitBtn ? submitBtn.innerHTML : 'Submit';\n      if (submitBtn) {\n        submitBtn.disabled = true;\n        submitBtn.innerHTML = 'Sending Inquiry...';\n      }\n      setTimeout(() => {\n        showToast(\n          'Inquiry Received Successfully!',\n          'Thank you! Asim will review your campaign goals and reply via email within 12–24 business hours.'\n        );\n        form.reset();\n        if (submitBtn) {\n          submitBtn.disabled = false;\n          submitBtn.innerHTML = originalText;\n        }\n      }, 600);\n    });\n  });\n\n  document.querySelectorAll('form[id=\"zoom-registration-form\"]').forEach(form => {\n    form.addEventListener('submit', (e) => {\n      e.preventDefault();\n      const submitBtn = form.querySelector('button[type=\"submit\"]');\n      const originalText = submitBtn ? submitBtn.innerHTML : 'Register';\n      if (submitBtn) {\n        submitBtn.disabled = true;\n        submitBtn.innerHTML = 'Reserving Seat...';\n      }\n      setTimeout(() => {\n        showToast(\n          'Seat Reserved Successfully!',\n          'You are registered for our upcoming Free Sunday Zoom Class. Check your email and WhatsApp for login credentials.'\n        );\n        form.reset();\n        if (submitBtn) {\n          submitBtn.disabled = false;\n          submitBtn.innerHTML = originalText;\n        }\n      }, 600);\n    });\n  });\n});\n</script>\n"
+                "title": "Quick Links",
+                "header_size": "h5",
+                "title_color": "#f8fafc"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "598684a",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n        <div style=\"line-height: 2; font-size: 0.9rem;\">\n          <a href=\"#about\" style=\"color: #cbd5e1; text-decoration: none;\">About Me</a><br>\n          <a href=\"#results\" style=\"color: #cbd5e1; text-decoration: none;\">Portfolio</a><br>\n          <a href=\"#reviews\" style=\"color: #cbd5e1; text-decoration: none;\">Testimonials</a><br>\n          <a href=\"#contact\" style=\"color: #cbd5e1; text-decoration: none;\">Contact Me</a>\n        </div>\n        "
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "0c79ee8",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 20,
+            "_inline_size": null
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "0a80a95",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Services",
+                "header_size": "h5",
+                "title_color": "#f8fafc"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "55c4816",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n        <div style=\"line-height: 2; font-size: 0.9rem;\">\n          <a href=\"#services\" style=\"color: #cbd5e1; text-decoration: none;\">Full SEO Strategy</a><br>\n          <a href=\"#services\" style=\"color: #cbd5e1; text-decoration: none;\">Guest Posting</a><br>\n          <a href=\"#services\" style=\"color: #cbd5e1; text-decoration: none;\">Content Writing</a><br>\n          <a href=\"#contact\" style=\"color: #cbd5e1; text-decoration: none;\">Free Audit</a>\n        </div>\n        "
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "f770ad6",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 20,
+            "_inline_size": null
+          },
+          "defaultEditSettings": {
+            "defaultEditRoute": "content"
+          },
+          "elements": [
+            {
+              "id": "125df92",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Free Learning",
+                "header_size": "h5",
+                "title_color": "#f8fafc"
+              },
+              "defaultEditSettings": {
+                "defaultEditRoute": "content"
+              },
+              "elements": []
+            },
+            {
+              "id": "ec600e7",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n        <div style=\"line-height: 2; font-size: 0.9rem;\">\n          <a href=\"#courses\" style=\"color: #cbd5e1; text-decoration: none;\">Free Academy</a><br>\n          <a href=\"#courses\" style=\"color: #cbd5e1; text-decoration: none;\">Sunday Zoom</a><br>\n          <a href=\"#courses\" style=\"color: #cbd5e1; text-decoration: none;\">Video Hub</a><br>\n          <a href=\"#faq\" style=\"color: #cbd5e1; text-decoration: none;\">Client FAQ</a>\n        </div>\n        "
               },
               "defaultEditSettings": {
                 "defaultEditRoute": "content"
